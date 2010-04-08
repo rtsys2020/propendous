@@ -1,0 +1,583 @@
+# EESchema Netlist Version 1.1 created  07/04/2010 20:06:25
+(
+ ( /49F49153/4BBD1A8C $noname  ENCLOSURE_HAMMOND_1553B_1 CONN_1 {Lib=CONN_1}
+  (    1 GNDPWR )
+ )
+ ( /49F49153/4BBCE5E2 $noname  IC1 i.MX233 {Lib=IMX233}
+  (    1 VDDD )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 VDDM_2V5 )
+  (   19 ? )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 GND )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 GND )
+  (   36 /iMX233/EMI_CLK )
+  (   37 /Power/EMI_CLKn )
+  (   38 VDDM_2V5 )
+  (   39 /iMX233/EMI_DQS0 )
+  (   40 /iMX233/EMI_DQS1 )
+  (   41 /Power/EMI_D00 )
+  (   42 /iMX233/EMI_D02 )
+  (   43 /iMX233/EMI_D01 )
+  (   44 /Power/EMI_D03 )
+  (   45 VDDM_2V5 )
+  (   46 /iMX233/EMI_DQM0 )
+  (   47 /iMX233/EMI_D04 )
+  (   48 /iMX233/EMI_D05 )
+  (   49 /iMX233/EMI_D06 )
+  (   50 /iMX233/EMI_D07 )
+  (   51 /Power/EMI_D08 )
+  (   52 /iMX233/EMI_D09 )
+  (   53 VDDM_2V5 )
+  (   54 /iMX233/EMI_D10 )
+  (   55 /iMX233/EMI_D11 )
+  (   56 /Power/EMI_DQM1 )
+  (   57 /Power/EMI_D12 )
+  (   58 /iMX233/EMI_D13 )
+  (   59 /Power/EMI_D15 )
+  (   60 /Power/EMI_D14 )
+  (   61 /Power/EMI_CASn )
+  (   62 /iMX233/EMI_RASn )
+  (   63 /Power/EMI_CE0n )
+  (   64 /iMX233/EMI_A12 )
+  (   65 /iMX233/EMI_A11 )
+  (   66 /iMX233/EMI_A10 )
+  (   67 /Power/EMI_A09 )
+  (   68 /Power/EMI_A08 )
+  (   69 /iMX233/EMI_A07 )
+  (   70 /Power/EMI_A06 )
+  (   71 /iMX233/EMI_A05 )
+  (   72 /iMX233/EMI_A04 )
+  (   73 /iMX233/EMI_A03 )
+  (   74 /iMX233/EMI_A02 )
+  (   75 /iMX233/EMI_A01 )
+  (   76 /Power/EMI_A00 )
+  (   77 /Power/EMI_WEn )
+  (   78 /iMX233/EMI_CKE )
+  (   79 /Power/EMI_BA0 )
+  (   80 /Power/EMI_BA1 )
+  (   81 ? )
+  (   82 ? )
+  (   83 ? )
+  (   84 ? )
+  (   85 ? )
+  (   86 ? )
+  (   87 ? )
+  (   88 ? )
+  (   89 /Power/DEBUG )
+  (   90 ? )
+  (   91 ? )
+  (   92 VDDM_2V5 )
+  (   93 VDDD )
+  (   94 VDDD )
+  (   95 VDDIO_3V3 )
+  (   96 VDDA )
+  (   97 N-000014 )
+  (   98 GND )
+  (   99 N-000017 )
+  (  100 VDD_BATT )
+  (  101 VDD4V2 )
+  (  102 VDD5V )
+  (  103 VDD_BATT )
+  (  104 ? )
+  (  105 GND )
+  (  106 VDDM_2V5 )
+  (  107 ? )
+  (  108 ? )
+  (  109 ? )
+  (  110 VDDA )
+  (  111 HP_VGND )
+  (  112 GND )
+  (  113 ? )
+  (  114 ? )
+  (  115 ? )
+  (  116 ? )
+  (  117 /iMX233/VAG )
+  (  118 GND )
+  (  119 /iMX233/PSWITCH )
+  (  120 VDD_XTAL )
+  (  121 /iMX233/XTALO )
+  (  122 /iMX233/XTALI )
+  (  123 ? )
+  (  124 ? )
+  (  125 ? )
+  (  126 ? )
+  (  127 ? )
+  (  128 ? )
+ )
+ ( /49F49153/4BBCE24A $noname  R6 10k {Lib=R_MINI}
+  (    1 N-000022 )
+  (    2 N-000019 )
+ )
+ ( /49F49153/4BBCE067 $noname  TP1 CONN_1 {Lib=CONN_1}
+  (    1 N-000019 )
+ )
+ ( /49F49153/4BBCDC7B $noname  R3 100k {Lib=R_MINI}
+  (    1 GND )
+  (    2 N-000022 )
+ )
+ ( /49F49153/4BBCDC3E $noname  C4 0.1uF {Lib=C_MINI}
+  (    1 N-000020 )
+  (    2 GND )
+ )
+ ( /49F49153/4BBCDC32 $noname  R2 1k {Lib=R_MINI}
+  (    1 N-000020 )
+  (    2 N-000022 )
+ )
+ ( /49F49153/4BBCDBD9 $noname  SW1 POWER {Lib=SWITCH_PUSHBUTTON}
+  (    1 VDD_XTAL )
+  (    2 N-000022 )
+ )
+ ( /49F49153/4BBCDBC5 $noname  R1 1k {Lib=R_MINI}
+  (    1 /iMX233/PSWITCH )
+  (    2 N-000022 )
+ )
+ ( /49F49153/4BBCDB0C $noname  C3 0.1uF {Lib=C_MINI}
+  (    1 VDD_XTAL )
+  (    2 GND )
+ )
+ ( /49F49153/4BBCD056 $noname  C5 1uF {Lib=C_MINI}
+  (    1 /iMX233/VAG )
+  (    2 GND1 )
+ )
+ ( /49F49153/4BBCCF58 $noname  C2 10pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 /iMX233/XTALO )
+ )
+ ( /49F49153/4BBCCF4A $noname  C1 10pF {Lib=C_MINI}
+  (    1 GND )
+  (    2 /iMX233/XTALI )
+ )
+ ( /49F49153/4BBCCE2C $noname  X1 24MHz {Lib=CRYSTAL}
+  (    1 /iMX233/XTALI )
+  (    2 /iMX233/XTALO )
+ )
+ ( /49F49153/4BBCC832 $noname  L1 15uH {Lib=L_MINI}
+  (    1 N-000017 )
+  (    2 N-000014 )
+ )
+ ( /49F49538/4BBCED49 $noname  R7 47k {Lib=R_MINI}
+  (    1 GND )
+  (    2 /iMX233/EMI_CKE )
+ )
+ ( /49F49538/4BBCEC39 $noname  IC2 DDR_SDRAM_MT46_X16 {Lib=DDR_SDRAM_MT46_X16}
+  (    1 VDDM_2V5 )
+  (    2 /Power/EMI_D00 )
+  (    3 VDDM_2V5 )
+  (    4 /iMX233/EMI_D01 )
+  (    5 /iMX233/EMI_D02 )
+  (    6 GND )
+  (    7 /Power/EMI_D03 )
+  (    8 /iMX233/EMI_D04 )
+  (    9 VDDM_2V5 )
+  (   10 /iMX233/EMI_D05 )
+  (   11 /iMX233/EMI_D06 )
+  (   12 GND )
+  (   13 /iMX233/EMI_D07 )
+  (   14 ? )
+  (   15 VDDM_2V5 )
+  (   16 /iMX233/EMI_DQS0 )
+  (   17 ? )
+  (   18 VDDM_2V5 )
+  (   19 ? )
+  (   20 /iMX233/EMI_DQM0 )
+  (   21 /Power/EMI_WEn )
+  (   22 /Power/EMI_CASn )
+  (   23 /iMX233/EMI_RASn )
+  (   24 /Power/EMI_CE0n )
+  (   25 ? )
+  (   26 /Power/EMI_BA0 )
+  (   27 /Power/EMI_BA1 )
+  (   28 /iMX233/EMI_A10 )
+  (   29 /Power/EMI_A00 )
+  (   30 /iMX233/EMI_A01 )
+  (   31 /iMX233/EMI_A02 )
+  (   32 /iMX233/EMI_A03 )
+  (   33 VDDM_2V5 )
+  (   35 /iMX233/EMI_A04 )
+  (   36 /iMX233/EMI_A05 )
+  (   37 /Power/EMI_A06 )
+  (   38 /iMX233/EMI_A07 )
+  (   39 /Power/EMI_A08 )
+  (   40 /Power/EMI_A09 )
+  (   41 /iMX233/EMI_A11 )
+  (   42 /iMX233/EMI_A12 )
+  (   43 ? )
+  (   44 /iMX233/EMI_CKE )
+  (   45 /iMX233/EMI_CLK )
+  (   46 /Power/EMI_CLKn )
+  (   47 /Power/EMI_DQM1 )
+  (   48 GND )
+  (   49 N-000127 )
+  (   50 ? )
+  (   51 /iMX233/EMI_DQS1 )
+  (   52 GND )
+  (   53 ? )
+  (   54 /Power/EMI_D08 )
+  (   55 VDDM_2V5 )
+  (   56 /iMX233/EMI_D09 )
+  (   57 /iMX233/EMI_D10 )
+  (   58 GND )
+  (   59 /iMX233/EMI_D11 )
+  (   60 /Power/EMI_D12 )
+  (   61 VDDM_2V5 )
+  (   62 /iMX233/EMI_D13 )
+  (   63 /Power/EMI_D14 )
+  (   64 GND )
+  (   65 /Power/EMI_D15 )
+  (   66 GND )
+ )
+ ( /49F49538/4BBCEB87 $noname  C15 10uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEB79 $noname  C14 10uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEB5B $noname  C10 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEB5A $noname  C11 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEB59 $noname  C13 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEB58 $noname  C12 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEB56 $noname  C8 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEB55 $noname  C9 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEB4B $noname  C7 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEAA3 $noname  R9 1k {Lib=R_MINI}
+  (    1 GND )
+  (    2 N-000127 )
+ )
+ ( /49F49538/4BBCEAA2 $noname  C17 0.1uF {Lib=C_MINI}
+  (    1 N-000127 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCEA91 $noname  C16 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 N-000127 )
+ )
+ ( /49F49538/4BBCEA69 $noname  R8 1k {Lib=R_MINI}
+  (    1 N-000127 )
+  (    2 VDDM_2V5 )
+ )
+ ( /49F49538/4BBCB740 $noname  C6 0.1uF {Lib=C_MINI}
+  (    1 VDDM_2V5 )
+  (    2 GND )
+ )
+ ( /49F49538/4BBCB739 $noname  R4 47k {Lib=R_MINI}
+  (    1 /Power/EMI_CE0n )
+  (    2 VDDM_2V5 )
+ )
+ ( /49F49582/4BBCE156 $noname  R5 0 {Lib=R_MINI}
+  (    1 N-000128 )
+  (    2 VDDIO_3V3 )
+ )
+ ( /49F49582/4BBCE11D $noname  P1 Serial-JTAG {Lib=CONN_4}
+  (    1 N-000128 )
+  (    2 /Power/DEBUG )
+  (    3 /iMX233/PSWITCH )
+  (    4 GND )
+ )
+)
+*
+{ Pin List by Nets
+Net 7 "/iMX233/VAG" "VAG"
+ C5 1
+ IC1 117
+Net 10 "/iMX233/PSWITCH" "PSWITCH"
+ IC1 119
+ R1 1
+ P1 3
+Net 11 "VDDIO_3V3" "VDDIO_3V3"
+ IC1 95
+ R5 2
+Net 12 "VDD_XTAL" "VDD_XTAL"
+ IC1 120
+ SW1 1
+ C3 1
+Net 13 "VDDD" "VDDD"
+ IC1 1
+ IC1 93
+ IC1 94
+Net 14 "" ""
+ L1 2
+ IC1 97
+Net 15 "VDD_BATT" "VDD_BATT"
+ IC1 103
+ IC1 100
+Net 17 "" ""
+ IC1 99
+ L1 1
+Net 19 "" ""
+ TP1 1
+ R6 2
+Net 20 "" ""
+ C4 1
+ R2 1
+Net 21 "GND" "GND"
+ C13 2
+ C12 2
+ C11 2
+ C1 1
+ IC1 30
+ IC1 35
+ P1 4
+ C6 2
+ C17 2
+ R9 1
+ C7 2
+ C9 2
+ C8 2
+ IC2 66
+ C10 2
+ C14 2
+ C15 2
+ IC1 112
+ IC2 58
+ IC2 48
+ IC1 98
+ IC2 12
+ IC2 64
+ IC2 52
+ R3 1
+ C4 2
+ IC1 105
+ IC1 118
+ IC2 6
+ C3 2
+ C2 1
+ R7 1
+Net 22 "" ""
+ R6 1
+ R3 2
+ R2 2
+ SW1 2
+ R1 2
+Net 24 "VDDA" "VDDA"
+ IC1 96
+ IC1 110
+Net 27 "/iMX233/XTALI" "XTALI"
+ C1 2
+ X1 1
+ IC1 122
+Net 28 "/iMX233/XTALO" "XTALO"
+ IC1 121
+ X1 2
+ C2 2
+Net 29 "/Power/DEBUG" "DEBUG"
+ IC1 89
+ P1 2
+Net 30 "VDDM_2V5" "VDDM_2V5"
+ C11 1
+ C16 1
+ IC2 1
+ IC2 3
+ C7 1
+ C9 1
+ C8 1
+ C12 1
+ IC1 106
+ IC1 18
+ IC1 38
+ C13 1
+ R8 2
+ C6 1
+ R4 2
+ IC2 18
+ IC2 55
+ C10 1
+ C14 1
+ C15 1
+ IC2 61
+ IC2 9
+ IC2 15
+ IC2 33
+ IC1 45
+ IC1 53
+ IC1 92
+Net 39 "/iMX233/EMI_D01" "EMI_D01"
+ IC2 4
+ IC1 43
+Net 40 "/Power/EMI_CE0n" "EMI_CE0n"
+ R4 1
+ IC2 24
+ IC1 63
+Net 41 "/iMX233/EMI_A03" "EMI_A03"
+ IC1 73
+ IC2 32
+Net 46 "/Power/EMI_D03" "EMI_D03"
+ IC1 44
+ IC2 7
+Net 47 "/iMX233/EMI_D10" "EMI_D10"
+ IC2 57
+ IC1 54
+Net 48 "/iMX233/EMI_A12" "EMI_A12"
+ IC2 42
+ IC1 64
+Net 49 "/iMX233/EMI_A02" "EMI_A02"
+ IC1 74
+ IC2 31
+Net 55 "/Power/EMI_D00" "EMI_D00"
+ IC1 41
+ IC2 2
+Net 56 "/Power/EMI_D08" "EMI_D08"
+ IC1 51
+ IC2 54
+Net 57 "/Power/EMI_CASn" "EMI_CASn"
+ IC1 61
+ IC2 22
+Net 58 "/iMX233/EMI_A05" "EMI_A05"
+ IC2 36
+ IC1 71
+Net 64 "/iMX233/EMI_D02" "EMI_D02"
+ IC1 42
+ IC2 5
+Net 65 "/iMX233/EMI_D09" "EMI_D09"
+ IC2 56
+ IC1 52
+Net 66 "/iMX233/EMI_RASn" "EMI_RASn"
+ IC1 62
+ IC2 23
+Net 67 "/iMX233/EMI_A04" "EMI_A04"
+ IC1 72
+ IC2 35
+Net 70 "/Power/EMI_BA0" "EMI_BA0"
+ IC1 79
+ IC2 26
+Net 71 "/iMX233/EMI_A07" "EMI_A07"
+ IC2 38
+ IC1 69
+Net 72 "/Power/EMI_D15" "EMI_D15"
+ IC2 65
+ IC1 59
+Net 73 "/iMX233/EMI_D06" "EMI_D06"
+ IC1 49
+ IC2 11
+Net 74 "/iMX233/EMI_DQS0" "EMI_DQS0"
+ IC2 16
+ IC1 39
+Net 78 "/iMX233/EMI_CKE" "EMI_CKE"
+ R7 2
+ IC2 44
+ IC1 78
+Net 79 "/Power/EMI_A08" "EMI_A08"
+ IC1 68
+ IC2 39
+Net 80 "/iMX233/EMI_D13" "EMI_D13"
+ IC2 62
+ IC1 58
+Net 81 "/iMX233/EMI_D05" "EMI_D05"
+ IC1 48
+ IC2 10
+Net 84 "/Power/EMI_WEn" "EMI_WEn"
+ IC2 21
+ IC1 77
+Net 85 "/Power/EMI_A09" "EMI_A09"
+ IC2 40
+ IC1 67
+Net 86 "/iMX233/EMI_D11" "EMI_D11"
+ IC2 59
+ IC1 55
+Net 87 "/iMX233/EMI_A11" "EMI_A11"
+ IC1 65
+ IC2 41
+Net 88 "/iMX233/EMI_A01" "EMI_A01"
+ IC2 30
+ IC1 75
+Net 92 "/iMX233/EMI_CLK" "EMI_CLK"
+ IC1 36
+ IC2 45
+Net 93 "/iMX233/EMI_DQM0" "EMI_DQM0"
+ IC1 46
+ IC2 20
+Net 94 "/Power/EMI_DQM1" "EMI_DQM1"
+ IC1 56
+ IC2 47
+Net 95 "/iMX233/EMI_A10" "EMI_A10"
+ IC2 28
+ IC1 66
+Net 96 "/Power/EMI_A00" "EMI_A00"
+ IC1 76
+ IC2 29
+Net 100 "/Power/EMI_CLKn" "EMI_CLKn"
+ IC1 37
+ IC2 46
+Net 101 "/iMX233/EMI_D04" "EMI_D04"
+ IC1 47
+ IC2 8
+Net 102 "/Power/EMI_D12" "EMI_D12"
+ IC2 60
+ IC1 57
+Net 113 "/iMX233/EMI_DQS1" "EMI_DQS1"
+ IC1 40
+ IC2 51
+Net 114 "/iMX233/EMI_D07" "EMI_D07"
+ IC1 50
+ IC2 13
+Net 115 "/Power/EMI_D14" "EMI_D14"
+ IC1 60
+ IC2 63
+Net 116 "/Power/EMI_A06" "EMI_A06"
+ IC1 70
+ IC2 37
+Net 117 "/Power/EMI_BA1" "EMI_BA1"
+ IC1 80
+ IC2 27
+Net 127 "" ""
+ R8 1
+ IC2 49
+ C16 2
+ R9 2
+ C17 1
+Net 128 "" ""
+ P1 1
+ R5 1
+}
+#End
