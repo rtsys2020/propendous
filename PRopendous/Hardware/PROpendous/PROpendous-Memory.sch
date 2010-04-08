@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 05/04/2010 23:35:08
+EESchema Schematic File Version 2  date 07/04/2010 20:14:10
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,499 +30,536 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:Propendous-cache
+LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 6
-Title "Propendous"
-Date "6 apr 2010"
+Title "PROpendous"
+Date "8 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
 Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.Propendous.org"
+Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 2600 900  0    60   ~ 0
+64Mbytes DDR SDRAM
 Wire Wire Line
-	6300 3300 6050 3300
-Connection ~ 5150 3750
+	1700 3850 1700 3900
+Connection ~ 1700 3450
 Wire Wire Line
-	4900 3750 5150 3750
+	2250 3450 1600 3450
+Connection ~ 1700 3650
 Wire Wire Line
-	5650 4100 5650 4000
-Connection ~ 5000 3600
+	1600 3650 2250 3650
+Connection ~ 3050 5200
 Wire Wire Line
-	5000 3600 5000 3500
+	3050 5200 3050 5100
+Connection ~ 2350 5400
 Wire Wire Line
-	5000 3500 4350 3500
+	3950 5400 2150 5400
+Connection ~ 2750 5400
+Connection ~ 3150 5400
+Connection ~ 3550 5400
+Connection ~ 3550 5200
+Connection ~ 3150 5200
+Connection ~ 2750 5200
+Connection ~ 2350 5200
+Connection ~ 4300 4350
 Wire Wire Line
-	4350 3500 4350 3450
+	4300 4350 4300 4400
+Connection ~ 4300 3850
 Wire Wire Line
-	4900 3600 5150 3600
+	4300 3850 4300 3800
 Wire Wire Line
-	5150 3300 4900 3300
+	4200 4050 4200 4150
+Connection ~ 4400 4100
 Wire Wire Line
-	4900 3400 5150 3400
+	4400 4150 4400 4050
 Wire Wire Line
-	4350 3250 4350 2950
+	3050 4600 3050 4700
+Connection ~ 2850 4600
+Connection ~ 3150 4600
+Connection ~ 3300 1300
 Wire Wire Line
-	5650 3100 5650 2950
+	2700 1300 3400 1300
+Connection ~ 3100 1300
+Connection ~ 2900 1300
+Connection ~ 2800 1300
+Connection ~ 3000 1300
+Connection ~ 3200 1300
 Wire Wire Line
-	5150 3800 5150 3700
-Text Notes 5150 2750 0    60   ~ 0
-SPI Boot Flash
+	3050 1300 3050 1200
+Connection ~ 3050 1300
+Connection ~ 3250 4600
+Wire Wire Line
+	2750 4600 3350 4600
+Connection ~ 3050 4600
+Connection ~ 2950 4600
+Wire Wire Line
+	3850 4100 4400 4100
+Connection ~ 4200 4100
+Wire Wire Line
+	4200 3850 4400 3850
+Wire Wire Line
+	4200 4350 4400 4350
+Connection ~ 2550 5200
+Connection ~ 2950 5200
+Connection ~ 3350 5200
+Wire Wire Line
+	2150 5200 3950 5200
+Connection ~ 3750 5200
+Connection ~ 3750 5400
+Connection ~ 3350 5400
+Connection ~ 2950 5400
+Connection ~ 2550 5400
+Wire Wire Line
+	3050 5400 3050 5500
+Connection ~ 3050 5400
+Wire Wire Line
+	1700 3250 1700 3200
 $Comp
-L GND #PWR014
-U 1 1 49FFF5FA
-P 5650 4100
-F 0 "#PWR014" H 5650 4100 30  0001 C CNN
-F 1 "GND" H 5650 4030 30  0001 C CNN
-	1    5650 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VSUP3 #PWR015
-U 1 1 49FFF5D2
-P 4350 2950
-F 0 "#PWR015" H 4350 3050 30  0001 C CNN
-F 1 "VSUP3" H 4350 3050 30  0000 C CNN
-	1    4350 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L VSUP3 #PWR016
-U 1 1 49FFF5CD
-P 5650 2950
-F 0 "#PWR016" H 5650 3050 30  0001 C CNN
-F 1 "VSUP3" H 5650 3050 30  0000 C CNN
-	1    5650 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_MINI R34
-U 1 1 49FFF5C4
-P 4350 3350
-F 0 "R34" V 4325 3410 25  0000 C CNN
-F 1 "10k" V 4375 3400 20  0000 C CNN
-	1    4350 3350
+L R_MINI R7
+U 1 1 4BBCED49
+P 1700 3750
+F 0 "R7" V 1675 3800 25  0000 C CNN
+F 1 "47k" V 1725 3800 20  0000 C CNN
+	1    1700 3750
 	0    1    1    0   
 $EndComp
 $Comp
-L AT45DBXX1 IC17
-U 1 1 49FFF537
-P 5650 3550
-F 0 "IC17" H 5400 3200 50  0000 C CNN
-F 1 "AT45DBxx1D-SU" H 5275 3900 40  0000 C CNN
-	1    5650 3550
+L GND #PWR018
+U 1 1 4BBCED31
+P 1700 3900
+F 0 "#PWR018" H 1700 3900 30  0001 C CNN
+F 1 "GND" H 1700 3830 30  0001 C CNN
+	1    1700 3900
 	1    0    0    -1  
 $EndComp
-Text Label 8200 -100 2    40   ~ 0
+$Comp
+L VDDM_2V5 #PWR019
+U 1 1 4BBCED2D
+P 1700 3200
+F 0 "#PWR019" H 1700 3300 30  0001 C CNN
+F 1 "VDDM_2V5" H 1700 3300 30  0000 C CNN
+	1    1700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DDR_SDRAM_MT46_X16 IC2
+U 1 1 4BBCEC39
+P 3050 2950
+F 0 "IC2" H 3600 1400 40  0000 C CNN
+F 1 "DDR_SDRAM_MT46_X16" H 3050 3300 40  0000 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDM_2V5 #PWR020
+U 1 1 4BBCEBA8
+P 3050 5100
+F 0 "#PWR020" H 3050 5200 30  0001 C CNN
+F 1 "VDDM_2V5" H 3050 5200 30  0000 C CNN
+	1    3050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 4BBCEB9B
+P 3050 5500
+F 0 "#PWR021" H 3050 5500 30  0001 C CNN
+F 1 "GND" H 3050 5430 30  0001 C CNN
+	1    3050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C15
+U 1 1 4BBCEB87
+P 3950 5300
+F 0 "C15" V 3900 5340 30  0000 C CNN
+F 1 "10uF" V 4000 5350 25  0000 C CNN
+	1    3950 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C14
+U 1 1 4BBCEB79
+P 3750 5300
+F 0 "C14" V 3700 5340 30  0000 C CNN
+F 1 "10uF" V 3800 5350 25  0000 C CNN
+	1    3750 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C10
+U 1 1 4BBCEB5B
+P 2950 5300
+F 0 "C10" V 2900 5340 30  0000 C CNN
+F 1 "0.1uF" V 3000 5370 25  0000 C CNN
+	1    2950 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C11
+U 1 1 4BBCEB5A
+P 3150 5300
+F 0 "C11" V 3100 5340 30  0000 C CNN
+F 1 "0.1uF" V 3200 5370 25  0000 C CNN
+	1    3150 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C13
+U 1 1 4BBCEB59
+P 3550 5300
+F 0 "C13" V 3500 5340 30  0000 C CNN
+F 1 "0.1uF" V 3600 5370 25  0000 C CNN
+	1    3550 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C12
+U 1 1 4BBCEB58
+P 3350 5300
+F 0 "C12" V 3300 5340 30  0000 C CNN
+F 1 "0.1uF" V 3400 5370 25  0000 C CNN
+	1    3350 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C8
+U 1 1 4BBCEB56
+P 2550 5300
+F 0 "C8" V 2500 5340 30  0000 C CNN
+F 1 "0.1uF" V 2600 5370 25  0000 C CNN
+	1    2550 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C9
+U 1 1 4BBCEB55
+P 2750 5300
+F 0 "C9" V 2700 5340 30  0000 C CNN
+F 1 "0.1uF" V 2800 5370 25  0000 C CNN
+	1    2750 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C7
+U 1 1 4BBCEB4B
+P 2350 5300
+F 0 "C7" V 2300 5340 30  0000 C CNN
+F 1 "0.1uF" V 2400 5370 25  0000 C CNN
+	1    2350 5300
+	0    1    1    0   
+$EndComp
+Text Notes 4100 3975 0    30   ~ 0
+1%
+Text Notes 4100 4275 0    30   ~ 0
+1%
+$Comp
+L R_MINI R9
+U 1 1 4BBCEAA3
+P 4200 4250
+F 0 "R9" V 4175 4300 25  0000 C CNN
+F 1 "1k" V 4225 4300 20  0000 C CNN
+	1    4200 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C17
+U 1 1 4BBCEAA2
+P 4400 4250
+F 0 "C17" V 4350 4290 30  0000 C CNN
+F 1 "0.1uF" V 4450 4320 25  0000 C CNN
+	1    4400 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C16
+U 1 1 4BBCEA91
+P 4400 3950
+F 0 "C16" V 4350 3990 30  0000 C CNN
+F 1 "0.1uF" V 4450 4020 25  0000 C CNN
+	1    4400 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R_MINI R8
+U 1 1 4BBCEA69
+P 4200 3950
+F 0 "R8" V 4175 4000 25  0000 C CNN
+F 1 "1k" V 4225 4000 20  0000 C CNN
+	1    4200 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L VDDM_2V5 #PWR022
+U 1 1 4BBCEA5E
+P 4300 3800
+F 0 "#PWR022" H 4300 3900 30  0001 C CNN
+F 1 "VDDM_2V5" H 4300 3900 30  0000 C CNN
+	1    4300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 4BBCEA59
+P 4300 4400
+F 0 "#PWR023" H 4300 4400 30  0001 C CNN
+F 1 "GND" H 4300 4330 30  0001 C CNN
+	1    4300 4400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3850 3250
+NoConn ~ 3850 3350
+NoConn ~ 3850 3450
+NoConn ~ 3850 3550
+NoConn ~ 3850 3650
+NoConn ~ 3850 3750
+NoConn ~ 3850 3850
+$Comp
+L GND #PWR024
+U 1 1 4BBCEA0F
+P 3050 4700
+F 0 "#PWR024" H 3050 4700 30  0001 C CNN
+F 1 "GND" H 3050 4630 30  0001 C CNN
+	1    3050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDM_2V5 #PWR025
+U 1 1 4BBCE9DE
+P 3050 1200
+F 0 "#PWR025" H 3050 1300 30  0001 C CNN
+F 1 "VDDM_2V5" H 3050 1300 30  0000 C CNN
+	1    3050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C6
+U 1 1 4BBCB740
+P 2150 5300
+F 0 "C6" V 2100 5340 30  0000 C CNN
+F 1 "0.1uF" V 2200 5370 25  0000 C CNN
+	1    2150 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L R_MINI R4
+U 1 1 4BBCB739
+P 1700 3350
+F 0 "R4" V 1675 3400 25  0000 C CNN
+F 1 "47k" V 1725 3400 20  0000 C CNN
+	1    1700 3350
+	0    1    1    0   
+$EndComp
+Text Notes 1050 6850 0    60   ~ 0
+Notes:\n - All capacitors are X5R, 6.3V, 20%, ESR < 300mOhm or better unless otherwise noted\n - All resistors are 5% unless otherwise noted\n - Assuming 2-layer standard 1/16" FR4 (Dk=4.4, Df=0.02) and 8mil-8mil-20mil trace-space-via design\n - Per Micron TN-46-02, Lvia=1.12nH, Leq=0.87+1.12=2nH so NcapMVTT=69, NcapV25=28
+Text GLabel 8750 1650 2    40   BiDi ~ 0
 LCD_D00
-Text Label 8200 -200 2    40   ~ 0
+Text GLabel 8750 1750 2    40   BiDi ~ 0
 LCD_D01
-Text Label 8200 -300 2    40   ~ 0
+Text GLabel 8750 1850 2    40   BiDi ~ 0
 LCD_D02
-Text Label 8200 -400 2    40   ~ 0
+Text GLabel 8750 1950 2    40   BiDi ~ 0
 LCD_D03
-Text Label 8200 -500 2    40   ~ 0
+Text GLabel 8750 2050 2    40   BiDi ~ 0
 LCD_D04
-Text Label 8200 -600 2    40   ~ 0
+Text GLabel 8750 2150 2    40   BiDi ~ 0
 LCD_D05
-Text Label 8200 -700 2    40   ~ 0
+Text GLabel 8750 2250 2    40   BiDi ~ 0
 LCD_D06
-Text Label 8200 -800 2    40   ~ 0
+Text GLabel 8750 2350 2    40   BiDi ~ 0
 LCD_D07
-Text Label 8200 -900 2    40   ~ 0
+Text GLabel 8750 1550 2    40   BiDi ~ 0
 LCD_CS
-Text Label 8200 -1000 2    40   ~ 0
+Text GLabel 8750 3150 2    40   BiDi ~ 0
 GPMI_ALE-LCD_D17
-Text Label 10400 -100 0    40   ~ 0
+Text GLabel 2250 4350 0    40   BiDi ~ 0
 EMI_DQS1
-Text Label 10400 -200 0    40   ~ 0
+Text GLabel 3850 2300 2    40   BiDi ~ 0
 EMI_D07
-Text Label 10400 -300 0    40   ~ 0
+Text GLabel 3850 1600 2    40   BiDi ~ 0
 EMI_D14
-Text Label 10400 -400 0    40   ~ 0
+Text GLabel 2250 2350 0    40   BiDi ~ 0
 EMI_A06
-Text Label 10400 -500 0    40   ~ 0
+Text GLabel 2250 1500 0    40   BiDi ~ 0
 EMI_BA1
-Text Label 8200 -1100 2    40   ~ 0
+Text GLabel 8750 5950 2    40   BiDi ~ 0
 SSP1_SCK-JTAG_TRST
-Text Label 8200 -1200 2    40   ~ 0
+Text GLabel 8750 2550 2    40   BiDi ~ 0
 LCD_ENABLE-I2C_SCL
-Text Label 8200 -1300 2    40   ~ 0
+Text GLabel 8750 4550 2    40   BiDi ~ 0
 GPMI_RDY1-SSP2_CMD
-Text Label 8200 -1400 2    40   ~ 0
+Text GLabel 8750 4350 2    40   BiDi ~ 0
 GPMI_RDn
-Text Label 10400 -600 0    40   ~ 0
+Text GLabel 3850 3000 2    40   BiDi ~ 0
 EMI_D00
-Text Label 10400 -700 0    40   ~ 0
+Text GLabel 3850 2200 2    40   BiDi ~ 0
 EMI_D08
-Text Label 10400 -800 0    40   ~ 0
+Text GLabel 2250 3250 0    40   BiDi ~ 0
 EMI_CASn
-Text Label 10400 -900 0    40   ~ 0
+Text GLabel 2250 2450 0    40   BiDi ~ 0
 EMI_A05
-Text Label 8200 -1500 2    40   ~ 0
+Text GLabel 8750 3450 2    40   BiDi ~ 0
 GPMI_CE1n
-Text Label 8200 -1600 2    40   ~ 0
+Text GLabel 8750 5050 2    40   BiDi ~ 0
 PWM2-GPMI_RDY3
-Text Label 8200 -1700 2    40   ~ 0
+Text GLabel 8750 2750 2    40   BiDi ~ 0
 LCD_RESET-GPMI_CE3n
-Text Label 8200 -1800 2    40   ~ 0
+Text GLabel 8750 3550 2    40   BiDi ~ 0
 GPMI_D00-LCD_D8-SSP2_DATA0
-Text Label 8200 -1900 2    40   ~ 0
+Text GLabel 8750 4450 2    40   BiDi ~ 0
 GPMI_RDY0-SSP2_DETECT
-Text Label 10400 -1000 0    40   ~ 0
+Text GLabel 3850 2800 2    40   BiDi ~ 0
 EMI_D02
-Text Label 10400 -1100 0    40   ~ 0
+Text GLabel 3850 2100 2    40   BiDi ~ 0
 EMI_D09
-Text Label 10400 -1200 0    40   ~ 0
+Text GLabel 2250 3350 0    40   BiDi ~ 0
 EMI_RASn
-Text Label 10400 -1300 0    40   ~ 0
+Text GLabel 2250 2550 0    40   BiDi ~ 0
 EMI_A04
-Text Label 8200 -2000 2    40   ~ 0
+Text GLabel 8750 3350 2    40   BiDi ~ 0
 GPMI_CE0n
-Text Label 8200 -2100 2    40   ~ 0
+Text GLabel 8750 3050 2    40   BiDi ~ 0
 LCD_WR
-Text Label 8200 -2200 2    40   ~ 0
+Text GLabel 8750 3650 2    40   BiDi ~ 0
 GPMI_D01-LCD_D9-SSP2_DATA1
-Text Label 8200 -2300 2    40   ~ 0
+Text GLabel 8750 4750 2    40   BiDi ~ 0
 GPMI_WRn-SSP2_SCK
-Text Label 10400 -1400 0    40   ~ 0
+Text GLabel 3850 2900 2    40   BiDi ~ 0
 EMI_D01
-Text Label 10400 -1500 0    40   ~ 0
+Text GLabel 1600 3450 0    40   BiDi ~ 0
 EMI_CE0n
-Text Label 10400 -1600 0    40   ~ 0
+Text GLabel 2250 2650 0    40   BiDi ~ 0
 EMI_A03
-Text Label 8200 -2400 2    40   ~ 0
+Text GLabel 8750 5350 2    40   BiDi ~ 0
 SSP1_CMD-JTAG_TDO
-Text Label 8200 -2500 2    40   ~ 0
+Text GLabel 8750 2850 2    40   BiDi ~ 0
 LCD_RS
-Text Label 8200 -2600 2    40   ~ 0
+Text GLabel 8750 3750 2    40   BiDi ~ 0
 GPMI_D02-LCD_D10-SSP2_DATA2
-Text Label 8200 -2700 2    40   ~ 0
+Text GLabel 8750 4650 2    40   BiDi ~ 0
 GPMI_WPn
-Text Label 10400 -1700 0    40   ~ 0
+Text GLabel 3850 2700 2    40   BiDi ~ 0
 EMI_D03
-Text Label 10400 -1800 0    40   ~ 0
+Text GLabel 3850 2000 2    40   BiDi ~ 0
 EMI_D10
-Text Label 10400 -1900 0    40   ~ 0
+Text GLabel 2250 1750 0    40   BiDi ~ 0
 EMI_A12
-Text Label 10400 -2000 0    40   ~ 0
+Text GLabel 2250 2750 0    40   BiDi ~ 0
 EMI_A02
-Text Label 8200 -2800 2    40   ~ 0
+Text GLabel 8750 5450 2    40   BiDi ~ 0
 SSP1_DATA0-JTAG_TDI
-Text Label 8200 -2900 2    40   ~ 0
+Text GLabel 8750 2650 2    40   BiDi ~ 0
 LCD_HSYNC-I2C_SDA
-Text Label 8200 -3000 2    40   ~ 0
+Text GLabel 8750 3850 2    40   BiDi ~ 0
 GPMI_D03-LCD_D11-SSP2_DATA3
-Text Label 10400 -2100 0    40   ~ 0
+Text GLabel 3850 1900 2    40   BiDi ~ 0
 EMI_D11
-Text Label 10400 -2200 0    40   ~ 0
+Text GLabel 2250 1850 0    40   BiDi ~ 0
 EMI_A11
-Text Label 10400 -2300 0    40   ~ 0
+Text GLabel 2250 2850 0    40   BiDi ~ 0
 EMI_A01
-Text Label 8200 -3100 2    40   ~ 0
+Text GLabel 8750 5550 2    40   BiDi ~ 0
 SSP1_DATA1-I2C_SCL-JTAG_TCLK
-Text Label 8200 -3200 2    40   ~ 0
+Text GLabel 8750 2950 2    40   BiDi ~ 0
 LCD_VSYNC-LCD_BUSY
-Text Label 8200 -3300 2    40   ~ 0
+Text GLabel 8750 4050 2    40   BiDi ~ 0
 GPMI_D05-LCD_D13-SSP2_DATA5
-Text Label 10400 -2400 0    40   ~ 0
+Text GLabel 2250 3750 0    40   BiDi ~ 0
 EMI_CLK
-Text Label 10400 -2500 0    40   ~ 0
+Text GLabel 2250 4100 0    40   BiDi ~ 0
 EMI_DQM0
-Text Label 10400 -2600 0    40   ~ 0
+Text GLabel 2250 4250 0    40   BiDi ~ 0
 EMI_DQM1
-Text Label 10400 -2700 0    40   ~ 0
+Text GLabel 2250 1950 0    40   BiDi ~ 0
 EMI_A10
-Text Label 10400 -2800 0    40   ~ 0
+Text GLabel 2250 2950 0    40   BiDi ~ 0
 EMI_A00
-Text Label 8200 -3400 2    40   ~ 0
+Text GLabel 8750 5650 2    40   BiDi ~ 0
 SSP1_DATA2-I2C_SDA-JTAG_RTCK
-Text Label 8200 -3500 2    40   ~ 0
+Text GLabel 8750 2450 2    40   BiDi ~ 0
 LCD_DOTCK-GPMI_RDY3
-Text Label 8200 -3600 2    40   ~ 0
+Text GLabel 8750 3950 2    40   BiDi ~ 0
 GPMI_D04-LCD_D12-SSP2_DATA4
-Text Label 10400 -2900 0    40   ~ 0
+Text GLabel 2250 3850 0    40   BiDi ~ 0
 EMI_CLKn
-Text Label 10400 -3000 0    40   ~ 0
+Text GLabel 3850 2600 2    40   BiDi ~ 0
 EMI_D04
-Text Label 10400 -3100 0    40   ~ 0
+Text GLabel 3850 1800 2    40   BiDi ~ 0
 EMI_D12
-Text Label 10400 -3200 0    40   ~ 0
+Text GLabel 2250 2050 0    40   BiDi ~ 0
 EMI_A09
-Text Label 10400 -3300 0    40   ~ 0
+Text GLabel 2250 3150 0    40   BiDi ~ 0
 EMI_WEn
-Text Label 8200 -3700 2    40   ~ 0
+Text GLabel 8750 5750 2    40   BiDi ~ 0
 SSP1_DATA3-JTAG_TMS
-Text Label 8200 -3800 2    40   ~ 0
+Text GLabel 8750 4250 2    40   BiDi ~ 0
 GPMI_D07-LCD_D15-SSP2_DATA7
-Text Label 10400 -3400 0    40   ~ 0
+Text GLabel 3850 2500 2    40   BiDi ~ 0
 EMI_D05
-Text Label 10400 -3500 0    40   ~ 0
+Text GLabel 3850 1700 2    40   BiDi ~ 0
 EMI_D13
-Text Label 10400 -3600 0    40   ~ 0
+Text GLabel 2250 2150 0    40   BiDi ~ 0
 EMI_A08
-Text Label 10400 -3700 0    40   ~ 0
+Text GLabel 1600 3650 0    40   BiDi ~ 0
 EMI_CKE
-Text Label 8200 -3900 2    40   ~ 0
+Text GLabel 8750 5850 2    40   BiDi ~ 0
 SSP1_DETECT-GPMI_CE3N-USB_ID
-Text Label 8200 -4000 2    40   ~ 0
+Text GLabel 8750 3250 2    40   BiDi ~ 0
 GPMI_CLE-LCD_D16
-Text Label 8200 -4100 2    40   ~ 0
+Text GLabel 8750 4150 2    40   BiDi ~ 0
 GPMI_D06-LCD_D14-SSP2_DATA6
-Text Label 10400 -3800 0    40   ~ 0
+Text GLabel 2250 4000 0    40   BiDi ~ 0
 EMI_DQS0
-Text Label 10400 -3900 0    40   ~ 0
+Text GLabel 3850 2400 2    40   BiDi ~ 0
 EMI_D06
-Text Label 10400 -4000 0    40   ~ 0
+Text GLabel 3850 1500 2    40   BiDi ~ 0
 EMI_D15
-Text Label 10400 -4100 0    40   ~ 0
+Text GLabel 2250 2250 0    40   BiDi ~ 0
 EMI_A07
-Text Label 10400 -4200 0    40   ~ 0
+Text GLabel 2250 1600 0    40   BiDi ~ 0
 EMI_BA0
-Text Label 8200 -4200 2    40   ~ 0
+Text GLabel 8750 6050 2    40   BiDi ~ 0
 DEBUG
-Text Label 8200 -4300 2    40   ~ 0
+Text GLabel 8750 1050 2    40   BiDi ~ 0
 XTALO
-Text Label 8200 -4400 2    40   ~ 0
+Text GLabel 8750 1150 2    40   BiDi ~ 0
 XTALI
-Text Label 10400 -4300 0    40   ~ 0
+Text GLabel 10500 5850 0    40   BiDi ~ 0
 HPL
-Text Label 8200 -4500 2    40   ~ 0
+Text GLabel 8750 1450 2    40   BiDi ~ 0
 USB_DM
-Text Label 10400 -4400 0    40   ~ 0
+Text GLabel 10500 5950 0    40   BiDi ~ 0
 VDAC1
-Text Label 10400 -4500 0    40   ~ 0
+Text GLabel 10500 5550 0    40   BiDi ~ 0
 LINE1_INR
-Text Label 8200 -4600 2    40   ~ 0
+Text GLabel 8750 1350 2    40   BiDi ~ 0
 USB_DP
-Text Label 10400 -4600 0    40   ~ 0
+Text GLabel 10500 5650 0    40   BiDi ~ 0
 LINE1_INL
-Text Label 8200 -4700 2    40   ~ 0
+Text GLabel 8750 4850 2    40   BiDi ~ 0
 PWM0-ROTARYA-DUART_RX
-Text Label 10400 -4700 0    40   ~ 0
+Text GLabel 10500 5250 0    40   BiDi ~ 0
 MIC
-Text Label 8200 -4800 2    40   ~ 0
+Text GLabel 8750 4950 2    40   BiDi ~ 0
 PWM1-ROTARYB-DUART_TX
-Text Label 10400 -4800 0    40   ~ 0
+Text GLabel 10500 5350 0    40   BiDi ~ 0
 LRADC1
-Text Label 10400 -4900 0    40   ~ 0
+Text GLabel 10500 6050 0    40   BiDi ~ 0
 VAG
-Text Label 8200 -4900 2    40   ~ 0
+Text GLabel 8750 5250 2    40   BiDi ~ 0
 I2C_SCL-GPMI_RDY2-AUART1_TX
-Text Label 10400 -5000 0    40   ~ 0
+Text GLabel 10500 5450 0    40   BiDi ~ 0
 LRADC0
-Text Label 8200 -5000 2    40   ~ 0
+Text GLabel 8750 5150 2    40   BiDi ~ 0
 I2C_SDA-GPMI_CE2n-AUART1_RX
-Text Label 10400 -5100 0    40   ~ 0
+Text GLabel 10500 5750 0    40   BiDi ~ 0
 HPR
-Text Label 8200 -5100 2    40   ~ 0
-PSWITCH
-Text GLabel 8200 -100 2    40   BiDi ~ 0
-LCD_D00
-Text GLabel 8200 -200 2    40   BiDi ~ 0
-LCD_D01
-Text GLabel 8200 -300 2    40   BiDi ~ 0
-LCD_D02
-Text GLabel 8200 -400 2    40   BiDi ~ 0
-LCD_D03
-Text GLabel 8200 -500 2    40   BiDi ~ 0
-LCD_D04
-Text GLabel 8200 -600 2    40   BiDi ~ 0
-LCD_D05
-Text GLabel 8200 -700 2    40   BiDi ~ 0
-LCD_D06
-Text GLabel 8200 -800 2    40   BiDi ~ 0
-LCD_D07
-Text GLabel 8200 -900 2    40   BiDi ~ 0
-LCD_CS
-Text GLabel 8200 -1000 2    40   BiDi ~ 0
-GPMI_ALE-LCD_D17
-Text GLabel 10400 -100 0    40   BiDi ~ 0
-EMI_DQS1
-Text GLabel 10400 -200 0    40   BiDi ~ 0
-EMI_D07
-Text GLabel 10400 -300 0    40   BiDi ~ 0
-EMI_D14
-Text GLabel 10400 -400 0    40   BiDi ~ 0
-EMI_A06
-Text GLabel 10400 -500 0    40   BiDi ~ 0
-EMI_BA1
-Text GLabel 8200 -1100 2    40   BiDi ~ 0
-SSP1_SCK-JTAG_TRST
-Text GLabel 8200 -1200 2    40   BiDi ~ 0
-LCD_ENABLE-I2C_SCL
-Text GLabel 8200 -1300 2    40   BiDi ~ 0
-GPMI_RDY1-SSP2_CMD
-Text GLabel 8200 -1400 2    40   BiDi ~ 0
-GPMI_RDn
-Text GLabel 10400 -600 0    40   BiDi ~ 0
-EMI_D00
-Text GLabel 10400 -700 0    40   BiDi ~ 0
-EMI_D08
-Text GLabel 10400 -800 0    40   BiDi ~ 0
-EMI_CASn
-Text GLabel 10400 -900 0    40   BiDi ~ 0
-EMI_A05
-Text GLabel 8200 -1500 2    40   BiDi ~ 0
-GPMI_CE1n
-Text GLabel 8200 -1600 2    40   BiDi ~ 0
-PWM2-GPMI_RDY3
-Text GLabel 8200 -1700 2    40   BiDi ~ 0
-LCD_RESET-GPMI_CE3n
-Text GLabel 8200 -1800 2    40   BiDi ~ 0
-GPMI_D00-LCD_D8-SSP2_DATA0
-Text GLabel 8200 -1900 2    40   BiDi ~ 0
-GPMI_RDY0-SSP2_DETECT
-Text GLabel 10400 -1000 0    40   BiDi ~ 0
-EMI_D02
-Text GLabel 10400 -1100 0    40   BiDi ~ 0
-EMI_D09
-Text GLabel 10400 -1200 0    40   BiDi ~ 0
-EMI_RASn
-Text GLabel 10400 -1300 0    40   BiDi ~ 0
-EMI_A04
-Text GLabel 8200 -2000 2    40   BiDi ~ 0
-GPMI_CE0n
-Text GLabel 8200 -2100 2    40   BiDi ~ 0
-LCD_WR
-Text GLabel 8200 -2200 2    40   BiDi ~ 0
-GPMI_D01-LCD_D9-SSP2_DATA1
-Text GLabel 8200 -2300 2    40   BiDi ~ 0
-GPMI_WRn-SSP2_SCK
-Text GLabel 10400 -1400 0    40   BiDi ~ 0
-EMI_D01
-Text GLabel 10400 -1500 0    40   BiDi ~ 0
-EMI_CE0n
-Text GLabel 10400 -1600 0    40   BiDi ~ 0
-EMI_A03
-Text GLabel 8200 -2400 2    40   BiDi ~ 0
-SSP1_CMD-JTAG_TDO
-Text GLabel 8200 -2500 2    40   BiDi ~ 0
-LCD_RS
-Text GLabel 8200 -2600 2    40   BiDi ~ 0
-GPMI_D02-LCD_D10-SSP2_DATA2
-Text GLabel 8200 -2700 2    40   BiDi ~ 0
-GPMI_WPn
-Text GLabel 10400 -1700 0    40   BiDi ~ 0
-EMI_D03
-Text GLabel 10400 -1800 0    40   BiDi ~ 0
-EMI_D10
-Text GLabel 10400 -1900 0    40   BiDi ~ 0
-EMI_A12
-Text GLabel 10400 -2000 0    40   BiDi ~ 0
-EMI_A02
-Text GLabel 8200 -2800 2    40   BiDi ~ 0
-SSP1_DATA0-JTAG_TDI
-Text GLabel 8200 -2900 2    40   BiDi ~ 0
-LCD_HSYNC-I2C_SDA
-Text GLabel 8200 -3000 2    40   BiDi ~ 0
-GPMI_D03-LCD_D11-SSP2_DATA3
-Text GLabel 10400 -2100 0    40   BiDi ~ 0
-EMI_D11
-Text GLabel 10400 -2200 0    40   BiDi ~ 0
-EMI_A11
-Text GLabel 10400 -2300 0    40   BiDi ~ 0
-EMI_A01
-Text GLabel 8200 -3100 2    40   BiDi ~ 0
-SSP1_DATA1-I2C_SCL-JTAG_TCLK
-Text GLabel 8200 -3200 2    40   BiDi ~ 0
-LCD_VSYNC-LCD_BUSY
-Text GLabel 8200 -3300 2    40   BiDi ~ 0
-GPMI_D05-LCD_D13-SSP2_DATA5
-Text GLabel 10400 -2400 0    40   BiDi ~ 0
-EMI_CLK
-Text GLabel 10400 -2500 0    40   BiDi ~ 0
-EMI_DQM0
-Text GLabel 10400 -2600 0    40   BiDi ~ 0
-EMI_DQM1
-Text GLabel 10400 -2700 0    40   BiDi ~ 0
-EMI_A10
-Text GLabel 10400 -2800 0    40   BiDi ~ 0
-EMI_A00
-Text GLabel 8200 -3400 2    40   BiDi ~ 0
-SSP1_DATA2-I2C_SDA-JTAG_RTCK
-Text GLabel 8200 -3500 2    40   BiDi ~ 0
-LCD_DOTCK-GPMI_RDY3
-Text GLabel 8200 -3600 2    40   BiDi ~ 0
-GPMI_D04-LCD_D12-SSP2_DATA4
-Text GLabel 10400 -2900 0    40   BiDi ~ 0
-EMI_CLKn
-Text GLabel 10400 -3000 0    40   BiDi ~ 0
-EMI_D04
-Text GLabel 10400 -3100 0    40   BiDi ~ 0
-EMI_D12
-Text GLabel 10400 -3200 0    40   BiDi ~ 0
-EMI_A09
-Text GLabel 10400 -3300 0    40   BiDi ~ 0
-EMI_WEn
-Text GLabel 8200 -3700 2    40   BiDi ~ 0
-SSP1_DATA3-JTAG_TMS
-Text GLabel 8200 -3800 2    40   BiDi ~ 0
-GPMI_D07-LCD_D15-SSP2_DATA7
-Text GLabel 10400 -3400 0    40   BiDi ~ 0
-EMI_D05
-Text GLabel 10400 -3500 0    40   BiDi ~ 0
-EMI_D13
-Text GLabel 10400 -3600 0    40   BiDi ~ 0
-EMI_A08
-Text GLabel 10400 -3700 0    40   BiDi ~ 0
-EMI_CKE
-Text GLabel 8200 -3900 2    40   BiDi ~ 0
-SSP1_DETECT-GPMI_CE3N-USB_ID
-Text GLabel 8200 -4000 2    40   BiDi ~ 0
-GPMI_CLE-LCD_D16
-Text GLabel 8200 -4100 2    40   BiDi ~ 0
-GPMI_D06-LCD_D14-SSP2_DATA6
-Text GLabel 10400 -3800 0    40   BiDi ~ 0
-EMI_DQS0
-Text GLabel 10400 -3900 0    40   BiDi ~ 0
-EMI_D06
-Text GLabel 10400 -4000 0    40   BiDi ~ 0
-EMI_D15
-Text GLabel 10400 -4100 0    40   BiDi ~ 0
-EMI_A07
-Text GLabel 10400 -4200 0    40   BiDi ~ 0
-EMI_BA0
-Text GLabel 8200 -4200 2    40   BiDi ~ 0
-DEBUG
-Text GLabel 8200 -4300 2    40   BiDi ~ 0
-XTALO
-Text GLabel 8200 -4400 2    40   BiDi ~ 0
-XTALI
-Text GLabel 10400 -4300 0    40   BiDi ~ 0
-HPL
-Text GLabel 8200 -4500 2    40   BiDi ~ 0
-USB_DM
-Text GLabel 10400 -4400 0    40   BiDi ~ 0
-VDAC1
-Text GLabel 10400 -4500 0    40   BiDi ~ 0
-LINE1_INR
-Text GLabel 8200 -4600 2    40   BiDi ~ 0
-USB_DP
-Text GLabel 10400 -4600 0    40   BiDi ~ 0
-LINE1_INL
-Text GLabel 8200 -4700 2    40   BiDi ~ 0
-PWM0-ROTARYA-DUART_RX
-Text GLabel 10400 -4700 0    40   BiDi ~ 0
-MIC
-Text GLabel 8200 -4800 2    40   BiDi ~ 0
-PWM1-ROTARYB-DUART_TX
-Text GLabel 10400 -4800 0    40   BiDi ~ 0
-LRADC1
-Text GLabel 10400 -4900 0    40   BiDi ~ 0
-VAG
-Text GLabel 8200 -4900 2    40   BiDi ~ 0
-I2C_SCL-GPMI_RDY2-AUART1_TX
-Text GLabel 10400 -5000 0    40   BiDi ~ 0
-LRADC0
-Text GLabel 8200 -5000 2    40   BiDi ~ 0
-I2C_SDA-GPMI_CE2n-AUART1_RX
-Text GLabel 10400 -5100 0    40   BiDi ~ 0
-HPR
-Text GLabel 8200 -5100 2    40   BiDi ~ 0
+Text GLabel 8750 1250 2    40   BiDi ~ 0
 PSWITCH
 $EndSCHEMATC

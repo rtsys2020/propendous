@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2460)-final date = 07/04/2010 19:54:35
+
+BeginCmp
+TimeStamp = /49F49153/4BBCCF4A;
+Reference = C1;
+ValeurCmp = 10pF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCCF58;
+Reference = C2;
+ValeurCmp = 10pF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCDB0C;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCDC3E;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCD056;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCB740;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB4B;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB56;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB55;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB5B;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB5A;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB58;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB59;
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB79;
+Reference = C14;
+ValeurCmp = 10uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEB87;
+Reference = C15;
+ValeurCmp = 10uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEA91;
+Reference = C16;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEAA2;
+Reference = C17;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBD1A8C;
+Reference = ENCLOSURE_HAMMOND_1553B_1;
+ValeurCmp = CONN_1;
+IdModule  = 1553B_Hammond_Enclosure;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCE5E2;
+Reference = IC1;
+ValeurCmp = i.MX233;
+IdModule  = LQFP128_14x14mm_0.4mmPitch_iMX233;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEC39;
+Reference = IC2;
+ValeurCmp = DDR_SDRAM_MT46_X16;
+IdModule  = TSOP66_JEDEC_DDR_SDRAM;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCC832;
+Reference = L1;
+ValeurCmp = 15uH;
+IdModule  = SMD_Inductor_VLF301x;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49582/4BBCE11D;
+Reference = P1;
+ValeurCmp = Serial_JTAG;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCDBC5;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCDC32;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCDC7B;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCB739;
+Reference = R4;
+ValeurCmp = 47k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49582/4BBCE156;
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCE24A;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCED49;
+Reference = R7;
+ValeurCmp = 47k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEA69;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49538/4BBCEAA3;
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCDBD9;
+Reference = SW1;
+ValeurCmp = POWER;
+IdModule  = Switch_SMT_EVQ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCE067;
+Reference = TP1;
+ValeurCmp = CONN_1;
+IdModule  = 1Pin_25mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49153/4BBCCE2C;
+Reference = X1;
+ValeurCmp = 24MHz;
+IdModule  = HC49-US_Minimized;
+EndCmp
+
+EndListe
