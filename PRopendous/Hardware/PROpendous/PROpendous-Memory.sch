@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/04/2010 19:59:31
+EESchema Schematic File Version 2  date 21/04/2010 18:06:05
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 3 8
 Title "PROpendous"
-Date "19 apr 2010"
+Date "21 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,12 +44,20 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 850  6850 0    60   ~ 0
+ - However, all the traces are < 0.8" long and therefore have an electrical length of <8deg at 200MHz.\n    Also, most signals have only one via. Only UDQS (EMI_DQS1) has three vias. Since there is very little\n    room anyway, do not use termination resistors.\n - Only using one DDR device so should not require Rt and cannot fit it near i.MX233 IC anyway\n - For additional design and layout notes see TN-46-11\n - TN AppNotes are available at www.micron.com
+Connection ~ 5950 4700
+Wire Wire Line
+	5950 4700 5950 4800
+Connection ~ 5800 4700
+Connection ~ 6000 4700
+Connection ~ 6200 4700
 Connection ~ 5950 5500
 Wire Wire Line
 	5950 5600 5950 5500
 Connection ~ 7450 5500
 Wire Wire Line
-	4250 5500 7650 5500
+	7650 5500 4250 5500
 Connection ~ 7250 5500
 Connection ~ 4850 5500
 Connection ~ 5050 5500
@@ -63,13 +71,13 @@ Wire Wire Line
 	7300 4450 7300 4500
 Connection ~ 7500 4200
 Wire Wire Line
-	7500 4250 7500 4150
+	7500 4150 7500 4250
 Connection ~ 7300 4450
 Wire Wire Line
-	7100 4450 7500 4450
+	7500 4450 7100 4450
 Connection ~ 7300 3950
 Wire Wire Line
-	7100 3950 7500 3950
+	7500 3950 7100 3950
 Connection ~ 7050 5500
 Connection ~ 7050 5300
 Connection ~ 6850 5300
@@ -77,10 +85,10 @@ Wire Wire Line
 	4600 3950 4600 4000
 Connection ~ 4600 3550
 Wire Wire Line
-	5150 3550 4500 3550
+	4500 3550 5150 3550
 Connection ~ 4600 3750
 Wire Wire Line
-	4500 3750 5150 3750
+	5150 3750 4500 3750
 Connection ~ 5250 5500
 Connection ~ 5650 5500
 Connection ~ 6050 5500
@@ -90,17 +98,13 @@ Connection ~ 6050 5300
 Connection ~ 5650 5300
 Connection ~ 5250 5300
 Wire Wire Line
-	7100 4150 7100 4250
+	7100 4250 7100 4150
 Connection ~ 7300 4200
 Wire Wire Line
-	7300 4250 7300 4150
-Wire Wire Line
-	5950 4700 5950 4800
-Connection ~ 5750 4700
-Connection ~ 6050 4700
+	7300 4150 7300 4250
 Connection ~ 6200 1400
 Wire Wire Line
-	5600 1400 6300 1400
+	6300 1400 5600 1400
 Connection ~ 6000 1400
 Connection ~ 5800 1400
 Connection ~ 5700 1400
@@ -109,11 +113,6 @@ Connection ~ 6100 1400
 Wire Wire Line
 	5950 1400 5950 1300
 Connection ~ 5950 1400
-Connection ~ 6150 4700
-Wire Wire Line
-	5650 4700 6250 4700
-Connection ~ 5950 4700
-Connection ~ 5850 4700
 Connection ~ 7100 4200
 Connection ~ 5450 5300
 Connection ~ 5850 5300
@@ -136,11 +135,25 @@ Connection ~ 4850 5300
 Connection ~ 5050 5300
 Connection ~ 7250 5300
 Wire Wire Line
-	4250 5300 7650 5300
+	7650 5300 4250 5300
 Connection ~ 7450 5300
 Wire Wire Line
 	5950 5300 5950 5200
 Connection ~ 5950 5300
+Connection ~ 6100 4700
+Connection ~ 5900 4700
+Wire Wire Line
+	5600 4700 6300 4700
+Connection ~ 5700 4700
+$Comp
+L DDR_SDRAM_MT46_X16 IC2
+U 1 1 4BCEA1AD
+P 5950 3050
+F 0 "IC2" H 6500 1500 40  0000 C CNN
+F 1 "DDR_SDRAM_MT46_X16" H 5950 3400 40  0000 C CNN
+	1    5950 3050
+	1    0    0    -1  
+$EndComp
 $Comp
 L VDDM_2V5 #PWR023
 U 1 1 4BBCEBA8
@@ -290,15 +303,6 @@ P 4600 3300
 F 0 "#PWR025" H 4600 3400 30  0001 C CNN
 F 1 "VDDM_2V5" H 4600 3400 30  0000 C CNN
 	1    4600 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L DDR_SDRAM_MT46_X16 IC2
-U 1 1 4BBCEC39
-P 5950 3050
-F 0 "IC2" H 6500 1500 40  0000 C CNN
-F 1 "DDR_SDRAM_MT46_X16" H 5950 3400 40  0000 C CNN
-	1    5950 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -492,8 +496,8 @@ F 1 "47k" V 4625 3500 20  0000 C CNN
 	1    4600 3450
 	0    1    1    0   
 $EndComp
-Text Notes 1050 6850 0    60   ~ 0
-Notes:\n - All capacitors are X5R, 6.3V, 20%, ESR < 300mOhm or better unless otherwise noted\n - All resistors are 5% unless otherwise noted\n - Assuming 2-layer standard 1/16" FR4 (Dk=4.4, Df=0.02) and 7mil-7mil-15mil trace-space-drill design\n - Per Micron TN-46-02, need about 7 0.1uF bypass caps but to meet TN-46-14 layout guidelines use a\n    lot more and consider external copper foil reference planes\n - Cannot meet DDR routing guidelines (TN-46-14) on 2-layers so just keep all signals as short as possible\n    to limit effects on Signal Integrity (SI) of incorrect inter/intra-pair spacing\n - Only using one DDR device so should not require Rt and cannot fit it near i.MX233 IC anyway
+Text Notes 850  6050 0    60   ~ 0
+Notes:\n - All capacitors are X5R, 6.3V, 20%, ESR < 300mOhm or better unless otherwise noted\n - All resistors are 5% unless otherwise noted\n - Assuming 2-layer standard 1/16" FR4 (Dk=4.4, Df=0.02) and 7mil-7mil-15mil trace-space-drill design\n - Per Micron TN-46-02, need about 7 0.1uF bypass caps but to meet TN-46-14 layout guidelines use a\n    lot more and consider external copper foil reference planes\n - Cannot meet DDR routing guidelines (TN-46-14) on 2-layers so just keep all signals as short as possible\n    to limit effects on Signal Integrity (SI) of incorrect inter/intra-pair spacing\n - On 2-layer boards impedance of the lines is large so termination resistors should be used per TN-46-06.
 Text GLabel 5150 4450 0    40   BiDi ~ 0
 EMI_DQS1
 Text GLabel 6750 2400 2    40   BiDi ~ 0
