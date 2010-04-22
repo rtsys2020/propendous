@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/04/2010 19:59:31
+EESchema Schematic File Version 2  date 21/04/2010 18:06:05
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 8
 Title "PROpendous"
-Date "19 apr 2010"
+Date "21 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,24 +44,14 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
-$Comp
-L L_MINI L14
-U 1 1 4BCCECEA
-P 6300 7450
-F 0 "L14" H 6225 7400 30  0000 C CNN
-F 1 "FB" H 6350 7400 22  0000 C CNN
-	1    6300 7450
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR01
-U 1 1 4BCCECE8
-P 6450 7500
-F 0 "#PWR01" H 6450 7500 30  0001 C CNN
-F 1 "GND" H 6450 7430 30  0001 C CNN
-	1    6450 7500
-	1    0    0    -1  
-$EndComp
+Connection ~ 7250 5750
+Connection ~ 7450 5750
+Connection ~ 7450 6050
+Connection ~ 7250 6050
+Connection ~ 7450 5850
+Wire Wire Line
+	7450 5750 7450 6050
+Connection ~ 7250 5950
 Wire Wire Line
 	6450 7500 6450 7450
 Wire Wire Line
@@ -70,36 +60,6 @@ Wire Wire Line
 	6200 7450 6150 7450
 Wire Wire Line
 	6150 7450 6150 7500
-$Comp
-L GND1 #PWR02
-U 1 1 4BCCECDD
-P 6150 7500
-F 0 "#PWR02" H 6150 7500 30  0001 C CNN
-F 1 "GND1" H 6150 7430 30  0000 C CNN
-	1    6150 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L IMX233 IC1
-U 1 1 4BCC6F47
-P 3950 4100
-F 0 "IC1" H 2450 1050 60  0000 C CNN
-F 1 "i.MX233" H 2525 7150 60  0000 C CNN
-	1    3950 4100
-	1    0    0    -1  
-$EndComp
-Text Label 9900 2100 2    40   ~ 0
-TSC_VREF
-Text Label 9900 2200 2    40   ~ 0
-TSC_VBAT1
-Text Label 9900 2300 2    40   ~ 0
-TSC_VBAT2
-Text Label 9900 2000 2    40   ~ 0
-TSC_IN2
-Text Label 9900 1900 2    40   ~ 0
-TSC_IN1
-Text Notes 6800 6300 0    50   ~ 0
-Use GNDPWR for chassis\nground ring to suppress EMI
 Wire Wire Line
 	7200 6100 7200 6050
 Wire Wire Line
@@ -199,7 +159,7 @@ Wire Wire Line
 	3950 7250 3950 7350
 Connection ~ 3950 7250
 Wire Wire Line
-	7350 5750 7350 5700
+	7350 5300 7350 5250
 Wire Wire Line
 	5150 950  5050 950 
 Connection ~ 4800 950 
@@ -210,6 +170,85 @@ Wire Wire Line
 	7450 6050 7500 6050
 Wire Wire Line
 	7500 6050 7500 6100
+Wire Wire Line
+	7250 6050 7250 5750
+Connection ~ 7250 5850
+Connection ~ 7450 5950
+$Comp
+L L_MINI L15
+U 1 1 4BCED957
+P 7350 5750
+F 0 "L15" H 7300 5700 30  0000 C CNN
+F 1 "FB" H 7400 5700 22  0000 C CNN
+	1    7350 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L L_MINI L16
+U 1 1 4BCED953
+P 7350 5850
+F 0 "L16" H 7300 5800 30  0000 C CNN
+F 1 "FB" H 7400 5800 22  0000 C CNN
+	1    7350 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L L_MINI L17
+U 1 1 4BCED94E
+P 7350 5950
+F 0 "L17" H 7300 5900 30  0000 C CNN
+F 1 "FB" H 7400 5900 22  0000 C CNN
+	1    7350 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L L_MINI L14
+U 1 1 4BCCECEA
+P 6300 7450
+F 0 "L14" H 6225 7400 30  0000 C CNN
+F 1 "FB" H 6350 7400 22  0000 C CNN
+	1    6300 7450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 4BCCECE8
+P 6450 7500
+F 0 "#PWR01" H 6450 7500 30  0001 C CNN
+F 1 "GND" H 6450 7430 30  0001 C CNN
+	1    6450 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND1 #PWR02
+U 1 1 4BCCECDD
+P 6150 7500
+F 0 "#PWR02" H 6150 7500 30  0001 C CNN
+F 1 "GND1" H 6150 7430 30  0000 C CNN
+	1    6150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L IMX233 IC1
+U 1 1 4BCC6F47
+P 3950 4100
+F 0 "IC1" H 2450 1050 60  0000 C CNN
+F 1 "i.MX233" H 2525 7150 60  0000 C CNN
+	1    3950 4100
+	1    0    0    -1  
+$EndComp
+Text Label 9900 2100 2    40   ~ 0
+TSC_VREF
+Text Label 9900 2200 2    40   ~ 0
+TSC_VBAT1
+Text Label 9900 2300 2    40   ~ 0
+TSC_VBAT2
+Text Label 9900 2000 2    40   ~ 0
+TSC_IN2
+Text Label 9900 1900 2    40   ~ 0
+TSC_IN1
+Text Notes 6800 6300 0    50   ~ 0
+Use GNDPWR for chassis\nground ring to suppress EMI
 $Comp
 L GND #PWR03
 U 1 1 4BCC48BC
@@ -232,7 +271,7 @@ $Comp
 L L_MINI L2
 U 1 1 4BCC48AC
 P 7350 6050
-F 0 "L2" H 7275 6000 30  0000 C CNN
+F 0 "L2" H 7300 6000 30  0000 C CNN
 F 1 "FB" H 7400 6000 22  0000 C CNN
 	1    7350 6050
 	-1   0    0    1   
@@ -249,19 +288,19 @@ $EndComp
 $Comp
 L GNDPWR #PWR06
 U 1 1 4BBD1ABB
-P 7350 5750
-F 0 "#PWR06" H 7350 5800 40  0001 C CNN
-F 1 "GNDPWR" H 7350 5690 25  0000 C CNN
-	1    7350 5750
+P 7350 5300
+F 0 "#PWR06" H 7350 5350 40  0001 C CNN
+F 1 "GNDPWR" H 7350 5240 25  0000 C CNN
+	1    7350 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 ENCLOSURE_HAMMOND_1553B_1
 U 1 1 4BBD1A8C
-P 7350 5550
-F 0 "ENCLOSURE_HAMMOND_1553B_1" V 7430 5550 40  0000 L CNN
-F 1 "CONN_1" H 7350 5605 30  0001 C CNN
-	1    7350 5550
+P 7350 5100
+F 0 "ENCLOSURE_HAMMOND_1553B_1" V 7430 5100 40  0000 L CNN
+F 1 "CONN_1" H 7350 5155 30  0001 C CNN
+	1    7350 5100
 	0    -1   -1   0   
 $EndComp
 $Comp
