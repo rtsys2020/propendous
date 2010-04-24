@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 21/04/2010 18:06:05
+EESchema Schematic File Version 2  date 24/04/2010 02:27:16
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 3 8
 Title "PROpendous"
-Date "21 apr 2010"
+Date "24 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -497,7 +497,7 @@ F 1 "47k" V 4625 3500 20  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 850  6050 0    60   ~ 0
-Notes:\n - All capacitors are X5R, 6.3V, 20%, ESR < 300mOhm or better unless otherwise noted\n - All resistors are 5% unless otherwise noted\n - Assuming 2-layer standard 1/16" FR4 (Dk=4.4, Df=0.02) and 7mil-7mil-15mil trace-space-drill design\n - Per Micron TN-46-02, need about 7 0.1uF bypass caps but to meet TN-46-14 layout guidelines use a\n    lot more and consider external copper foil reference planes\n - Cannot meet DDR routing guidelines (TN-46-14) on 2-layers so just keep all signals as short as possible\n    to limit effects on Signal Integrity (SI) of incorrect inter/intra-pair spacing\n - On 2-layer boards impedance of the lines is large so termination resistors should be used per TN-46-06.
+Notes:\n - All capacitors are X5R, 6.3V, 20%, ESR < 300mOhm or better unless otherwise noted\n - All resistors are 5% unless otherwise noted\n - Assuming 2-layer standard 1/16" FR4 (Dk=4.4, Df=0.02) and 7mil-7mil-15mil trace-space-drill design\n - Per Micron TN-46-02, need about 7 0.1uF bypass caps but to fake TN-46-14 layout guidelines of GND planes\n    use a lot more and consider external copper foil reference planes\n - Cannot meet DDR routing guidelines (TN-46-14) on 2-layers so just keep all signals as short as possible\n    to limit effects on Signal Integrity (SI) of incorrect inter/intra-pair spacing and characteristic trace impedance\n - On 2-layer boards impedance of the lines is large so termination resistors should be used per TN-46-06.
 Text GLabel 5150 4450 0    40   BiDi ~ 0
 EMI_DQS1
 Text GLabel 6750 2400 2    40   BiDi ~ 0

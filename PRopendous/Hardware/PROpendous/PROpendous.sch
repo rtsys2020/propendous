@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 21/04/2010 18:06:05
+EESchema Schematic File Version 2  date 24/04/2010 02:27:16
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 8
 Title "PROpendous"
-Date "21 apr 2010"
+Date "24 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
