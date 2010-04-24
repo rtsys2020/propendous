@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 21/04/2010 06:57:06
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 24/04/2010 02:27:06
 
 BeginCmp
-TimeStamp = /4BC28B8C/4BCC8F02;
+TimeStamp = /4BC28B8C/4BD1989E;
 Reference = BT1;
 ValeurCmp = BATTERY;
-IdModule  = SIL-2_Opendous;
+IdModule  = BATTery_Molex_53047-0310;
 EndCmp
 
 BeginCmp
@@ -533,6 +533,20 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /4BC28B8C/4BD19936;
+Reference = C76;
+ValeurCmp = 0.01uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49582/4BD246CF;
+Reference = C77;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
 TimeStamp = /4BCC4A78/4BCCDAA4;
 Reference = CR1;
 ValeurCmp = ESD;
@@ -554,8 +568,22 @@ IdModule  = SOD123;
 EndCmp
 
 BeginCmp
+TimeStamp = /4BC28B8C/4BD0D944;
+Reference = D3;
+ValeurCmp = USB_HOST;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BC28B8C/4BD0D8DC;
+Reference = D4;
+ValeurCmp = POWERED;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
 TimeStamp = /49F49153/4BBD1A8C;
-Reference = ENCLOSURE_HAMMOND_1553B_1;
+Reference = ENCLOSURE_HAMMOND_1553B_BAT_1;
 ValeurCmp = CONN_1;
 IdModule  = 1553B_Hammond_Enclosure;
 EndCmp
@@ -568,7 +596,7 @@ IdModule  = SM1206_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49153/4BCC6F47;
+TimeStamp = /49F49153/4BD121E5;
 Reference = IC1;
 ValeurCmp = i.MX233;
 IdModule  = LQFP128_14x14mm_0.4mmPitch_iMX233;
@@ -605,7 +633,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4BC28B8C/4BCC73CB;
 Reference = JP1;
-ValeurCmp = 2mm_Jumpers;
+ValeurCmp = Boot_Jumpers;
 IdModule  = Pin_Array_5x2_2mm;
 EndCmp
 
@@ -613,7 +641,7 @@ BeginCmp
 TimeStamp = /49F49153/4BBCC832;
 Reference = L1;
 ValeurCmp = 15uH;
-IdModule  = SMD_Inductor_VLF301x;
+IdModule  = SRR4028_Inductor;
 EndCmp
 
 BeginCmp
@@ -641,7 +669,7 @@ BeginCmp
 TimeStamp = /4BC28B8C/4BCC66C7;
 Reference = L6;
 ValeurCmp = 6.8uH;
-IdModule  = SMD_Inductor_VLF301x;
+IdModule  = SM2424_Opendous;
 EndCmp
 
 BeginCmp
@@ -696,8 +724,8 @@ EndCmp
 BeginCmp
 TimeStamp = /49F49153/4BCCECEA;
 Reference = L14;
-ValeurCmp = FB;
-IdModule  = SM0603_Opendous;
+ValeurCmp = Trace;
+IdModule  = ShortTrace;
 EndCmp
 
 BeginCmp
@@ -722,6 +750,13 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /49F49582/4BD0EFA3;
+Reference = L18;
+ValeurCmp = FB;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
 TimeStamp = /4BCC4A78/4BCCE251;
 Reference = M1;
 ValeurCmp = ELECTRET_MIC;
@@ -736,10 +771,17 @@ IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49582/4BCC7CA2;
+TimeStamp = /49F49582/4BD2276B;
 Reference = P2;
-ValeurCmp = Expansion;
-IdModule  = Pin_Array_Port_25x2_Polarized;
+ValeurCmp = ExpansionA;
+IdModule  = Pin_Array_Port_17x2_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49582/4BD23742;
+Reference = P3;
+ValeurCmp = ExpansionB;
+IdModule  = Pin_Array_Port_5x2_PolarizedOutline;
 EndCmp
 
 BeginCmp
@@ -1051,10 +1093,52 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /4BC28B8C/4BD0D943;
+Reference = R46;
+ValeurCmp = 200;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BC28B8C/4BD0D8EF;
+Reference = R47;
+ValeurCmp = 200;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BC28B8C/4BD19931;
+Reference = R48;
+ValeurCmp = 100k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BC28B8C/4BD19943;
+Reference = R49;
+ValeurCmp = 100k;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BC28B8C/4BD22CA7;
+Reference = R50;
+ValeurCmp = 0;
+IdModule  = ShortTrace;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BC28B8C/4BD22CBA;
+Reference = R51;
+ValeurCmp = 0;
+IdModule  = ShortTrace;
+EndCmp
+
+BeginCmp
 TimeStamp = /49F49153/4BBCDBD9;
 Reference = SW1;
 ValeurCmp = POWER;
-IdModule  = Switch_SMT_EVQ;
+IdModule  = Switch_SMT_TH_EVQ_TL59;
 EndCmp
 
 BeginCmp
@@ -1132,6 +1216,13 @@ TimeStamp = /4BCC4A78/4BCCB800;
 Reference = U9;
 ValeurCmp = Line;
 IdModule  = SJ-3524-SMT_Stereo_Jack;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49582/49F7B888;
+Reference = U10;
+ValeurCmp = JTAG;
+IdModule  = Pin_Array_Port_10x2_Polarized;
 EndCmp
 
 BeginCmp
@@ -2167,21 +2258,21 @@ BeginCmp
 TimeStamp = /4A0869EC/4BC28E3B;
 Reference = V148;
 ValeurCmp = VIA;
-IdModule  = 1Pin_15mil_VIA;
+IdModule  = 1Pin_25mil_VIA;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A0869EC/4BC28E3C;
 Reference = V149;
 ValeurCmp = VIA;
-IdModule  = 1Pin_15mil_VIA;
+IdModule  = 1Pin_25mil_VIA;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A0869EC/4BC28E3E;
 Reference = V150;
 ValeurCmp = VIA;
-IdModule  = 1Pin_15mil_VIA;
+IdModule  = 1Pin_25mil_VIA;
 EndCmp
 
 BeginCmp
@@ -3428,6 +3519,27 @@ TimeStamp = /4A0869EC/4BCED8F9;
 Reference = V328;
 ValeurCmp = VIA;
 IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BD0F947;
+Reference = V329;
+ValeurCmp = VIA;
+IdModule  = 1Pin_25mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BD1034A;
+Reference = V330;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BD103E4;
+Reference = V331;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
 EndCmp
 
 BeginCmp

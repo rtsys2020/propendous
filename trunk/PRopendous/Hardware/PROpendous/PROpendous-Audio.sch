@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/04/2010 19:59:31
+EESchema Schematic File Version 2  date 24/04/2010 02:27:16
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 8
 Title "PROpendous"
-Date "19 apr 2010"
+Date "24 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,135 +44,158 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
-Text Notes 8500 2900 0    40   ~ 0
-Video signal requires a 75ohm impedance load which\nhas been calculated to require 12mil traces at 7mil\nspacing using a coplanar waveguide with GND underneath.
-Text Label 5450 3450 0    30   ~ 0
-MIC_OUT
-Connection ~ 6800 3250
 Wire Wire Line
-	5950 3250 7150 3250
+	3450 3300 3450 3000
 Wire Wire Line
-	6800 3450 7000 3450
-Wire Wire Line
-	5550 3550 5450 3550
-Connection ~ 5950 3450
-Wire Wire Line
-	6150 3450 5450 3450
-Connection ~ 9700 3600
-Wire Wire Line
-	10000 3650 10000 3600
-Wire Wire Line
-	10000 3600 9300 3600
-Connection ~ 9500 3400
-Wire Wire Line
-	3700 4350 3800 4350
-Connection ~ 3300 4650
-Wire Wire Line
-	3300 4700 3300 4650
-Wire Wire Line
-	3000 3800 3000 3750
-Wire Wire Line
-	3000 3750 2850 3750
-Wire Wire Line
-	2850 3750 2850 3850
-Wire Wire Line
-	2850 3850 2750 3850
-Connection ~ 3200 4350
-Wire Wire Line
-	3200 4450 3200 4350
-Wire Wire Line
-	3100 4000 3500 4000
-Wire Wire Line
-	2750 4000 2900 4000
-Wire Wire Line
-	2250 3850 2550 3850
-Wire Wire Line
-	2250 4350 2550 4350
-Wire Wire Line
-	3250 2900 3250 2850
-Wire Wire Line
-	3250 2850 3150 2850
-Wire Wire Line
-	3150 2850 3150 3300
-Wire Wire Line
-	3150 3300 2800 3300
-Connection ~ 2800 3200
-Wire Wire Line
-	2800 3300 2800 3200
-Wire Wire Line
-	2750 2850 2850 2850
-Connection ~ 3350 3100
-Wire Wire Line
-	3350 3150 3350 3100
-Wire Wire Line
-	2250 3200 2550 3200
-Wire Wire Line
-	2250 2700 2550 2700
-Wire Wire Line
-	2250 2850 2550 2850
-Wire Wire Line
-	3450 3100 3250 3100
-Wire Wire Line
-	2750 2700 2800 2700
-Wire Wire Line
-	2800 2700 2800 2600
-Wire Wire Line
-	2800 2600 2950 2600
-Wire Wire Line
-	2950 2600 2950 2650
-Wire Wire Line
-	2850 3200 2750 3200
-Wire Wire Line
-	2800 2850 2800 2950
+	3450 3000 2800 3000
 Connection ~ 2800 2850
 Wire Wire Line
-	2800 2950 3100 2950
+	2800 3000 2800 2850
+Wire Notes Line
+	11200 1150 11200 500 
+Wire Notes Line
+	11200 1150 10600 1150
+Wire Notes Line
+	10600 1150 10600 500 
+Wire Notes Line
+	10600 500  11200 500 
+Connection ~ 9500 3400
 Wire Wire Line
-	3100 2950 3100 2800
+	9750 3650 9750 3600
+Connection ~ 7000 3250
+Connection ~ 6900 3450
 Wire Wire Line
-	3100 2800 3450 2800
+	6900 3600 6900 3450
 Wire Wire Line
-	3450 2800 3450 2900
+	5950 3600 5950 3550
 Wire Wire Line
-	2550 4000 2250 4000
-Wire Wire Line
-	2750 4350 2900 4350
-Wire Wire Line
-	3100 4350 3500 4350
-Wire Wire Line
-	3400 4000 3400 4325
-Connection ~ 3400 4000
-Wire Wire Line
-	3400 4325 3425 4325
-Wire Wire Line
-	3425 4325 3425 4375
-Wire Wire Line
-	3425 4375 3400 4375
-Wire Wire Line
-	3400 4375 3400 4450
-Wire Wire Line
-	3400 4650 3200 4650
-Wire Wire Line
-	3700 4000 3800 4000
-Wire Wire Line
-	9300 3400 9900 3400
-Connection ~ 9700 3400
-Connection ~ 9500 3600
+	5950 3550 5750 3550
 Wire Wire Line
 	6450 3450 6350 3450
 Wire Wire Line
-	5750 3550 5950 3550
+	3700 4200 3800 4200
 Wire Wire Line
-	5950 3550 5950 3600
+	3200 4850 3400 4850
 Wire Wire Line
-	6900 3450 6900 3600
-Connection ~ 6900 3450
-Connection ~ 7000 3250
+	3400 4650 3400 4575
+Wire Wire Line
+	3400 4575 3425 4575
+Wire Wire Line
+	3425 4575 3425 4525
+Wire Wire Line
+	3425 4525 3400 4525
+Connection ~ 3400 4200
+Wire Wire Line
+	3400 4525 3400 4200
+Wire Wire Line
+	3500 4550 3100 4550
+Wire Wire Line
+	2750 4550 2900 4550
+Wire Wire Line
+	2550 4200 2250 4200
+Wire Wire Line
+	2750 3200 2850 3200
+Wire Wire Line
+	2950 2650 2950 2600
+Wire Wire Line
+	2950 2600 2800 2600
+Wire Wire Line
+	2800 2600 2800 2700
+Wire Wire Line
+	2800 2700 2750 2700
+Wire Wire Line
+	3250 3500 3450 3500
+Wire Wire Line
+	2250 2850 2550 2850
+Wire Wire Line
+	2250 2700 2550 2700
+Wire Wire Line
+	2250 3200 2550 3200
+Wire Wire Line
+	3350 3550 3350 3500
+Connection ~ 3350 3500
+Wire Wire Line
+	2850 2850 2750 2850
+Wire Wire Line
+	2250 4550 2550 4550
+Wire Wire Line
+	2250 4050 2550 4050
+Wire Wire Line
+	2750 4200 2900 4200
+Wire Wire Line
+	3500 4200 3100 4200
+Wire Wire Line
+	3200 4650 3200 4550
+Connection ~ 3200 4550
+Wire Wire Line
+	2750 4050 2850 4050
+Wire Wire Line
+	2850 4050 2850 3950
+Wire Wire Line
+	2850 3950 3000 3950
+Wire Wire Line
+	3000 3950 3000 4000
+Wire Wire Line
+	3300 4900 3300 4850
+Connection ~ 3300 4850
+Wire Wire Line
+	3700 4550 3800 4550
+Wire Wire Line
+	9300 3600 9500 3600
+Wire Wire Line
+	5450 3450 6150 3450
+Connection ~ 5950 3450
+Wire Wire Line
+	5550 3550 5450 3550
+Wire Wire Line
+	7000 3450 6800 3450
+Wire Wire Line
+	7150 3250 5950 3250
+Connection ~ 6800 3250
+Wire Wire Line
+	9500 3600 9500 3650
+Connection ~ 9500 3600
+Wire Wire Line
+	9300 3400 9900 3400
+Connection ~ 9750 3400
+Wire Wire Line
+	2800 3200 2800 3300
+Wire Wire Line
+	2800 3300 3250 3300
+Connection ~ 2800 3200
+Text Notes 10650 600  0    40   ~ 0
+ERC Corrections
 $Comp
-L GND1 #PWR073
+L PWR_FLAG #FLG079
+U 1 1 4BD12A58
+P 10900 900
+F 0 "#FLG079" H 10900 1170 30  0001 C CNN
+F 1 "PWR_FLAG" H 10900 1130 30  0000 C CNN
+	1    10900 900 
+	1    0    0    -1  
+$EndComp
+Text Label 5450 3550 0    10   ~ 0
+MIC_GND
+Text Label 10900 900  3    30   ~ 0
+MIC_GND
+$Comp
+L GNDPWR #PWR080
+U 1 1 4BCE7D97
+P 9750 3650
+F 0 "#PWR080" H 9750 3700 40  0001 C CNN
+F 1 "GNDPWR" H 9750 3590 25  0000 C CNN
+	1    9750 3650
+	1    0    0    -1  
+$EndComp
+Text Notes 8500 2900 0    40   ~ 0
+Video signal requires a 75ohm impedance load which has been\ncalculated to require 10mil traces at 7mil spacing using a\ncoplanar waveguide on 1/16" FR4 (Dk=4.4, Df=0.02).
+Text Label 5450 3450 0    30   ~ 0
+MIC_OUT
+$Comp
+L GND1 #PWR081
 U 1 1 4BCCE387
 P 6900 3600
-F 0 "#PWR073" H 6900 3600 30  0001 C CNN
+F 0 "#PWR081" H 6900 3600 30  0001 C CNN
 F 1 "GND1" H 6900 3530 30  0000 C CNN
 	1    6900 3600
 	1    0    0    -1  
@@ -195,8 +218,6 @@ F 1 "1uF" V 7050 3420 25  0000 C CNN
 	1    7000 3350
 	0    1    1    0   
 $EndComp
-Text Notes 6155 3560 0    30   ~ 0
-Polyfilm
 $Comp
 L C_MINI C47
 U 1 1 4BCCE312
@@ -233,15 +254,13 @@ F 1 "ELECTRET_MIC" H 5150 3725 40  0000 C CNN
 	1    5150 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 9755 3570 0    30   ~ 0
-DNP
 $Comp
 L ESD CR1
 U 1 1 4BCCDAA4
-P 9700 3500
-F 0 "CR1" V 9700 3600 30  0000 C CNN
-F 1 "ESD" H 9700 3450 20  0001 C CNN
-	1    9700 3500
+P 9750 3500
+F 0 "CR1" V 9750 3600 30  0000 C CNN
+F 1 "ESD" H 9750 3450 20  0001 C CNN
+	1    9750 3500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -256,154 +275,154 @@ $EndComp
 Text Notes 8850 3850 0    40   ~ 0
 Video GND must route to star GND at VSSA2
 $Comp
-L GND1 #PWR074
+L GND1 #PWR082
 U 1 1 4BCCDA66
-P 10000 3650
-F 0 "#PWR074" H 10000 3650 30  0001 C CNN
-F 1 "GND1" H 10000 3580 30  0000 C CNN
-	1    10000 3650
+P 9500 3650
+F 0 "#PWR082" H 9500 3650 30  0001 C CNN
+F 1 "GND1" H 9500 3580 30  0000 C CNN
+	1    9500 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR075
+L GND #PWR083
 U 1 1 4BCCD9E6
-P 3000 3800
-F 0 "#PWR075" H 3000 3800 30  0001 C CNN
-F 1 "GND" H 3000 3730 30  0001 C CNN
-	1    3000 3800
+P 3000 4000
+F 0 "#PWR083" H 3000 4000 30  0001 C CNN
+F 1 "GND" H 3000 3930 30  0001 C CNN
+	1    3000 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR076
+L GND #PWR084
 U 1 1 4BCCD9E1
-P 3300 4700
-F 0 "#PWR076" H 3300 4700 30  0001 C CNN
-F 1 "GND" H 3300 4630 30  0001 C CNN
-	1    3300 4700
+P 3300 4900
+F 0 "#PWR084" H 3300 4900 30  0001 C CNN
+F 1 "GND" H 3300 4830 30  0001 C CNN
+	1    3300 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_MINI R43
 U 1 1 4BCCD98E
-P 3400 4550
-F 0 "R43" V 3375 4600 25  0000 C CNN
-F 1 "4.7k" V 3425 4600 20  0000 C CNN
-	1    3400 4550
+P 3400 4750
+F 0 "R43" V 3375 4800 25  0000 C CNN
+F 1 "4.7k" V 3425 4800 20  0000 C CNN
+	1    3400 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L R_MINI R42
 U 1 1 4BCCD971
-P 3200 4550
-F 0 "R42" V 3175 4600 25  0000 C CNN
-F 1 "4.7k" V 3225 4600 20  0000 C CNN
-	1    3200 4550
+P 3200 4750
+F 0 "R42" V 3175 4800 25  0000 C CNN
+F 1 "4.7k" V 3225 4800 20  0000 C CNN
+	1    3200 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L C_MINI C44
 U 1 1 4BCCD95E
-P 3600 4000
-F 0 "C44" H 3525 4075 30  0000 C CNN
-F 1 "1uF" H 3675 4075 25  0000 C CNN
-	1    3600 4000
+P 3600 4200
+F 0 "C44" H 3525 4275 30  0000 C CNN
+F 1 "1uF" H 3675 4275 25  0000 C CNN
+	1    3600 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_MINI C45
 U 1 1 4BCCD944
-P 3600 4350
-F 0 "C45" H 3525 4425 30  0000 C CNN
-F 1 "1uF" H 3675 4425 25  0000 C CNN
-	1    3600 4350
+P 3600 4550
+F 0 "C45" H 3525 4625 30  0000 C CNN
+F 1 "1uF" H 3675 4625 25  0000 C CNN
+	1    3600 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_MINI R40
 U 1 1 4BCCD935
-P 3000 4000
-F 0 "R40" H 2930 4050 25  0000 C CNN
-F 1 "10k" H 3070 4050 20  0000 C CNN
-	1    3000 4000
+P 3000 4200
+F 0 "R40" H 2930 4250 25  0000 C CNN
+F 1 "10k" H 3070 4250 20  0000 C CNN
+	1    3000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_MINI R41
 U 1 1 4BCCD925
-P 3000 4350
-F 0 "R41" H 2930 4400 25  0000 C CNN
-F 1 "10k" H 3070 4400 20  0000 C CNN
-	1    3000 4350
+P 3000 4550
+F 0 "R41" H 2930 4600 25  0000 C CNN
+F 1 "10k" H 3070 4600 20  0000 C CNN
+	1    3000 4550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2250 4250
-Text Label 2250 3850 0    30   ~ 0
+NoConn ~ 2250 4450
+Text Label 2250 4050 0    30   ~ 0
 LINEIN_GND
-Text Label 2250 4350 0    30   ~ 0
+Text Label 2250 4550 0    30   ~ 0
 LINEIN_L
-Text Label 2250 4000 0    30   ~ 0
+Text Label 2250 4200 0    30   ~ 0
 LINEIN_R
 $Comp
 L L_MINI L10
 U 1 1 4BCCD8F1
-P 2650 3850
-F 0 "L10" H 2575 3800 30  0000 C CNN
-F 1 "FB" H 2700 3800 22  0000 C CNN
-	1    2650 3850
+P 2650 4050
+F 0 "L10" H 2575 4000 30  0000 C CNN
+F 1 "FB" H 2700 4000 22  0000 C CNN
+	1    2650 4050
 	-1   0    0    1   
 $EndComp
 $Comp
 L L_MINI L11
 U 1 1 4BCCD8F0
-P 2650 4000
-F 0 "L11" H 2575 3950 30  0000 C CNN
-F 1 "FB" H 2700 3950 22  0000 C CNN
-	1    2650 4000
+P 2650 4200
+F 0 "L11" H 2575 4150 30  0000 C CNN
+F 1 "FB" H 2700 4150 22  0000 C CNN
+	1    2650 4200
 	-1   0    0    1   
 $EndComp
 $Comp
 L L_MINI L12
 U 1 1 4BCCD8EF
-P 2650 4350
-F 0 "L12" H 2575 4300 30  0000 C CNN
-F 1 "FB" H 2700 4300 22  0000 C CNN
-	1    2650 4350
+P 2650 4550
+F 0 "L12" H 2575 4500 30  0000 C CNN
+F 1 "FB" H 2700 4500 22  0000 C CNN
+	1    2650 4550
 	-1   0    0    1   
 $EndComp
 $Comp
-L HP_VGND #PWR077
+L HP_VGND #PWR085
 U 1 1 4BCCD842
 P 2950 2650
-F 0 "#PWR077" H 2950 2650 30  0001 C CNN
+F 0 "#PWR085" H 2950 2650 30  0001 C CNN
 F 1 "HP_VGND" H 2950 2580 30  0000 C CNN
 	1    2950 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L HP_VGND #PWR078
+L HP_VGND #PWR086
 U 1 1 4BCCD77B
-P 3350 3150
-F 0 "#PWR078" H 3350 3150 30  0001 C CNN
-F 1 "HP_VGND" H 3350 3080 30  0000 C CNN
-	1    3350 3150
+P 3350 3550
+F 0 "#PWR086" H 3350 3550 30  0001 C CNN
+F 1 "HP_VGND" H 3350 3480 30  0000 C CNN
+	1    3350 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_MINI C43
 U 1 1 4BCCD758
-P 3450 3000
-F 0 "C43" V 3400 3050 30  0000 C CNN
-F 1 "2.2uF" V 3500 3070 25  0000 C CNN
-	1    3450 3000
+P 3450 3400
+F 0 "C43" V 3400 3450 30  0000 C CNN
+F 1 "2.2uF" V 3500 3470 25  0000 C CNN
+	1    3450 3400
 	0    1    1    0   
 $EndComp
 $Comp
 L C_MINI C42
 U 1 1 4BCCD750
-P 3250 3000
-F 0 "C42" V 3200 3050 30  0000 C CNN
-F 1 "2.2uF" V 3300 3070 25  0000 C CNN
-	1    3250 3000
+P 3250 3400
+F 0 "C42" V 3200 3450 30  0000 C CNN
+F 1 "2.2uF" V 3300 3470 25  0000 C CNN
+	1    3250 3400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -441,10 +460,10 @@ HP_L
 Text Label 2250 2700 0    30   ~ 0
 HP_GND
 $Comp
-L GND1 #PWR079
+L GND1 #PWR087
 U 1 1 4BCCBBD7
 P 5950 3600
-F 0 "#PWR079" H 5950 3600 30  0001 C CNN
+F 0 "#PWR087" H 5950 3600 30  0001 C CNN
 F 1 "GND1" H 5950 3530 30  0000 C CNN
 	1    5950 3600
 	1    0    0    -1  
@@ -453,9 +472,9 @@ Text Notes 5550 3850 0    40   ~ 0
 MICrophone GND must route to star GND at VSSA2
 Text GLabel 2850 2850 2    40   BiDi ~ 0
 HPR
-Text GLabel 3800 4350 2    40   BiDi ~ 0
+Text GLabel 3800 4550 2    40   BiDi ~ 0
 LINE1_INL
-Text GLabel 3800 4000 2    40   BiDi ~ 0
+Text GLabel 3800 4200 2    40   BiDi ~ 0
 LINE1_INR
 Text GLabel 9900 3400 2    40   BiDi ~ 0
 VDAC1
@@ -473,10 +492,10 @@ $EndComp
 $Comp
 L STEREO-AUDIO-JACK_SJ1-3524-SMT U9
 U 1 1 4BCCB800
-P 1950 4100
-F 0 "U9" H 1700 3750 40  0000 C CNN
-F 1 "Line" H 1875 4450 50  0000 C CNN
-	1    1950 4100
+P 1950 4300
+F 0 "U9" H 1700 3950 40  0000 C CNN
+F 1 "Line" H 1875 4650 50  0000 C CNN
+	1    1950 4300
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 21/04/2010 18:06:05
+EESchema Schematic File Version 2  date 24/04/2010 02:27:16
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 8
 Title "PROpendous"
-Date "21 apr 2010"
+Date "24 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,6 +44,23 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 3200 815  0    22   ~ 0
+1A Maximum
+Text Notes 3240 725  0    25   ~ 0
+Bourns
+$Comp
+L IMX233 IC1
+U 1 1 4BD121E5
+P 3950 4100
+F 0 "IC1" H 2450 1050 60  0000 C CNN
+F 1 "i.MX233" H 2525 7150 60  0000 C CNN
+	1    3950 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 3150 775  0    27   ~ 0
+SRR4028-150Y
+Text Notes 6000 7675 0    40   ~ 0
+L14 is a PCB trace
 Connection ~ 7250 5750
 Connection ~ 7450 5750
 Connection ~ 7450 6050
@@ -206,7 +223,7 @@ L L_MINI L14
 U 1 1 4BCCECEA
 P 6300 7450
 F 0 "L14" H 6225 7400 30  0000 C CNN
-F 1 "FB" H 6350 7400 22  0000 C CNN
+F 1 "Trace" H 6350 7400 22  0000 C CNN
 	1    6300 7450
 	-1   0    0    1   
 $EndComp
@@ -226,15 +243,6 @@ P 6150 7500
 F 0 "#PWR02" H 6150 7500 30  0001 C CNN
 F 1 "GND1" H 6150 7430 30  0000 C CNN
 	1    6150 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L IMX233 IC1
-U 1 1 4BCC6F47
-P 3950 4100
-F 0 "IC1" H 2450 1050 60  0000 C CNN
-F 1 "i.MX233" H 2525 7150 60  0000 C CNN
-	1    3950 4100
 	1    0    0    -1  
 $EndComp
 Text Label 9900 2100 2    40   ~ 0
@@ -295,10 +303,10 @@ F 1 "GNDPWR" H 7350 5240 25  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 ENCLOSURE_HAMMOND_1553B_1
+L CONN_1 ENCLOSURE_HAMMOND_1553B_BAT_1
 U 1 1 4BBD1A8C
 P 7350 5100
-F 0 "ENCLOSURE_HAMMOND_1553B_1" V 7430 5100 40  0000 L CNN
+F 0 "ENCLOSURE_HAMMOND_1553B_BAT_1" V 7430 5100 40  0000 L CNN
 F 1 "CONN_1" H 7350 5155 30  0001 C CNN
 	1    7350 5100
 	0    -1   -1   0   
@@ -552,11 +560,11 @@ F 1 "VDDIO_3V3" H 3550 800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD4V2 #PWR021
+L VDD4P2 #PWR021
 U 1 1 4BBCC950
 P 3050 700
 F 0 "#PWR021" H 3050 800 30  0001 C CNN
-F 1 "VDD4V2" H 3050 800 30  0000 C CNN
+F 1 "VDD4P2" H 3050 800 30  0000 C CNN
 	1    3050 700 
 	1    0    0    -1  
 $EndComp
