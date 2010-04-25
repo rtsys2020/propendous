@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 24/04/2010 02:27:16
+EESchema Schematic File Version 2  date 25/04/2010 06:05:23
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 8
 Title "PROpendous"
-Date "24 apr 2010"
+Date "25 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -1252,7 +1252,7 @@ SPI SSP2 Flash
 Text Notes 950  5750 0    50   ~ 0
 SPI SSP1 Flash
 Text Notes 950  5650 0    50   ~ 0
-I2C Master
+I2C Master (AUART)
 Text Notes 950  5550 0    50   ~ 0
 USB
 Text Notes 1925 5350 0    55   ~ 11
@@ -1581,7 +1581,7 @@ F 1 "VDD_BATT" H 5350 7450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 600  650  0    60   ~ 0
-Notes:\n - Capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - Tantalum capacitors should have ESR < 300mOhm\n - VDDIO, VDDD, VDDA should have 33uF of decoupling and LPF >1MHz per IMX23RM 32.2.1.1\n - Power Supply Designed to Freescale AppNote AN3883 recommendations\n - The Connectors_JTAG sheet contains power selection circuitry as it is relevant to the USB connector
+Notes:\n - Capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - Tantalum capacitors should have ESR < 300mOhm\n - VDDIO, VDDD, VDDA should have 33uF of decoupling and LPF >1MHz per IMX23RM 32.2.1.1\n - Power Supply Designed to Freescale AppNote AN3883 recommendations
 Text GLabel 2900 5600 0    40   BiDi ~ 0
 LCD_D00
 Text GLabel 2900 5700 0    40   BiDi ~ 0

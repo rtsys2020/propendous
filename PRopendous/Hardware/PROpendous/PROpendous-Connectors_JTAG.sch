@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 24/04/2010 02:27:16
+EESchema Schematic File Version 2  date 25/04/2010 06:05:23
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 8
 Title "PROpendous"
-Date "24 apr 2010"
+Date "25 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,6 +44,12 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 9550 3325 0    30   ~ 0
+GPMI_RDn is on both headers
+Text Notes 7300 2675 0    30   ~ 0
+GPMI_RDn is on both headers
+Text GLabel 8350 2650 0    40   BiDi ~ 0
+GPMI_RDn
 Text Notes 7100 4700 0    40   ~ 0
 JTAG shares pins with SSP1 so it cannot be used\nat the same time as the external SD card
 $Comp
@@ -284,7 +290,6 @@ F 1 "VDDIO_3V3" H 9300 1100 30  0000 C CNN
 	1    9300 1000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9150 2650
 $Comp
 L CONN_17X2 P2
 U 1 1 4BD2276B
@@ -784,13 +789,13 @@ Text GLabel 9150 1650 2    40   BiDi ~ 0
 LCD_D07
 Text GLabel 8350 1750 0    40   BiDi ~ 0
 LCD_CS
-Text GLabel 9150 2150 2    40   BiDi ~ 0
+Text GLabel 8350 2150 0    40   BiDi ~ 0
 GPMI_ALE-LCD_D17
 Text GLabel 7300 5300 0    40   BiDi ~ 0
 SSP1_SCK-JTAG_TRST
 Text GLabel 9150 1750 2    40   BiDi ~ 0
 LCD_ENABLE-I2C_SCL
-Text GLabel 8350 2250 0    40   BiDi ~ 0
+Text GLabel 9150 2250 2    40   BiDi ~ 0
 GPMI_RDY1-SSP2_CMD
 Text GLabel 9150 3400 2    40   BiDi ~ 0
 GPMI_RDn
@@ -798,7 +803,7 @@ Text GLabel 8350 3400 0    40   BiDi ~ 0
 GPMI_CE1n
 Text GLabel 8350 1850 0    40   BiDi ~ 0
 LCD_RESET-GPMI_CE3n
-Text GLabel 9150 2250 2    40   BiDi ~ 0
+Text GLabel 8350 2250 0    40   BiDi ~ 0
 GPMI_D00-LCD_D8-SSP2_DATA0
 Text GLabel 8350 3500 0    40   BiDi ~ 0
 GPMI_RDY0-SSP2_DETECT
@@ -806,41 +811,41 @@ Text GLabel 9150 3300 2    40   BiDi ~ 0
 GPMI_CE0n
 Text GLabel 9150 1850 2    40   BiDi ~ 0
 LCD_WR
-Text GLabel 8350 2350 0    40   BiDi ~ 0
+Text GLabel 9150 2350 2    40   BiDi ~ 0
 GPMI_D01-LCD_D9-SSP2_DATA1
 Text GLabel 9150 3500 2    40   BiDi ~ 0
 GPMI_WRn-SSP2_SCK
 Text GLabel 7300 5800 0    40   BiDi ~ 0
 SSP1_CMD-JTAG_TDO
-Text GLabel 8350 1950 0    40   BiDi ~ 0
+Text GLabel 9150 1950 2    40   BiDi ~ 0
 LCD_RS
-Text GLabel 9150 2350 2    40   BiDi ~ 0
+Text GLabel 8350 2350 0    40   BiDi ~ 0
 GPMI_D02-LCD_D10-SSP2_DATA2
 Text GLabel 8350 3600 0    40   BiDi ~ 0
 GPMI_WPn
 Text GLabel 7300 5400 0    40   BiDi ~ 0
 SSP1_DATA0-JTAG_TDI
-Text GLabel 9150 1950 2    40   BiDi ~ 0
+Text GLabel 8350 1950 0    40   BiDi ~ 0
 LCD_HSYNC-I2C_SDA
-Text GLabel 8350 2450 0    40   BiDi ~ 0
+Text GLabel 9150 2450 2    40   BiDi ~ 0
 GPMI_D03-LCD_D11-SSP2_DATA3
-Text GLabel 8350 2050 0    40   BiDi ~ 0
+Text GLabel 9150 2050 2    40   BiDi ~ 0
 LCD_VSYNC-LCD_BUSY
-Text GLabel 8350 2550 0    40   BiDi ~ 0
+Text GLabel 9150 2550 2    40   BiDi ~ 0
 GPMI_D05-LCD_D13-SSP2_DATA5
 Text GLabel 7300 5700 0    40   BiDi ~ 0
 SSP1_DATA2-I2C_SDA-JTAG_RTCK
-Text GLabel 9150 2050 2    40   BiDi ~ 0
+Text GLabel 8350 2050 0    40   BiDi ~ 0
 LCD_DOTCK-GPMI_RDY3
-Text GLabel 9150 2450 2    40   BiDi ~ 0
+Text GLabel 8350 2450 0    40   BiDi ~ 0
 GPMI_D04-LCD_D12-SSP2_DATA4
 Text GLabel 7300 5500 0    40   BiDi ~ 0
 SSP1_DATA3-JTAG_TMS
-Text GLabel 8350 2650 0    40   BiDi ~ 0
+Text GLabel 9150 2650 2    40   BiDi ~ 0
 GPMI_D07-LCD_D15-SSP2_DATA7
-Text GLabel 8350 2150 0    40   BiDi ~ 0
+Text GLabel 9150 2150 2    40   BiDi ~ 0
 GPMI_CLE-LCD_D16
-Text GLabel 9150 2550 2    40   BiDi ~ 0
+Text GLabel 8350 2550 0    40   BiDi ~ 0
 GPMI_D06-LCD_D14-SSP2_DATA6
 Text GLabel 8350 1150 0    40   BiDi ~ 0
 PWM0-ROTARYA-DUART_RX
@@ -868,12 +873,10 @@ P 7800 5650
 AR Path="/4A0869EC/49F7B888" Ref="U4"  Part="1" 
 AR Path="/49F49582/49F7B888" Ref="U10"  Part="1" 
 F 0 "U10" H 7600 5100 50  0000 C CNN
-F 1 "JTAG" H 7800 6200 50  0000 C CNN
+F 1 "ARM_JTAG" H 7800 6200 50  0000 C CNN
 	1    7800 5650
 	1    0    0    -1  
 $EndComp
-Text GLabel 10200 3550 2    40   BiDi ~ 0
-TSC_IN1
 Text GLabel 9150 3600 2    40   BiDi ~ 0
 TSC_IN2
 Text GLabel 9150 3700 2    40   BiDi ~ 0
