@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/04/2010 06:05:24
+EESchema Schematic File Version 2  date 25/04/2010 07:03:32
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -44,13 +44,15 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
-Text GLabel 2850 2750 0    40   BiDi ~ 0
-GPMI_D00-LCD_D8-SSP2_DATA0
-Text GLabel 2850 2850 0    40   BiDi ~ 0
-GPMI_D01-LCD_D9-SSP2_DATA1
 Text GLabel 2850 2650 0    40   BiDi ~ 0
+GPMI_RDY1-SSP2_CMD
+Text GLabel 11100 2500 0    40   BiDi ~ 0
+GPMI_D00-LCD_D8-SSP2_DATA0
+Text GLabel 11100 2600 0    40   BiDi ~ 0
 GPMI_D01-LCD_D9-SSP2_DATA1
-Text GLabel 2850 2550 0    40   BiDi ~ 0
+Text GLabel 11100 2400 0    40   BiDi ~ 0
+GPMI_D01-LCD_D9-SSP2_DATA1
+Text GLabel 11100 2300 0    40   BiDi ~ 0
 GPMI_D00-LCD_D8-SSP2_DATA0
 Wire Wire Line
 	7900 5000 8000 5000
@@ -3647,7 +3649,7 @@ Text GLabel 9600 5950 0    40   BiDi ~ 0
 SSP1_SCK-JTAG_TRST
 Text GLabel 9600 2550 0    40   BiDi ~ 0
 LCD_ENABLE-I2C_SCL
-Text GLabel 9600 4550 0    40   BiDi ~ 0
+Text GLabel 2850 2550 0    40   BiDi ~ 0
 GPMI_RDY1-SSP2_CMD
 Text GLabel 9600 4350 0    40   BiDi ~ 0
 GPMI_RDn
