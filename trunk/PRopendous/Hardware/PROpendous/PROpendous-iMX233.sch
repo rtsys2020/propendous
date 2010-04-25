@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 24/04/2010 02:27:16
+EESchema Schematic File Version 2  date 25/04/2010 06:05:23
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 8
 Title "PROpendous"
-Date "24 apr 2010"
+Date "25 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,19 +44,19 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
-Text Notes 3200 815  0    22   ~ 0
-1A Maximum
-Text Notes 3240 725  0    25   ~ 0
-Bourns
 $Comp
 L IMX233 IC1
-U 1 1 4BD121E5
+U 1 1 4BD3DE42
 P 3950 4100
 F 0 "IC1" H 2450 1050 60  0000 C CNN
 F 1 "i.MX233" H 2525 7150 60  0000 C CNN
 	1    3950 4100
 	1    0    0    -1  
 $EndComp
+Text Notes 3200 815  0    22   ~ 0
+1A Maximum
+Text Notes 3240 725  0    25   ~ 0
+Bourns
 Text Notes 3150 775  0    27   ~ 0
 SRR4028-150Y
 Text Notes 6000 7675 0    40   ~ 0
@@ -616,9 +616,9 @@ Text Label 5700 5450 0    40   ~ 0
 EMI_D15
 Text Label 5700 4550 0    40   ~ 0
 EMI_D06
-Text Label 5700 3500 0    40   ~ 0
+Text Label 5700 3700 0    40   ~ 0
 EMI_DQS0
-Text Label 5700 2950 0    40   ~ 0
+Text Label 5700 3150 0    40   ~ 0
 EMI_CKE
 Text Label 5700 2000 0    40   ~ 0
 EMI_A08
@@ -626,7 +626,7 @@ Text Label 5700 5250 0    40   ~ 0
 EMI_D13
 Text Label 5700 4450 0    40   ~ 0
 EMI_D05
-Text Label 5700 3800 0    40   ~ 0
+Text Label 5700 3050 0    40   ~ 0
 EMI_WEn
 Text Label 5700 2100 0    40   ~ 0
 EMI_A09
@@ -634,17 +634,17 @@ Text Label 5700 5150 0    40   ~ 0
 EMI_D12
 Text Label 5700 4350 0    40   ~ 0
 EMI_D04
-Text Label 5700 3150 0    40   ~ 0
+Text Label 5700 3400 0    40   ~ 0
 EMI_CLKn
 Text Label 5700 1200 0    40   ~ 0
 EMI_A00
 Text Label 5700 2200 0    40   ~ 0
 EMI_A10
-Text Label 5700 3400 0    40   ~ 0
+Text Label 5700 3600 0    40   ~ 0
 EMI_DQM1
-Text Label 5700 3300 0    40   ~ 0
+Text Label 5700 3500 0    40   ~ 0
 EMI_DQM0
-Text Label 5700 3050 0    40   ~ 0
+Text Label 5700 3300 0    40   ~ 0
 EMI_CLK
 Text Label 5700 1300 0    40   ~ 0
 EMI_A01
@@ -662,13 +662,13 @@ Text Label 5700 4250 0    40   ~ 0
 EMI_D03
 Text Label 5700 1500 0    40   ~ 0
 EMI_A03
-Text Label 5700 2850 0    40   ~ 0
+Text Label 5700 2950 0    40   ~ 0
 EMI_CE0n
 Text Label 5700 4050 0    40   ~ 0
 EMI_D01
 Text Label 5700 1600 0    40   ~ 0
 EMI_A04
-Text Label 5700 3700 0    40   ~ 0
+Text Label 5700 2850 0    40   ~ 0
 EMI_RASn
 Text Label 5700 4850 0    40   ~ 0
 EMI_D09
@@ -690,7 +690,7 @@ Text Label 5700 5350 0    40   ~ 0
 EMI_D14
 Text Label 5700 4650 0    40   ~ 0
 EMI_D07
-Text Label 5700 3600 0    40   ~ 0
+Text Label 5700 3800 0    40   ~ 0
 EMI_DQS1
 Text Label 2200 5900 2    40   ~ 0
 I2C_SDA-GPMI_CE2n-AUART1_RX
