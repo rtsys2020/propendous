@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/04/2010 06:05:23
+EESchema Schematic File Version 2  date 25/04/2010 07:03:32
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -44,12 +44,15 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
-Text Notes 9550 3325 0    30   ~ 0
-GPMI_RDn is on both headers
-Text Notes 7300 2675 0    30   ~ 0
-GPMI_RDn is on both headers
-Text GLabel 8350 2650 0    40   BiDi ~ 0
-GPMI_RDn
+$Comp
+L CONN_20X2 P2
+U 1 1 4BD415A8
+P 8650 2350
+F 0 "P2" H 8650 3400 60  0000 C CNN
+F 1 "Expansion" V 8650 2350 50  0000 C CNN
+	1    8650 2350
+	1    0    0    -1  
+$EndComp
 Text Notes 7100 4700 0    40   ~ 0
 JTAG shares pins with SSP1 so it cannot be used\nat the same time as the external SD card
 $Comp
@@ -232,15 +235,15 @@ Wire Notes Line
 Wire Notes Line
 	11200 1200 11200 500 
 Wire Wire Line
-	8200 1000 8200 950 
+	8100 1350 8100 1300
 Wire Wire Line
-	8200 950  8350 950 
+	8100 1300 8250 1300
 Wire Wire Line
-	8350 950  8350 1050
+	8250 1300 8250 1400
 Wire Wire Line
-	9150 1050 9300 1050
+	9050 1400 9200 1400
 Wire Wire Line
-	9300 1050 9300 1000
+	9200 1400 9200 1350
 Wire Wire Line
 	7300 5000 8300 5000
 Wire Wire Line
@@ -248,15 +251,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 5000 7800 4950
 Connection ~ 7800 5000
-$Comp
-L CONN_5X2 P3
-U 1 1 4BD23742
-P 8750 3500
-F 0 "P3" H 8750 3800 60  0000 C CNN
-F 1 "ExpansionB" V 8750 3500 50  0000 C CNN
-	1    8750 3500
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7300 6100
 NoConn ~ 7300 6000
 Text GLabel 7300 5900 0    40   BiDi ~ 0
@@ -275,28 +269,19 @@ $EndComp
 $Comp
 L GND #PWR034
 U 1 1 4BD22797
-P 8200 1000
-F 0 "#PWR034" H 8200 1000 30  0001 C CNN
-F 1 "GND" H 8200 930 30  0001 C CNN
-	1    8200 1000
+P 8100 1350
+F 0 "#PWR034" H 8100 1350 30  0001 C CNN
+F 1 "GND" H 8100 1280 30  0001 C CNN
+	1    8100 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L VDDIO_3V3 #PWR035
 U 1 1 4BD22796
-P 9300 1000
-F 0 "#PWR035" H 9300 1100 30  0001 C CNN
-F 1 "VDDIO_3V3" H 9300 1100 30  0000 C CNN
-	1    9300 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_17X2 P2
-U 1 1 4BD2276B
-P 8750 1850
-F 0 "P2" H 8750 2750 60  0000 C CNN
-F 1 "ExpansionA" V 8750 1850 50  0000 C CNN
-	1    8750 1850
+P 9200 1350
+F 0 "#PWR035" H 9200 1450 30  0001 C CNN
+F 1 "VDDIO_3V3" H 9200 1450 30  0000 C CNN
+	1    9200 1350
 	1    0    0    -1  
 $EndComp
 Text Notes 10650 600  0    40   ~ 0
@@ -398,7 +383,7 @@ F 1 "GND_USB-B" H 2250 6305 30  0000 C CNN
 	1    2250 6375
 	1    0    0    -1  
 $EndComp
-Text GLabel 8350 3300 0    40   BiDi ~ 0
+Text GLabel 8250 3000 0    40   BiDi ~ 0
 LRADC0
 $Comp
 L FSUSB20 IC5
@@ -409,8 +394,8 @@ F 1 "FSUSB20" H 3300 6150 40  0000 C CNN
 	1    3100 5850
 	1    0    0    -1  
 $EndComp
-Text Notes 8200 750  0    80   Italic 16
-Expansion Headers
+Text Notes 8100 1100 0    80   Italic 16
+Expansion Header
 Text Notes 4400 5800 0    40   ~ 0
 When PWM2-GPMI_RDY3 enables the\nUSB Host VBUS Generator it will also\nswitch the active USB connector to USB-A
 $Comp
@@ -771,89 +756,89 @@ Text GLabel 3550 6050 2    40   BiDi ~ 0
 USB_DM
 Text GLabel 9750 5700 0    40   BiDi ~ 0
 PSWITCH
-Text GLabel 8350 1350 0    40   BiDi ~ 0
+Text GLabel 8250 1700 0    40   BiDi ~ 0
 LCD_D00
-Text GLabel 9150 1350 2    40   BiDi ~ 0
+Text GLabel 9050 1700 2    40   BiDi ~ 0
 LCD_D01
-Text GLabel 8350 1450 0    40   BiDi ~ 0
+Text GLabel 8250 1800 0    40   BiDi ~ 0
 LCD_D02
-Text GLabel 9150 1450 2    40   BiDi ~ 0
+Text GLabel 9050 1800 2    40   BiDi ~ 0
 LCD_D03
-Text GLabel 8350 1550 0    40   BiDi ~ 0
+Text GLabel 8250 1900 0    40   BiDi ~ 0
 LCD_D04
-Text GLabel 9150 1550 2    40   BiDi ~ 0
+Text GLabel 9050 1900 2    40   BiDi ~ 0
 LCD_D05
-Text GLabel 8350 1650 0    40   BiDi ~ 0
+Text GLabel 8250 2000 0    40   BiDi ~ 0
 LCD_D06
-Text GLabel 9150 1650 2    40   BiDi ~ 0
+Text GLabel 9050 2000 2    40   BiDi ~ 0
 LCD_D07
-Text GLabel 8350 1750 0    40   BiDi ~ 0
+Text GLabel 8250 2100 0    40   BiDi ~ 0
 LCD_CS
-Text GLabel 8350 2150 0    40   BiDi ~ 0
+Text GLabel 8250 2500 0    40   BiDi ~ 0
 GPMI_ALE-LCD_D17
 Text GLabel 7300 5300 0    40   BiDi ~ 0
 SSP1_SCK-JTAG_TRST
-Text GLabel 9150 1750 2    40   BiDi ~ 0
+Text GLabel 9050 2100 2    40   BiDi ~ 0
 LCD_ENABLE-I2C_SCL
-Text GLabel 9150 2250 2    40   BiDi ~ 0
+Text GLabel 9050 2600 2    40   BiDi ~ 0
 GPMI_RDY1-SSP2_CMD
-Text GLabel 9150 3400 2    40   BiDi ~ 0
+Text GLabel 9050 3100 2    40   BiDi ~ 0
 GPMI_RDn
-Text GLabel 8350 3400 0    40   BiDi ~ 0
+Text GLabel 9050 3300 2    40   BiDi ~ 0
 GPMI_CE1n
-Text GLabel 8350 1850 0    40   BiDi ~ 0
+Text GLabel 8250 2200 0    40   BiDi ~ 0
 LCD_RESET-GPMI_CE3n
-Text GLabel 8350 2250 0    40   BiDi ~ 0
+Text GLabel 8250 2600 0    40   BiDi ~ 0
 GPMI_D00-LCD_D8-SSP2_DATA0
-Text GLabel 8350 3500 0    40   BiDi ~ 0
+Text GLabel 8250 3100 0    40   BiDi ~ 0
 GPMI_RDY0-SSP2_DETECT
-Text GLabel 9150 3300 2    40   BiDi ~ 0
+Text GLabel 8250 3300 0    40   BiDi ~ 0
 GPMI_CE0n
-Text GLabel 9150 1850 2    40   BiDi ~ 0
+Text GLabel 9050 2200 2    40   BiDi ~ 0
 LCD_WR
-Text GLabel 9150 2350 2    40   BiDi ~ 0
+Text GLabel 9050 2700 2    40   BiDi ~ 0
 GPMI_D01-LCD_D9-SSP2_DATA1
-Text GLabel 9150 3500 2    40   BiDi ~ 0
+Text GLabel 9050 3200 2    40   BiDi ~ 0
 GPMI_WRn-SSP2_SCK
 Text GLabel 7300 5800 0    40   BiDi ~ 0
 SSP1_CMD-JTAG_TDO
-Text GLabel 9150 1950 2    40   BiDi ~ 0
+Text GLabel 9050 2300 2    40   BiDi ~ 0
 LCD_RS
-Text GLabel 8350 2350 0    40   BiDi ~ 0
+Text GLabel 8250 2700 0    40   BiDi ~ 0
 GPMI_D02-LCD_D10-SSP2_DATA2
-Text GLabel 8350 3600 0    40   BiDi ~ 0
+Text GLabel 8250 3200 0    40   BiDi ~ 0
 GPMI_WPn
 Text GLabel 7300 5400 0    40   BiDi ~ 0
 SSP1_DATA0-JTAG_TDI
-Text GLabel 8350 1950 0    40   BiDi ~ 0
+Text GLabel 8250 2300 0    40   BiDi ~ 0
 LCD_HSYNC-I2C_SDA
-Text GLabel 9150 2450 2    40   BiDi ~ 0
+Text GLabel 9050 2800 2    40   BiDi ~ 0
 GPMI_D03-LCD_D11-SSP2_DATA3
-Text GLabel 9150 2050 2    40   BiDi ~ 0
+Text GLabel 9050 2400 2    40   BiDi ~ 0
 LCD_VSYNC-LCD_BUSY
-Text GLabel 9150 2550 2    40   BiDi ~ 0
+Text GLabel 9050 2900 2    40   BiDi ~ 0
 GPMI_D05-LCD_D13-SSP2_DATA5
 Text GLabel 7300 5700 0    40   BiDi ~ 0
 SSP1_DATA2-I2C_SDA-JTAG_RTCK
-Text GLabel 8350 2050 0    40   BiDi ~ 0
+Text GLabel 8250 2400 0    40   BiDi ~ 0
 LCD_DOTCK-GPMI_RDY3
-Text GLabel 8350 2450 0    40   BiDi ~ 0
+Text GLabel 8250 2800 0    40   BiDi ~ 0
 GPMI_D04-LCD_D12-SSP2_DATA4
 Text GLabel 7300 5500 0    40   BiDi ~ 0
 SSP1_DATA3-JTAG_TMS
-Text GLabel 9150 2650 2    40   BiDi ~ 0
+Text GLabel 9050 3000 2    40   BiDi ~ 0
 GPMI_D07-LCD_D15-SSP2_DATA7
-Text GLabel 9150 2150 2    40   BiDi ~ 0
+Text GLabel 9050 2500 2    40   BiDi ~ 0
 GPMI_CLE-LCD_D16
-Text GLabel 8350 2550 0    40   BiDi ~ 0
+Text GLabel 8250 2900 0    40   BiDi ~ 0
 GPMI_D06-LCD_D14-SSP2_DATA6
-Text GLabel 8350 1150 0    40   BiDi ~ 0
+Text GLabel 8250 1500 0    40   BiDi ~ 0
 PWM0-ROTARYA-DUART_RX
-Text GLabel 9150 1150 2    40   BiDi ~ 0
+Text GLabel 9050 1500 2    40   BiDi ~ 0
 PWM1-ROTARYB-DUART_TX
-Text GLabel 8350 1250 0    40   BiDi ~ 0
+Text GLabel 8250 1600 0    40   BiDi ~ 0
 I2C_SCL-GPMI_RDY2-AUART1_TX
-Text GLabel 9150 1250 2    40   BiDi ~ 0
+Text GLabel 9050 1600 2    40   BiDi ~ 0
 I2C_SDA-GPMI_CE2n-AUART1_RX
 $Comp
 L GND #PWR0304
@@ -877,10 +862,4 @@ F 1 "ARM_JTAG" H 7800 6200 50  0000 C CNN
 	1    7800 5650
 	1    0    0    -1  
 $EndComp
-Text GLabel 9150 3600 2    40   BiDi ~ 0
-TSC_IN2
-Text GLabel 9150 3700 2    40   BiDi ~ 0
-TSC_VBAT2
-Text GLabel 8350 3700 0    40   BiDi ~ 0
-TSC_VREF
 $EndSCHEMATC
