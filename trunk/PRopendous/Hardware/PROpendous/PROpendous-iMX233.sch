@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/04/2010 07:03:32
+EESchema Schematic File Version 2  date 26/04/2010 13:13:01
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 8
 Title "PROpendous"
-Date "25 apr 2010"
+Date "26 apr 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,30 +44,10 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
-$Comp
-L IMX233 IC1
-U 1 1 4BD3DE42
-P 3950 4100
-F 0 "IC1" H 2450 1050 60  0000 C CNN
-F 1 "i.MX233" H 2525 7150 60  0000 C CNN
-	1    3950 4100
-	1    0    0    -1  
-$EndComp
-Text Notes 3200 815  0    22   ~ 0
-1A Maximum
-Text Notes 3240 725  0    25   ~ 0
-Bourns
-Text Notes 3150 775  0    27   ~ 0
-SRR4028-150Y
-Text Notes 6000 7675 0    40   ~ 0
-L14 is a PCB trace
-Connection ~ 7250 5750
-Connection ~ 7450 5750
 Connection ~ 7450 6050
 Connection ~ 7250 6050
-Connection ~ 7450 5850
 Wire Wire Line
-	7450 5750 7450 6050
+	7450 5850 7450 6050
 Connection ~ 7250 5950
 Wire Wire Line
 	6450 7500 6450 7450
@@ -188,23 +168,30 @@ Wire Wire Line
 Wire Wire Line
 	7500 6050 7500 6100
 Wire Wire Line
-	7250 6050 7250 5750
-Connection ~ 7250 5850
+	7250 6050 7250 5850
 Connection ~ 7450 5950
+$Comp
+L IMX233 IC1
+U 1 1 4BD3DE42
+P 3950 4100
+F 0 "IC1" H 2450 1050 60  0000 C CNN
+F 1 "i.MX233" H 2525 7150 60  0000 C CNN
+	1    3950 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 3200 815  0    22   ~ 0
+1A Maximum
+Text Notes 3240 725  0    25   ~ 0
+Bourns
+Text Notes 3150 775  0    27   ~ 0
+SRR4028-150Y
+Text Notes 6000 7675 0    40   ~ 0
+L14 is a PCB trace
 $Comp
 L L_MINI L15
 U 1 1 4BCED957
-P 7350 5750
-F 0 "L15" H 7300 5700 30  0000 C CNN
-F 1 "FB" H 7400 5700 22  0000 C CNN
-	1    7350 5750
-	-1   0    0    1   
-$EndComp
-$Comp
-L L_MINI L16
-U 1 1 4BCED953
 P 7350 5850
-F 0 "L16" H 7300 5800 30  0000 C CNN
+F 0 "L15" H 7300 5800 30  0000 C CNN
 F 1 "FB" H 7400 5800 22  0000 C CNN
 	1    7350 5850
 	-1   0    0    1   
