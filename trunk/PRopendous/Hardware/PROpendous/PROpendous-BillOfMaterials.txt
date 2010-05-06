@@ -1,11 +1,11 @@
 
 
 
- 5, TCA0J336M8R                     , 0.33 - C50 C54 C55 C59 C69 - CAP TANT 33UF 6.3V 20% SMD 1206
 
 
 
-         0.01uF,  5,               ,C76, C53, C68, C70, C73
+
+
 
               0,  3,               ,R51, R5, R50
             0.1,  1,               ,R45
@@ -24,17 +24,6 @@
            100k,  3,               ,R49, R3, R48
 
           
-	0.1uF, 32,               ,C80, C3, C4, C6, C7, C8, C9, C10, C11, C12, C13, C18, C19, C28, C31, C33, C35, C48, C52, C60, C61, C63, C64, C65, C66, C67, C71, C75, C77
-
-           10nF,  4,               ,C25, C22, C23, C24
-           10pF,  2,               ,C2, C1
-           10uF,  9,               ,C14, C15, C16, C17, C20, C21, C30, C56
-
-
-
-
-
-            1uF, 12,               ,C72, C5, C32, C34, C44, C45, C49, C51, C57, C58, C62
 
 
 
@@ -42,27 +31,14 @@
 
 
 
-           68uF,  4,               ,C41, C26, C27, C37
-
-       ARM_JTAG,  1,               ,U10
-        BATTERY,  1,               ,BT1
-   Boot Jumpers,  1,               ,JP1
-         CONN_1, 11,               ,TP10, ENCLOSURE_HAMMOND_1553B_BAT_1, TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9
 
 
-      Expansion,  1,               ,P2
              FB, 13,               ,L18, L2, L4, L7, L8, L9, L10, L11, L12, L13, L15, L17
 
 
-     MBR120VLSF,  2,               ,D2
-        microSD,  1,               ,U2
 
 
 
-
-
-             SD,  1,               ,U3
-    Serial-JTAG,  1,               ,P1
 
 
 
@@ -73,9 +49,32 @@
 
  1, MCIMX233CAG4B                   ,12.35 - IC1 - MPU 32BIT I.MX233 IND 128LQFP
  1, W9425G6EH-5                     , 3.78 - IC2 - IC DDR-400 SDRAM 256MB 66TSSOPII
-
  1, FSUSB20MUX                      , 2.00 - IC5 - IC USB SWITCH DUAL 2X1 10MSOP
  1, AT24C512BN-SH25-T               , 1.74 - IC8 - IC EEPROM 512KBIT 1MHZ 8SOIC
+
+
+ 2, C1608C0G1H100D                  , 0.02 - C1 C2 - CAP CER 10PF 50V C0G 0603
+ 8, GRM188R71H103KA01D              , 0.02 - C22 C23 C24 C25 C53 C68 C70 C76 - CAP CER 0.01uF=10nF=10000PF 50V 10% X7R 0603
+ 1, GRM155R71H103KA88D              , 0.02 - C73 - CAP CER 0.01uF=10000PF 50V X7R 0402
+
+	0.1uF, 32,               ,C80, C3, C4, C6, C7, C8, C9, C10, C11, C12, C13, C18, C19, C28, C31, C33, C35, C48, C52, C60, C61, C63, C64, C65, C66, C67, C71, C75, C77
+
+           10uF,  9,               ,C14, C15, C16, C17, C20, C21, C30, C56
+
+
+
+
+
+            1uF, 12,               ,C72, C5, C32, C34, C44, C45, C49, C51, C57, C58, C62
+
+          68uF,  4,               ,C41, C26, C27, C37
+
+
+
+
+
+ 5, TCA0J336M8R                     , 0.33 - C50 C54 C55 C59 C69 - CAP TANT 33UF 6.3V 20% SMD 1206
+
 
  1, 1206L035YR                      , 0.51 - F1 - THERMISTOR PTC 6V .35A RESETTABLE
  1, SRR4028-150Y                    , 0.67 - L1 - INDUCTOR POWER 15UH 1.03A 4028
@@ -88,8 +87,19 @@
 
  1, UX60-MB-5ST,                    , 1.18 - U5 - CONN RECEPT MINI USB2.0 5POS
 
+ 1, 961104-6404-AR                  , 0.17 - P1 - CONN HEADER VERT SGL 4POS 4x1 GOLD
+ 1, SFH11-PBPC-D20-ST-BK            , 1.56 - P2 - CONN HEADER FMAL 40PS 20x2 .1" DL GOLD
+ 1, 67996-420HLF                    , 0.84 - U10 - CONN HEADER 20POS 10x2 .100 STR TIN
+
+ 1, 2908-05WB-MG                    , 1.23 - U2 - CONN EJECT MICROSD PUSH-PUSH SMD
+ 1, SD-RSMT-2-MQ-WF                 , 1.39 - U3 - CONN CARD SD PUSH-PUSH R/A SMD
 
  1, BKP2125HS101-T                  , 0.05 - L?? - FERRITE BEAD 2.5A 100 OHM 0805
+
+ 1, 151210-8422-RB                  , 1.00 - JP1 - CONN 10POS 5x2 2MM HEADER DUAL GOLD
+ 2, SPN02SYBN-RC                    , 0.26 - * - CONN SHUNT 2MM OPEN TOP 2PS GOLD for JP1
+
+ 1, 53047-0310                      , 0.66 - BT1 - CONN HEADER 3POS 1.25MM VERT TIN
 
 
 
@@ -166,8 +176,12 @@ PROpendous-LCD_Assembly.svg/.jpg shows component placement and values.
 
 
 Notes:	- Component costs listed are for single quantity orders from DigiKey
+	- Enclosure for the design is the 1553BTBUBKBAT or one of its colorful equivalents:
+	  1553BBKBAT, 1553BYLBKBAT, 1553BRDBKBAT, 1553BBKBKBAT, 1553BGYBAT
+          Each of the above is about $10USD
 	- U1, the 2.4" LCD can be substituted with NHD-1.8-128160ZF-CTXL#, a 1.8" LCD
-
+	- P2 can be replaced with PPPC202LFBN-RC, an unpolarized version
+	- the 0402 capacitors are not required but recommended
 
 
 - the top and bottom edge headers - 36-Pin Single Row 0.1" 68000-436HLF
