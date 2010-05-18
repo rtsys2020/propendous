@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/04/2010 18:25:33
+EESchema Schematic File Version 2  date 07/05/2010 11:28:22
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 7 8
 Title "PROpendous"
-Date "27 apr 2010"
+Date "7 may 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,6 +43,14 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 1575 2225 0    30   ~ 0
+ESR <3-Ohm
+Text Notes 4600 2225 0    30   ~ 0
+ESR <3-Ohm
+Text Notes 8000 3650 0    30   ~ 0
+High Quality <300mOhm\nTantalum Capacitor
+Text Notes 7800 4600 0    30   ~ 0
+High Quality <300mOhm\nTantalum Capacitor
 Text Notes 5925 1700 0    20   ~ 0
 Could not route TSC2003\nVBAT1 to BATTERY
 Wire Wire Line
@@ -1598,7 +1605,7 @@ F 1 "VDD_BATT" H 5350 7450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 600  650  0    60   ~ 0
-Notes:\n - Capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - Tantalum capacitors should have ESR < 300mOhm\n - VDDIO, VDDD, VDDA should have 33uF of decoupling and LPF >1MHz per IMX23RM 32.2.1.1\n - Power Supply Designed to Freescale AppNote AN3883 recommendations
+Notes:\n - Capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - Tantalum capacitors should have ESR < 300mOhm but to reduce costs only use them on the noisiest rails\n - VDDIO, VDDD, VDDA should have 33uF of decoupling and LPF >1MHz per IMX23RM 32.2.1.1\n - Power Supply Designed to Freescale AppNote AN3883 recommendations
 Text GLabel 2900 5700 0    40   BiDi ~ 0
 LCD_D00
 Text GLabel 2900 5800 0    40   BiDi ~ 0
@@ -1683,7 +1690,7 @@ L CP_TANTALUM_MINI C37
 U 1 1 4BCC4827
 P 6750 3950
 F 0 "C37" V 6700 4000 30  0000 C CNN
-F 1 "68uF" V 6800 4020 25  0000 C CNN
+F 1 "47uF" V 6800 4020 25  0000 C CNN
 	1    6750 3950
 	0    1    1    0   
 $EndComp

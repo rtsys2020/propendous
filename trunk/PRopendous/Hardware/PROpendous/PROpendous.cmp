@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 27/04/2010 18:03:09
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 07/05/2010 11:10:23
 
 BeginCmp
 TimeStamp = /4BC28B8C/4BD1989E;
@@ -290,14 +290,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4BCC4A78/4BCCD750;
 Reference = C42;
-ValeurCmp = 2.2uF;
+ValeurCmp = 2.2nF;
 IdModule  = SM0805_Opendous;
 EndCmp
 
 BeginCmp
 TimeStamp = /4BCC4A78/4BCCD758;
 Reference = C43;
-ValeurCmp = 2.2uF;
+ValeurCmp = 2.2nF;
 IdModule  = SM0805_Opendous;
 EndCmp
 
@@ -2444,13 +2444,6 @@ IdModule  = 1Pin_15mil_VIA;
 EndCmp
 
 BeginCmp
-TimeStamp = /4A0869EC/4BD75CD1;
-Reference = V169;
-ValeurCmp = VIA;
-IdModule  = 1Pin_20mil_VIA;
-EndCmp
-
-BeginCmp
 TimeStamp = /4A0869EC/4BD75CD0;
 Reference = V170;
 ValeurCmp = VIA;
@@ -3197,6 +3190,13 @@ TimeStamp = /4A0869EC/4BD1034A;
 Reference = V330;
 ValeurCmp = VIA;
 IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BE42D43;
+Reference = V331;
+ValeurCmp = VIA;
+IdModule  = 1Pin_SMT;
 EndCmp
 
 BeginCmp
