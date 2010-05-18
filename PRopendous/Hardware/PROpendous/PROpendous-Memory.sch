@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/04/2010 18:25:33
+EESchema Schematic File Version 2  date 07/05/2010 11:28:22
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 8
 Title "PROpendous"
-Date "27 apr 2010"
+Date "7 may 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,6 +43,10 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 7400 5250 0    30   ~ 0
+C26 ESR = 900mOhm
+Text Notes 7600 5600 0    30   ~ 0
+C27 ESR = 3-Ohm
 Text Notes 850  6850 0    60   ~ 0
  - However, all the traces are < 0.8" long and therefore have an electrical length of <8deg at 200MHz.\n    Also, most signals have only one via. Only UDQS (EMI_DQS1) has three vias. Since there is very little\n    room anyway, do not use termination resistors.\n - Only using one DDR device so should not require Rt and cannot fit it near i.MX233 IC anyway\n - For additional design and layout notes see TN-46-11\n - TN AppNotes are available at www.micron.com
 Connection ~ 5950 4700
@@ -168,7 +171,7 @@ L CP_TANTALUM_MINI C27
 U 1 1 4BC981AE
 P 7650 5400
 F 0 "C27" V 7600 5450 30  0000 C CNN
-F 1 "68uF" V 7700 5450 25  0000 C CNN
+F 1 "47uF" V 7700 5450 25  0000 C CNN
 	1    7650 5400
 	0    1    1    0   
 $EndComp

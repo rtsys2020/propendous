@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/04/2010 18:25:33
+EESchema Schematic File Version 2  date 07/05/2010 11:28:22
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 6 8
 Title "PROpendous"
-Date "27 apr 2010"
+Date "7 may 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -555,7 +554,7 @@ F 1 "Headphones" H 1875 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 650  750  0    60   ~ 0
-Notes:\n - All capacitors are X5R, 15V+, 10% or better unless otherwise noted
+Notes:\n - All capacitors are X5R, 10V+, 10% or better unless otherwise noted
 Text GLabel 6450 3450 2    40   BiDi ~ 0
 MIC
 Text GLabel 7150 3250 2    40   BiDi ~ 0
