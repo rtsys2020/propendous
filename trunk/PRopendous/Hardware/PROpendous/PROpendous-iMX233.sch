@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/05/2010 11:28:22
+EESchema Schematic File Version 2  date 18/05/2010 10:44:52
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
+LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 8
 Title "PROpendous"
-Date "7 may 2010"
+Date "18 may 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -43,6 +44,8 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 7800 1900 0    30   ~ 0
+DNP R52 until the EEPROM is\nloaded with correct firmware
 Text GLabel 9900 2450 2    40   BiDi ~ 0
 EEPROM_WP
 Connection ~ 7700 2000
@@ -207,7 +210,7 @@ L R_MINI R52
 U 1 1 4BD75B1B
 P 7700 1900
 F 0 "R52" V 7675 1950 25  0000 C CNN
-F 1 "15k" V 7725 1950 20  0000 C CNN
+F 1 "10k" V 7725 1950 20  0000 C CNN
 	1    7700 1900
 	0    1    1    0   
 $EndComp

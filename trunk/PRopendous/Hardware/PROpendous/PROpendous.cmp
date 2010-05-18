@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2508)-final date = 07/05/2010 11:10:23
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 18/05/2010 09:37:03
 
 BeginCmp
 TimeStamp = /4BC28B8C/4BD1989E;
@@ -192,7 +192,7 @@ EndCmp
 BeginCmp
 TimeStamp = /49F49538/4BC981AE;
 Reference = C27;
-ValeurCmp = 68uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
@@ -255,7 +255,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4BC28B8C/4BCC4827;
 Reference = C37;
-ValeurCmp = 68uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
@@ -3195,6 +3195,41 @@ EndCmp
 BeginCmp
 TimeStamp = /4A0869EC/4BE42D43;
 Reference = V331;
+ValeurCmp = VIA;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BF2964D;
+Reference = V332;
+ValeurCmp = VIA;
+IdModule  = 1Pin_20mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BF29708;
+Reference = V333;
+ValeurCmp = VIA;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BF29705;
+Reference = V334;
+ValeurCmp = VIA;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BF297F0;
+Reference = V335;
+ValeurCmp = VIA;
+IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4BF297F3;
+Reference = V336;
 ValeurCmp = VIA;
 IdModule  = 1Pin_SMT;
 EndCmp
