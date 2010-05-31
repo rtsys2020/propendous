@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 07/05/2010 11:28:22
+EESchema-LIBRARY Version 2.3  Date: 31/05/2010 00:35:42
 #
 # 24C512
 #
@@ -287,7 +287,7 @@ F0 "IC" 550 -1550 40 H V C CNN
 F1 "DDR_SDRAM_MT46_x16" 0 350 40 H V C CNN
 DRAW
 T 0 0 50 50 0 0 0 66TSOP  Normal 0 C C
-T 0 0 0 1 0 0 0 Drawn~By~Opendous~Inc.~(www.opendous.org)  Normal 0 C C
+T 0 0 0 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
 S 650 1500 -650 -1500 0 1 2 f
 X VDD 1 -350 1650 150 D 40 40 1 1 W
 X DQ0 2 800 -50 150 L 40 40 1 1 B
@@ -488,8 +488,8 @@ DEF iMX233 IC 0 40 Y Y 1 F N
 F0 "IC" -1500 -3050 60 H V C CNN
 F1 "iMX233" -1425 3050 60 H V C CNN
 DRAW
-T 0 0 0 1 0 0 0 Drawn~By~Opendous~Inc.~(www.opendous.org)  Normal 0 C C
 T 0 0 1700 60 0 0 0 MCIMX233_AG4B~128LQFP  Normal 0 C C
+T 0 0 0 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
 S 1600 3000 -1600 -3000 0 0 2 f
 X VDDD1 1 -150 3150 150 D 40 40 1 1 W
 X LCD_D00 2 -1750 2000 150 R 40 40 1 1 B
@@ -660,7 +660,7 @@ DEF MMA745x U 0 40 Y Y 1 F N
 F0 "U" -450 -300 60 H V C CNN
 F1 "MMA745x" -350 300 50 H V C CNN
 DRAW
-T 0 0 0 1 0 0 0 Drawn~By~Opendous~Inc.~(www.opendous.org)  Normal 0 C C
+T 0 0 0 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
 S 550 250 -550 -250 0 1 2 f
 X DVDD 1 -50 450 200 D 40 40 1 1 W
 X GND 2 -50 -450 200 U 40 40 1 1 W
@@ -713,7 +713,7 @@ DEF NHD-1.8-128160ZF-CTXL U 0 40 Y Y 1 F N
 F0 "U" -300 -850 50 H V C CNN
 F1 "NHD-1.8-128160ZF-CTXL" 50 0 50 V V C CNN
 DRAW
-T 0 0 -625 1 0 0 0 Drawn~By~Opendous~Inc.~(www.opendous.org)  Normal 0 C C
+T 0 0 -625 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
 T 0 -250 850 30 0 0 0 TFT-LCD  Normal 0 C C
 S 350 800 -350 -800 0 1 2 f
 X GND 1 -100 -950 150 U 40 40 1 1 W
@@ -750,7 +750,7 @@ DEF NHD-2.4-240320SF-CTXI U 0 40 Y Y 1 F N
 F0 "U" -400 -900 50 H V C CNN
 F1 "NHD-2.4-240320SF-CTXI" 0 0 45 V V C CNN
 DRAW
-T 0 0 -675 1 0 0 0 Drawn~By~Opendous~Inc.~(www.opendous.org)  Normal 0 C C
+T 0 0 -675 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
 T 0 -350 900 30 0 0 0 TFT-LCD  Normal 0 C C
 S 500 850 -500 -850 0 1 2 f
 X GND 1 -100 -1000 150 U 40 40 1 1 W
@@ -846,7 +846,7 @@ F0 "U" -250 -350 40 H V C CNN
 F1 "STEREO-AUDIO-JACK_SJ1-3524-SMT" -75 325 30 H V C CNN
 DRAW
 T 0 0 -325 18 0 0 0 CUI~SJ1-3524-SMT  Normal 0 C C
-T 0 -100 -300 1 0 0 0 Drawn~By~Opendous~Inc.~(www.opendous.org)  Normal 0 C C
+T 0 -100 -300 1 0 0 0 Schematic~Symbol~Drawn~By~Opendous~Inc.~www.opendous.org  Normal 0 C C
 S 150 300 -300 -300 0 0 2 f
 P 4 0 0 2  150 -150  100 -150  100 -200  100 -200 N
 P 4 0 0 2  150 250  -200 250  -200 50  -200 50 N

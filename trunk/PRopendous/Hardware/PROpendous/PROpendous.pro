@@ -1,4 +1,4 @@
-update=18/05/2010 11:29:57
+update=31/05/2010 00:36:26
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -83,20 +83,20 @@ LibName31=power
 [pcbnew]
 version=1
 PadDrlX=0
-PadDimH=300
-PadDimV=300
+PadDimH=500
+PadDimV=23640
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
 TxtPcbH=600
 TxtModV=600
 TxtModH=600
-TxtModW=120
+TxtModW=70
 VEgarde=100
 DrawLar=150
 EdgeLar=150
 TxtLar=120
-MSegLar=150
+MSegLar=70
 LastNetListRead=PROpendous.net
 [pcbnew/libraries]
 LibDir=
