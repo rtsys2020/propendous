@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 18/05/2010 10:44:52
+EESchema Schematic File Version 2  date 31/05/2010 00:35:42
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 5 8
 Title "PROpendous"
-Date "18 may 2010"
+Date "29 may 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,6 +43,8 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 1900 3450 0    50   ~ 0
+SSP1_DETECT-GPMI_CE3N-USB_ID is also used for\nExternal SD Card Detect so be careful of conflicts
 Text GLabel 6300 7550 0    40   BiDi ~ 0
 LCD_RD
 Text Label 6300 7550 0    30   ~ 0

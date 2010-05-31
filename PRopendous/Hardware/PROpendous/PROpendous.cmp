@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 18/05/2010 09:37:03
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 29/05/2010 01:30:35
 
 BeginCmp
 TimeStamp = /4BC28B8C/4BD1989E;
@@ -561,6 +561,13 @@ IdModule  = SM0805_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /49F49582/4C00A63F;
+Reference = C82;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
 TimeStamp = /4BCC4A78/4BCCDAA4;
 Reference = CR1;
 ValeurCmp = ESD;
@@ -634,7 +641,7 @@ BeginCmp
 TimeStamp = /49F49582/4BCCB1DA;
 Reference = IC5;
 ValeurCmp = FSUSB20;
-IdModule  = MSOP10_Opendous;
+IdModule  = MSOP10-0.5;
 EndCmp
 
 BeginCmp
@@ -1151,7 +1158,7 @@ EndCmp
 BeginCmp
 TimeStamp = /49F49153/4BD75B1B;
 Reference = R52;
-ValeurCmp = 15k;
+ValeurCmp = 10k;
 IdModule  = SM0805_Opendous;
 EndCmp
 
