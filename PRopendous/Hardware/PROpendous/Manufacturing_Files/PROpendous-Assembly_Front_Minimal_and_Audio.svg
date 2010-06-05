@@ -24,7 +24,52 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+        <dc:title>PROpendous Assembly Instructions - Front (Minimal with Audio)</dc:title>
+        <dc:date>2010-06-03</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>en-US</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>i.MX233 MCIMX233CAG4B Opendous PROpendous Development Board</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:coverage>Partial Assembly Instructions</dc:coverage>
+        <dc:description>Assembly instructions for front side of PROpendous board with minimal components necessary for basic functionality as well as audio.  The PROpendous board is based on the Freescale i.MX233.  More information available at www.PROpendous.org</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>www.opendous.org</dc:title>
+          </cc:Agent>
+        </dc:contributor>
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <defs
@@ -51,7 +96,7 @@
      id="base"
      showgrid="false"
      inkscape:zoom="0.83667899"
-     inkscape:cx="541.53831"
+     inkscape:cx="374.2101"
      inkscape:cy="462.60946"
      inkscape:window-x="0"
      inkscape:window-y="22"

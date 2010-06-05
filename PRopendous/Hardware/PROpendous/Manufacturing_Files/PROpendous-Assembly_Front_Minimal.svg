@@ -24,7 +24,52 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>PROpendous Assembly Instructions - Front (Minimal)</dc:title>
+        <dc:date>2010-06-03</dc:date>
+        <dc:language>en-US</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>i.MX233 MCIMX233CAG4B Opendous PROpendous Development Board</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:coverage>Partial Assembly Instructions</dc:coverage>
+        <dc:description>Assembly instructions for front side of PROpendous board with minimal components necessary for basic functionality.  The PROpendous board is based on the Freescale i.MX233.  More information available at www.PROpendous.org</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>www.opendous.org</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <defs
@@ -50,9 +95,9 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="1.673358"
-     inkscape:cx="416.56688"
-     inkscape:cy="385.97976"
+     inkscape:zoom="0.836679"
+     inkscape:cx="676.64346"
+     inkscape:cy="339.27743"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:current-layer="svg2" />

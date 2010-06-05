@@ -24,7 +24,52 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>PROpendous Assembly Instructions - Front</dc:title>
+        <dc:date>2010-06-03</dc:date>
+        <dc:language>en-US</dc:language>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>www.opendous.org</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>Assembly instructions for front side of PROpendous board, which is based on the Freescale i.MX233.  More information available at www.PROpendous.org</dc:description>
+        <dc:coverage>Full Assembly Instructions</dc:coverage>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>i.MX233 MCIMX233CAG4B Opendous PROpendous Development Board</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <defs
@@ -51,7 +96,7 @@
      id="base"
      showgrid="false"
      inkscape:zoom="0.83667899"
-     inkscape:cx="395.05959"
+     inkscape:cx="705.81199"
      inkscape:cy="392.46712"
      inkscape:window-x="0"
      inkscape:window-y="22"
@@ -40491,7 +40536,7 @@
          height="4606.9468"
          x="23409.281"
          y="942.7262" /></flowRegion><flowPara
-       id="flowPara13393"></flowPara></flowRoot>  <rect
+       id="flowPara13393" /></flowRoot>  <rect
      style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:177.27272034;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect13395"
      width="3296.0269"

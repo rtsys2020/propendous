@@ -24,7 +24,52 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>PROpendous Assembly Instructions - Back</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+        <dc:description>Assembly instructions for back side of PROpendous board which is based on the Freescale i.MX233.  More information available at www.PROpendous.org</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>i.MX233 MCIMX233CAG4B Opendous PROpendous Development Board</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:date>2010-06-03</dc:date>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Opendous Inc.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:language>en-US</dc:language>
+        <dc:coverage>Full Assembly Instructions</dc:coverage>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>www.opendous.org</dc:title>
+          </cc:Agent>
+        </dc:contributor>
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <defs
@@ -50,11 +95,11 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="4.300095"
-     inkscape:cx="138.19499"
-     inkscape:cy="101.47966"
-     inkscape:window-x="0"
-     inkscape:window-y="22"
+     inkscape:zoom="0.76015658"
+     inkscape:cx="481.39396"
+     inkscape:cy="186.01406"
+     inkscape:window-x="1"
+     inkscape:window-y="1"
      inkscape:current-layer="svg2" />
   <title
      id="title4">SVG Picture created as PROpendous-SilkS_Back.svg </title>
@@ -17264,35 +17309,6 @@
        id="tspan7366"
        x="68749.578"
        y="9570.9365">1.2kΩ</tspan></text>
-  <rect
-     style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66667175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="rect7368"
-     width="4059.7388"
-     height="2063.6223"
-     x="31191.539"
-     y="20868.547"
-     ry="22.589037" />
-  <text
-     xml:space="preserve"
-     style="font-size:1222.22216797px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     x="31430.93"
-     y="22337.805"
-     id="text7370"><tspan
-       sodipodi:role="line"
-       id="tspan7372"
-       x="31430.93"
-       y="22337.805">10kΩ</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:666.66668701px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     x="-22642.871"
-     y="35041.367"
-     id="text7374"
-     transform="matrix(0,-1,1,0,0,0)"><tspan
-       sodipodi:role="line"
-       id="tspan7376"
-       x="-22642.871"
-       y="35041.367">0805</tspan></text>
   <rect
      style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66667175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect7378"
