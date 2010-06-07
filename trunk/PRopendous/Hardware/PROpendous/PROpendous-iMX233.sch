@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 31/05/2010 00:35:42
+EESchema Schematic File Version 2  date 07/06/2010 07:15:05
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
+LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 8
 Title "PROpendous"
-Date "29 may 2010"
+Date "7 jun 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -43,159 +44,161 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 6800 2500 0    40   ~ 0
+I2C EEPROM Address = 0b1010000R = 0xA0 = 160
+Connection ~ 6850 2000
+Wire Wire Line
+	6850 2250 6850 1900
+Wire Wire Line
+	6850 1900 6900 1900
+Connection ~ 7600 1650
+Wire Wire Line
+	7250 1650 7700 1650
+Wire Wire Line
+	7700 1650 7700 1800
+Connection ~ 6850 2100
+Wire Wire Line
+	6850 2000 6900 2000
+Wire Wire Line
+	6850 2200 6900 2200
+Wire Wire Line
+	7600 1650 7600 1900
+Connection ~ 7450 5950
+Wire Wire Line
+	7250 5850 7250 6050
+Wire Wire Line
+	7500 6100 7500 6050
+Wire Wire Line
+	7500 6050 7450 6050
+Connection ~ 4750 950 
+Wire Wire Line
+	4750 950  4750 700 
+Connection ~ 4800 950 
+Wire Wire Line
+	5050 950  5150 950 
+Wire Wire Line
+	7350 5300 7350 5250
+Connection ~ 3950 7250
+Wire Wire Line
+	3950 7250 3950 7350
+Connection ~ 4000 7250
+Connection ~ 3800 7250
+Wire Wire Line
+	1100 1250 1100 1200
+Wire Wire Line
+	1100 1550 1100 1450
+Wire Wire Line
+	1050 1500 1350 1500
+Wire Wire Line
+	1550 1500 2200 1500
+Wire Wire Line
+	1100 1850 1100 1750
+Wire Wire Line
+	1200 2100 1200 2050
+Wire Wire Line
+	650  2100 650  2050
+Wire Wire Line
+	5850 6800 5850 6700
+Wire Wire Line
+	5850 6700 5700 6700
+Connection ~ 1300 900 
+Wire Wire Line
+	2200 1300 1300 1300
+Wire Wire Line
+	1300 1300 1300 750 
+Connection ~ 1600 550 
+Wire Wire Line
+	1600 600  1600 550 
+Wire Wire Line
+	4450 850  4450 950 
+Wire Wire Line
+	3550 950  3550 700 
+Wire Wire Line
+	3800 700  3800 950 
+Wire Wire Line
+	4150 950  4050 950 
+Wire Wire Line
+	3200 900  3200 950 
+Connection ~ 2800 950 
+Wire Wire Line
+	2900 950  2800 950 
+Wire Wire Line
+	2800 950  2800 700 
+Wire Wire Line
+	3050 950  3050 700 
+Wire Wire Line
+	3400 900  3400 950 
+Wire Wire Line
+	4100 700  4100 950 
+Connection ~ 4100 950 
+Wire Wire Line
+	3900 950  3700 950 
+Connection ~ 3800 950 
+Wire Wire Line
+	4300 700  4300 950 
+Wire Wire Line
+	1900 550  1300 550 
+Wire Wire Line
+	1900 750  1900 1200
+Wire Wire Line
+	1900 1200 2200 1200
+Connection ~ 1900 900 
+Wire Wire Line
+	5850 7000 5850 7100
+Wire Wire Line
+	650  1850 650  1800
+Wire Wire Line
+	750  1500 650  1500
+Wire Wire Line
+	1300 1900 1300 2050
+Wire Wire Line
+	1300 2050 1100 2050
+Connection ~ 1200 2050
+Wire Wire Line
+	650  1500 650  1350
+Connection ~ 1100 1500
+Wire Wire Line
+	1300 1700 1300 1500
+Connection ~ 1300 1500
+Connection ~ 3900 7250
+Wire Wire Line
+	4250 7250 3650 7250
+Connection ~ 4150 7250
+Wire Wire Line
+	4550 7350 4550 7250
+Wire Wire Line
+	4600 950  4900 950 
+Connection ~ 4700 950 
+Wire Wire Line
+	5100 700  5100 950 
+Connection ~ 5100 950 
+Wire Wire Line
+	7250 6050 7200 6050
+Wire Wire Line
+	7200 6050 7200 6100
+Wire Wire Line
+	6150 7500 6150 7450
+Wire Wire Line
+	6150 7450 6200 7450
+Wire Wire Line
+	6400 7450 6450 7450
+Wire Wire Line
+	6450 7450 6450 7500
+Connection ~ 7250 5950
+Wire Wire Line
+	7450 6050 7450 5850
+Connection ~ 7250 6050
+Connection ~ 7450 6050
+Wire Wire Line
+	6850 2100 6900 2100
+Connection ~ 6850 2200
+Wire Wire Line
+	7600 2000 7800 2000
+Connection ~ 7700 2000
 Text Notes 7800 1900 0    30   ~ 0
 DNP R52 until the EEPROM is\nloaded with correct firmware
 Text GLabel 9900 2450 2    40   BiDi ~ 0
 EEPROM_WP
-Connection ~ 7700 2000
-Wire Wire Line
-	7800 2000 7600 2000
-Connection ~ 6850 2200
-Wire Wire Line
-	6850 2100 6900 2100
-Connection ~ 7250 1650
-Wire Wire Line
-	6900 1900 6900 1650
-Connection ~ 7450 6050
-Connection ~ 7250 6050
-Wire Wire Line
-	7450 5850 7450 6050
-Connection ~ 7250 5950
-Wire Wire Line
-	6450 7500 6450 7450
-Wire Wire Line
-	6450 7450 6400 7450
-Wire Wire Line
-	6200 7450 6150 7450
-Wire Wire Line
-	6150 7450 6150 7500
-Wire Wire Line
-	7200 6100 7200 6050
-Wire Wire Line
-	7200 6050 7250 6050
-Connection ~ 5100 950 
-Wire Wire Line
-	5100 700  5100 950 
-Connection ~ 4700 950 
-Wire Wire Line
-	4900 950  4600 950 
-Wire Wire Line
-	4550 7350 4550 7250
-Connection ~ 4150 7250
-Wire Wire Line
-	3650 7250 4250 7250
-Connection ~ 3900 7250
-Connection ~ 1300 1500
-Wire Wire Line
-	1300 1700 1300 1500
-Connection ~ 1100 1500
-Wire Wire Line
-	650  1350 650  1500
-Connection ~ 1200 2050
-Wire Wire Line
-	1100 2050 1300 2050
-Wire Wire Line
-	1300 2050 1300 1900
-Wire Wire Line
-	650  1500 750  1500
-Wire Wire Line
-	650  1850 650  1800
-Wire Wire Line
-	5850 7000 5850 7100
-Connection ~ 1900 900 
-Wire Wire Line
-	2200 1200 1900 1200
-Wire Wire Line
-	1900 1200 1900 750 
-Wire Wire Line
-	1300 550  1900 550 
-Wire Wire Line
-	4300 700  4300 950 
-Connection ~ 3800 950 
-Wire Wire Line
-	3700 950  3900 950 
-Connection ~ 4100 950 
-Wire Wire Line
-	4100 700  4100 950 
-Wire Wire Line
-	3400 900  3400 950 
-Wire Wire Line
-	3050 950  3050 700 
-Wire Wire Line
-	2800 700  2800 950 
-Wire Wire Line
-	2800 950  2900 950 
-Connection ~ 2800 950 
-Wire Wire Line
-	3200 900  3200 950 
-Wire Wire Line
-	4050 950  4150 950 
-Wire Wire Line
-	3800 700  3800 950 
-Wire Wire Line
-	3550 950  3550 700 
-Wire Wire Line
-	4450 850  4450 950 
-Wire Wire Line
-	1600 600  1600 550 
-Connection ~ 1600 550 
-Wire Wire Line
-	1300 750  1300 1300
-Wire Wire Line
-	1300 1300 2200 1300
-Connection ~ 1300 900 
-Wire Wire Line
-	5700 6700 5850 6700
-Wire Wire Line
-	5850 6700 5850 6800
-Wire Wire Line
-	650  2100 650  2050
-Wire Wire Line
-	1200 2100 1200 2050
-Wire Wire Line
-	1100 1850 1100 1750
-Wire Wire Line
-	1550 1500 2200 1500
-Wire Wire Line
-	1350 1500 1050 1500
-Wire Wire Line
-	1100 1450 1100 1550
-Wire Wire Line
-	1100 1250 1100 1200
-Connection ~ 3800 7250
-Connection ~ 4000 7250
-Wire Wire Line
-	3950 7250 3950 7350
-Connection ~ 3950 7250
-Wire Wire Line
-	7350 5300 7350 5250
-Wire Wire Line
-	5150 950  5050 950 
-Connection ~ 4800 950 
-Wire Wire Line
-	4750 950  4750 700 
-Connection ~ 4750 950 
-Wire Wire Line
-	7450 6050 7500 6050
-Wire Wire Line
-	7500 6050 7500 6100
-Wire Wire Line
-	7250 6050 7250 5850
-Connection ~ 7450 5950
-Wire Wire Line
-	7600 1650 7600 1900
-Wire Wire Line
-	6850 2200 6900 2200
-Wire Wire Line
-	6900 2000 6850 2000
-Wire Wire Line
-	6850 2000 6850 2250
-Connection ~ 6850 2100
-Wire Wire Line
-	7700 1800 7700 1650
-Wire Wire Line
-	7700 1650 6900 1650
-Connection ~ 7600 1650
 Text Label 9900 2450 2    30   ~ 0
 EEPROM_WP
 Text Label 7800 2000 0    30   ~ 0

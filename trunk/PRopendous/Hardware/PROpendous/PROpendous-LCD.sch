@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 31/05/2010 00:35:42
+EESchema Schematic File Version 2  date 07/06/2010 07:15:05
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
+LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 5 8
 Title "PROpendous"
-Date "29 may 2010"
+Date "7 jun 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -416,7 +417,7 @@ F 1 "NHD-1.8-128160ZF-CTXL" V 9150 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1900 4950 0    50   ~ 0
-TSC2003 Device Address is\n0b1001000 = 0x48 = 72
+TSC2003 Device Address is\n0b1001000R = 0x48 = 72
 $Comp
 L GND #PWR070
 U 1 1 4BCC2A26
