@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 31/05/2010 00:35:42
+EESchema Schematic File Version 2  date 07/06/2010 07:15:05
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
+LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 8
 Title "PROpendous"
-Date "29 may 2010"
+Date "7 jun 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
