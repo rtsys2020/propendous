@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/06/2010 07:15:05
+EESchema Schematic File Version 2  date 17/06/2010 09:45:34
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 5 8
 Title "PROpendous"
-Date "7 jun 2010"
+Date "17 jun 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,6 +43,17 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 1750 5750 0    50   ~ 0
+These signals are exposed\nfor TSC2003 compatibility
+$Comp
+L TSC2007 IC3
+U 1 1 4C1A2599
+P 3650 4650
+F 0 "IC3" H 3400 4150 60  0000 C CNN
+F 1 "TSC2007" H 3450 5150 35  0000 C CNN
+	1    3650 4650
+	1    0    0    -1  
+$EndComp
 Text Notes 1900 3450 0    50   ~ 0
 SSP1_DETECT-GPMI_CE3N-USB_ID is also used for\nExternal SD Card Detect so be careful of conflicts
 Text GLabel 6300 7550 0    40   BiDi ~ 0
@@ -63,9 +73,9 @@ Connection ~ 3650 6000
 Wire Wire Line
 	3650 6000 3650 6100
 Wire Wire Line
-	2250 6100 2250 6000
+	2150 6450 2150 6350
 Wire Wire Line
-	2250 6000 2350 6000
+	2150 6350 2250 6350
 Wire Wire Line
 	3900 3000 3900 2950
 Connection ~ 2500 4350
@@ -212,7 +222,7 @@ L CP_TANTALUM_MINI C78
 U 1 1 4BD53CAB
 P 3750 5900
 F 0 "C78" V 3700 5950 30  0000 C CNN
-F 1 "33uF" V 3800 5970 25  0000 C CNN
+F 1 "47uF" V 3800 5970 25  0000 C CNN
 	1    3750 5900
 	0    1    1    0   
 $EndComp
@@ -241,78 +251,78 @@ Text Label 6300 7450 0    30   ~ 0
 Y-
 Text Label 6300 7250 0    30   ~ 0
 Y+
-Text GLabel 2350 5600 0    40   BiDi ~ 0
+Text GLabel 2250 6050 0    40   BiDi ~ 0
 TSC_VBAT1
 $Comp
 L CONN_1 TP8
 U 1 1 4BD52C66
-P 2500 6000
-F 0 "TP8" H 2580 6000 40  0000 L CNN
-F 1 "CONN_1" H 2500 6055 30  0001 C CNN
-	1    2500 6000
+P 2400 6350
+F 0 "TP8" H 2480 6350 40  0000 L CNN
+F 1 "CONN_1" H 2400 6405 30  0001 C CNN
+	1    2400 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 TP7
 U 1 1 4BD52C31
-P 2500 5900
-F 0 "TP7" H 2580 5900 40  0000 L CNN
-F 1 "CONN_1" H 2500 5955 30  0001 C CNN
-	1    2500 5900
+P 2400 6250
+F 0 "TP7" H 2480 6250 40  0000 L CNN
+F 1 "CONN_1" H 2400 6305 30  0001 C CNN
+	1    2400 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 TP5
 U 1 1 4BD52C24
-P 2500 5700
-F 0 "TP5" H 2580 5700 40  0000 L CNN
-F 1 "CONN_1" H 2500 5755 30  0001 C CNN
-	1    2500 5700
+P 2400 6150
+F 0 "TP5" H 2480 6150 40  0000 L CNN
+F 1 "CONN_1" H 2400 6205 30  0001 C CNN
+	1    2400 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 TP6
 U 1 1 4BD52C23
-P 2500 5800
-F 0 "TP6" H 2580 5800 40  0000 L CNN
-F 1 "CONN_1" H 2500 5855 30  0001 C CNN
-	1    2500 5800
+P 4950 4700
+F 0 "TP6" H 5030 4700 40  0000 L CNN
+F 1 "CONN_1" H 4950 4755 30  0001 C CNN
+	1    4950 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 TP4
 U 1 1 4BD52C1F
-P 2500 5600
-F 0 "TP4" H 2580 5600 40  0000 L CNN
-F 1 "CONN_1" H 2500 5655 30  0001 C CNN
-	1    2500 5600
+P 2400 6050
+F 0 "TP4" H 2480 6050 40  0000 L CNN
+F 1 "CONN_1" H 2400 6105 30  0001 C CNN
+	1    2400 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 TP3
 U 1 1 4BD52C14
-P 2500 5500
-F 0 "TP3" H 2580 5500 40  0000 L CNN
-F 1 "CONN_1" H 2500 5555 30  0001 C CNN
-	1    2500 5500
+P 2400 5950
+F 0 "TP3" H 2480 5950 40  0000 L CNN
+F 1 "CONN_1" H 2400 6005 30  0001 C CNN
+	1    2400 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR066
 U 1 1 4BD52B8C
-P 2250 6100
-F 0 "#PWR066" H 2250 6100 30  0001 C CNN
-F 1 "GND" H 2250 6030 30  0001 C CNN
-	1    2250 6100
+P 2150 6450
+F 0 "#PWR066" H 2150 6450 30  0001 C CNN
+F 1 "GND" H 2150 6380 30  0001 C CNN
+	1    2150 6450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2350 5500 0    40   BiDi ~ 0
+Text GLabel 2250 5950 0    40   BiDi ~ 0
 TSC_VREF
-Text GLabel 2350 5800 0    40   BiDi ~ 0
-TSC_IN1
-Text GLabel 2350 5900 0    40   BiDi ~ 0
+Text GLabel 4800 4700 0    40   BiDi ~ 0
+TSC_AUX
+Text GLabel 2250 6250 0    40   BiDi ~ 0
 TSC_IN2
-Text GLabel 2350 5700 0    40   BiDi ~ 0
+Text GLabel 2250 6150 0    40   BiDi ~ 0
 TSC_VBAT2
 Text GLabel 3900 3600 0    40   BiDi ~ 0
 SSP1_DETECT-GPMI_CE3N-USB_ID
@@ -342,7 +352,7 @@ TSC_VBAT1
 Text GLabel 4100 4800 2    40   BiDi ~ 0
 TSC_IN2
 Text GLabel 4100 4700 2    40   BiDi ~ 0
-TSC_IN1
+TSC_AUX
 Text Label 8600 3800 2    30   ~ 0
 LCD_LED_K2
 Text Label 8600 3900 2    30   ~ 0
@@ -417,7 +427,7 @@ F 1 "NHD-1.8-128160ZF-CTXL" V 9150 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1900 4950 0    50   ~ 0
-TSC2003 Device Address is\n0b1001000R = 0x48 = 72
+TSC2007 Device Address is\n0b1001000R = 0x48 = 72
 $Comp
 L GND #PWR070
 U 1 1 4BCC2A26
@@ -488,15 +498,6 @@ P 3650 5700
 F 0 "#PWR073" H 3650 5800 30  0001 C CNN
 F 1 "VDDIO_3V3" H 3650 5800 30  0000 C CNN
 	1    3650 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L TSC2003 IC3
-U 1 1 4BCC28BE
-P 3650 4650
-F 0 "IC3" H 3400 4150 60  0000 C CNN
-F 1 "TSC2003" H 3450 5150 35  0000 C CNN
-	1    3650 4650
 	1    0    0    -1  
 $EndComp
 Text Label 4100 4350 0    30   ~ 0

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/06/2010 07:15:05
+EESchema Schematic File Version 2  date 17/06/2010 09:45:34
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 7 8
 Title "PROpendous"
-Date "7 jun 2010"
+Date "17 jun 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,16 +43,64 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+$Comp
+L CP_TANTALUM_MINI C50
+U 1 1 4C1A1D46
+P 8400 2500
+F 0 "C50" V 8350 2550 30  0000 C CNN
+F 1 "47uF" V 8450 2570 25  0000 C CNN
+	1    8400 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C69
+U 1 1 4C1A1CB1
+P 9450 2700
+F 0 "C69" V 9400 2750 30  0000 C CNN
+F 1 "47uF" V 9500 2750 25  0000 C CNN
+	1    9450 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L CP_TANTALUM_MINI C37
+U 1 1 4BCC4827
+P 6750 3950
+F 0 "C37" V 6700 4000 30  0000 C CNN
+F 1 "47uF" V 6800 4020 25  0000 C CNN
+	1    6750 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C59
+U 1 1 4C1A193E
+P 8850 5550
+F 0 "C59" V 8800 5600 30  0000 C CNN
+F 1 "47uF" V 8900 5600 25  0000 C CNN
+	1    8850 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C54
+U 1 1 4C1A1923
+P 8450 4600
+F 0 "C54" V 8400 4650 30  0000 C CNN
+F 1 "47uF" V 8500 4650 25  0000 C CNN
+	1    8450 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C55
+U 1 1 4C1A1921
+P 8650 3650
+F 0 "C55" V 8600 3700 30  0000 C CNN
+F 1 "47uF" V 8700 3700 25  0000 C CNN
+	1    8650 3650
+	0    1    1    0   
+$EndComp
 Text Notes 1575 2225 0    30   ~ 0
 ESR <3-Ohm
 Text Notes 4600 2225 0    30   ~ 0
 ESR <3-Ohm
-Text Notes 8000 3650 0    30   ~ 0
-High Quality <300mOhm\nTantalum Capacitor
-Text Notes 7800 4600 0    30   ~ 0
-High Quality <300mOhm\nTantalum Capacitor
-Text Notes 5925 1700 0    20   ~ 0
-Could not route TSC2003\nVBAT1 to BATTERY
 Wire Wire Line
 	5900 4100 5900 4050
 Wire Wire Line
@@ -517,7 +564,7 @@ LM2621_FB
 Text Label 6550 2400 0    30   ~ 0
 BATT_TEMP
 Text Notes 5725 2075 0    20   ~ 0
-Could not route TSC2003\nIN1 to BATT_TEMP so use\nflying wire if it is needed
+Could not route TSC2007\nAUX to BATT_TEMP so use\nflying wire if it is needed
 $Comp
 L CONN_1 TP9
 U 1 1 4BD54DD3
@@ -558,7 +605,7 @@ F 1 "0" H 6250 2350 20  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6000 2200 0    40   BiDi ~ 0
-TSC_IN1
+TSC_AUX
 $Comp
 L VDDIO_3V3 #PWR095
 U 1 1 4BD199C9
@@ -833,15 +880,6 @@ F 1 "1uF" V 9100 5600 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CP_TANTALUM_MINI C59
-U 1 1 4BCCEB1D
-P 8850 5550
-F 0 "C59" V 8800 5600 30  0000 C CNN
-F 1 "33uF" V 8900 5620 25  0000 C CNN
-	1    8850 5550
-	0    1    1    0   
-$EndComp
-$Comp
 L C_MINI C65
 U 1 1 4BCCEB1C
 P 9250 5550
@@ -896,15 +934,6 @@ F 1 "0.1uF" V 9100 4670 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CP_TANTALUM_MINI C54
-U 1 1 4BCCEB0C
-P 8450 4600
-F 0 "C54" V 8400 4650 30  0000 C CNN
-F 1 "33uF" V 8500 4670 25  0000 C CNN
-	1    8450 4600
-	0    1    1    0   
-$EndComp
-$Comp
 L C_MINI C58
 U 1 1 4BCCEB0B
 P 8850 4600
@@ -920,15 +949,6 @@ P 8850 3650
 F 0 "C57" V 8800 3700 30  0000 C CNN
 F 1 "1uF" V 8900 3700 25  0000 C CNN
 	1    8850 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L CP_TANTALUM_MINI C55
-U 1 1 4BCCEAE8
-P 8650 3650
-F 0 "C55" V 8600 3700 30  0000 C CNN
-F 1 "33uF" V 8700 3720 25  0000 C CNN
-	1    8650 3650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -992,7 +1012,7 @@ L R_MINI R45
 U 1 1 4BCCE969
 P 9450 2400
 F 0 "R45" V 9425 2450 25  0000 C CNN
-F 1 "0.1" V 9475 2450 20  0000 C CNN
+F 1 "0.39" V 9475 2450 20  0000 C CNN
 	1    9450 2400
 	0    1    1    0   
 $EndComp
@@ -1003,15 +1023,6 @@ P 9650 2550
 F 0 "C72" V 9600 2600 30  0000 C CNN
 F 1 "1uF" V 9700 2600 25  0000 C CNN
 	1    9650 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L CP_TANTALUM_MINI C69
-U 1 1 4BCCE949
-P 9450 2700
-F 0 "C69" V 9400 2750 30  0000 C CNN
-F 1 "33uF" V 9500 2770 25  0000 C CNN
-	1    9450 2700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1048,15 +1059,6 @@ P 8800 2500
 F 0 "C52" V 8750 2550 30  0000 C CNN
 F 1 "0.1uF" V 8850 2570 25  0000 C CNN
 	1    8800 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L CP_TANTALUM_MINI C50
-U 1 1 4BCCE8AB
-P 8400 2500
-F 0 "C50" V 8350 2550 30  0000 C CNN
-F 1 "33uF" V 8450 2570 25  0000 C CNN
-	1    8400 2500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1619,8 +1621,6 @@ Text GLabel 1800 2550 0    40   BiDi ~ 0
 PWM2-GPMI_RDY3
 Text GLabel 2900 6100 0    40   BiDi ~ 0
 LCD_RS
-Text GLabel 6300 1600 0    40   BiDi ~ 0
-TSC_VBAT1
 $Comp
 L VDD_BATT #PWR0144
 U 1 1 4BBCE209
@@ -1685,15 +1685,6 @@ F 0 "F1" H 6500 3875 20  0000 C CNN
 F 1 "1206L" H 6450 3775 20  0000 C CNN
 	1    6450 3850
 	1    0    0    -1  
-$EndComp
-$Comp
-L CP_TANTALUM_MINI C37
-U 1 1 4BCC4827
-P 6750 3950
-F 0 "C37" V 6700 4000 30  0000 C CNN
-F 1 "47uF" V 6800 4020 25  0000 C CNN
-	1    6750 3950
-	0    1    1    0   
 $EndComp
 $Comp
 L L_MINI L4

@@ -1,77 +1,74 @@
 Bill of Materials for the PROpendous Project
 
 
-Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Description
+Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Description
 
 
 ~~~ Required Components ~~~
  1, MCIMX233CAG4B                   ,12.35 - IC1 - MPU 32BIT I.MX233 IND 128LQFP
- 1, W9425G6EH-5                     , 3.78 - IC2 - IC DDR-400 SDRAM 256MB 66TSSOPII
+ 1, MT46V32M16P-5B                  ,11.13 - IC2 - IC DDR SDRAM 512MBIT 5NS 66TSOP
  1, FSUSB20MUX                      , 2.00 - IC5 - IC USB SWITCH DUAL 2X1 10MSOP
  1, AT24C512BN-SH25-T               , 1.74 - IC8 - IC EEPROM 512KBIT 1MHZ 8SOIC
  2, C1608C0G1H100D                  , 0.02 - C1 C2 - CAP CER 10PF 50V C0G 0603
  8, GRM188R71H103KA01D              , 0.02 - C22 C23 C24 C25 C53 C68 C70 C76 - CAP CER 0.01uF=10nF=10000PF 50V 10% X7R 0603
  1, GRM155R71H103KA88D              , 0.02 - C73 - CAP CER 0.01uF=10000PF 50V X7R 0402
-27, GRM188R71C104KA01D              , 0.01 - C3 C4 C6 C7 C8 C9 C10 C11 C12 C13 C18 C19 C31 C33 C48 C52 C60 C61 C63 C64 C65 C66 C67 C71 C75 C77 C80 - CAP CER .1UF 16V 10% X7R 0603
+27, GRM188R71C104KA01D              , 0.01 - C3 C4 C6 C7 C8 C9 C10 C11 C12 C13 C18 C19 C31 C33 C48 C52 C60 C61 C63 C64 C65 C66 C67 C71 C75 C80 - CAP CER .1UF 16V 10% X7R 0603
 12, GRM188R61A105KA61D,             , 0.04 - C5 C32 C34 C44 C45 C49 C51 C57 C58 C62 C72 - CAP CER 1.0UF 10V 10% X5R 0603
- 7, C2012X5R0J106K                  , 0.23 - C14 C15 C16 C17 C20 C21 C56 - CAP CER 10UF 6.3V X5R 10% 0805
- 1, F950J686MSAAQ2                  , 1.32 - C26 - CAP TANT 6.3V 68UF SMD 900-mOhm-ESR 1206
- 3, TCA0J336M8R                     , 0.33 - C50 C59 C69 - CAP TANT 33UF 6.3V 20% SMD 3-Ohm-ESR 1206
- 2, T520A336M006ATE070              , 1.05 - C54 C55 - CAP TANT 33UF 6.3V 20% SMD 70-mOhm-ESR 1206
- 2, TCA0J476M8R                     , 0.33 - C27 C37 - CAP TANT 47UF 6.3V 20% SMD 3-Ohm-ESR 1206
+ 8, C2012X5R0J106K                  , 0.23 - C14 C15 C16 C17 C20 C21 C56 C77 - CAP CER 10UF 6.3V X5R 10% 0805
+ 4, TCA0J476M8R                     , 0.33 - C26 C37 C50 C59 - CAP TANT 47UF 6.3V 20% SMD 3-Ohm-ESR 1206
+ 4, C1206C476M9PACTU                , 0.94 - C27 C54 C55 C69 - CAP CERAMIC 47UF 6.3V X5R 1206
  1, 1206L035YR                      , 0.51 - F1 - THERMISTOR PTC 6V .35A RESETTABLE
  1, SRR4028-150Y                    , 0.67 - L1 - INDUCTOR POWER 15UH 1.03A 4028
  1, EVQ-Q2H03W                      , 0.39 - SW1 - SWITCH LT 6MM 100GF H=3.1MM SMD
- 1, ABLS2-24.000MHZ-D4YF-T          , 0.66 - X1 - CRYSTAL 24.0000 MHZ 18PF SMD
+ 1, ABLS2-24.000MHZ-D4YF-T          , 0.66 - X1 - CRYSTAL 24.0000 MHZ 18PF +/- 30ppm or better SMD
  1, MBR120VLSFT1G                   , 0.45 - D2 - DIODE SCHOTTKY 20V 1A SOD123FL
  2, LY M47K-K1L2-26-Z               , 0.17 - D3 D4 - LED MINI TOPLED 2mA YELLOW 587NM SMD 0805
  1, UX60-MB-5ST,                    , 1.18 - U5 - CONN RECEPT MINI USB2.0 5POS
  1, 961104-6404-AR                  , 0.17 - P1 - CONN HEADER VERT SGL 4POS 4x1 GOLD
- 1, SFH11-PBPC-D20-ST-BK            , 1.56 - P2 - CONN HEADER FMAL 40PS 20x2 .1" DL GOLD
+ 1, PPPC202LFBN-RC                  , 3.01 - P2 - CONN HEADER FMAL 40PS 20x2 .1" DL GOLD
  1, 67996-420HLF                    , 0.84 - U10 - CONN HEADER 20POS 10x2 .100 STR TIN
  1, 2908-05WB-MG                    , 1.23 - U2 - CONN EJECT MICROSD PUSH-PUSH SMD
  1, SD-RSMT-2-MQ-WF                 , 1.39 - U3 - CONN CARD SD PUSH-PUSH R/A SMD
- 3, BKP2125HS101-T                  , 0.05 - L2 L4 L18 - FERRITE BEAD 2.5A 40-mOhm-DCR 100 OHM 0805
+ 3, BKP2125HS101-T                  , 0.05 - L2 L4 L18 R5 - FERRITE BEAD 2.5A 40-mOhm-DCR 100 OHM 0805
  9, BKP1608HS101-T                  , 0.04 - L7 L8 L9 L10 L11 L12 L13 L15 L17 - FERRITE BEAD 1.7A 50-mOhm-DCR 100 OHM 0603
- 3, RMCF 1/16 0 R 0603              , 0.02 - R5 R50 R51 - RES 0.0 OHM 1/10W 0603 SMD
- 1, PT0603FR-7W0R1L                 , 0.26 - R45 - RES 0.1 OHM 0.2W 1% 0603 SMD
+ 4, RMCF 1/16 0 R 0603              , 0.02 - R5 R45 R50 R51 - RES 0.0 OHM 1/10W 0603 SMD
  1, RMCF 1/16S 100 1% R 0603        , 0.04 - R10 - RES 100 OHM 1/16W 1% 0402 SMD
  2, RMCF 1/16 200 1% R 0603         , 0.04 - R46 R47 - RES 200 OHM 1/10W 1% 0603 SMD
  4, RMCF 1/16 1K 1% R 0603          , 0.04 - R1 R2 R8 R9 - RES 1K OHM 1/10W 1% 0603 SMD
  5, RMCF 1/16 1.2K 1% R 0603        , 0.04 - R34 R35 R36 R37 R38 - RES 1.2K OHM 1/10W 1% 0603 SMD
- 3, RMCF 1/16 10K 1% R 0603         , 0.04 - R6 R40 R41 - RES 10K OHM 1/10W 1% 0603 SMD
- 3, RMCF 1/16 15K 1% R 0603         , 0.04 - R22 R23 R52 - RES 15K OHM 1/10W 1% 0603 SMD
+ 3, RMCF 1/16 10K 1% R 0603         , 0.04 - R6 R40 R41 R52 - RES 10K OHM 1/10W 1% 0603 SMD
+ 3, RMCF 1/16 15K 1% R 0603         , 0.04 - R22 R23 - RES 15K OHM 1/10W 1% 0603 SMD
  8, RMCF 1/16 47K 5% R 0603         , 0.02 - R4 R7 R29 R30 R31 R32 R33 R39 - RES 47K OHM 1/10W 5% 0603 SMD
  3, RMCF 1/16 100K 1% R 0603        , 0.04 - R3 R48 R49 - RES 100K OHM 1/10W 1% 0603 SMD
  1, 151210-8422-RB                  , 1.00 - JP1 - CONN 10POS 5x2 2MM HEADER DUAL GOLD
- 2, SPN02SYBN-RC                    , 0.26 - * - CONN SHUNT 2MM OPEN TOP 2PS GOLD for JP1
+ 3, SPN02SYBN-RC                    , 0.26 - * - CONN SHUNT 2MM OPEN TOP 2PS GOLD for JP1
  1, 53047-0310                      , 0.66 - BT1 - CONN HEADER 3POS 1.25MM VERT TIN
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=40.92
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=49.97
 
 
 ~~~ Optional Audio Components ~~~
  2, SJ-3524-SMT                     , 0.90 - U8 U9 - CONN AUDIO JACK 3.5MM STEREO SMD
  7, BK1608HM121-T                   , 0.04 - L7 L8 L9 L10 L11 L12 L13 - FERRITE BEAD 120 OHM 0603
- 2, CC0805KRX7R9BB222               , 0.04 - C42 C43 - CAP 2.2nF=2200PF 50V CERAMIC X7R 080
+ 2, CC0805KRX7R9BB222               , 0.04 - C42 C43 - CAP 2.2nF=2200PF 50V CERAMIC X7R 0805
  1, ECH-U01223GX5,                  , 0.37 - C47 - CAP FILM PPS .022UF 10V 0805 2%
  1, RMCF 1/16 2.2K 1% R 0603        , 0.04 - R44 - RES 2.2K OHM 1/10W 1% 0603 SMD
  2, RMCF 1/16 4.7K 1% R 0603        , 0.04 - R43 R42 - RES 4.7K OHM 1/10W 1% 0603 SMD
  1, WM-61A                          , 1.86 - M1 - MICROPHONE CARTRIDGE 6MM OMNI
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=4.51
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total= 4.51
 
 
 ~~~ Optional Video Components ~~~
  1, RCJ-014-SMT                     , 0.72 - U7 - CONN RCA JACK METAL R/A YEL SMD
  1, CG0603MLC-12LE                  , 0.23 - CR1 - SUPPRESSOR ESD 12VDC 0603 SMD
  1, C1608C0G1H510J                  , 0.04 - C46 - CAP CER 51PF 50V C0G 0603
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=0.99
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total= 0.99
 
 
 ~~~ Optional Accelerometer Components ~~~
  1, MMA7455LT                       , 2.02 - IC7 - IC ACCELEROMETER 3AXIS 14-LGA
  2, GRM188R71C104KA01D              , 0.01 - C79 C80 - CAP CER .1UF 16V 10% X7R 0603
  1, C2012X5R0J106K                  , 0.23 - C81 - CAP CER 10UF 6.3V 10% X5R 0805
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=2.27
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total= 2.27
 
 
 ~~~ Optional USB Hosting Components ~~~
@@ -79,7 +76,7 @@ Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Descripti
  1, LQH6PPN6R8M43L                  , 0.66 - L6 - INDUCTOR POWER 6.8UH 2.85A 2424
  1, C1608C0G1H390J                  , 0.02 - C40 - CAP CER 39PF 50V C0G 5% 0603
  1, GRM188R71C104KA01D              , 0.01 - C39 - CAP CER .1UF 16V 10% X7R 0603
- 1, F930J226MAA                     , 0.45 - C38 - CAP TANTALUM 22UF 6.3V 20% SMD 2.5-Ohm-ESR1206
+ 1, TCA0J476M8R                     , 0.33 - C38 - CAP TANT 47UF 6.3V 20% SMD 3-Ohm-ESR 1206
  1, F950J686MSAAQ2                  , 1.32 - C41 - CAP TANT 6.3V 68UF SMD 900-mOhm-ESR 1206
  1, MBR120VLSFT1G                   , 0.45 - D1 - DIODE SCHOTTKY 20V 1A SOD123FL
  1, RMCF 1/16 499 1% R 0603         , 0.04 - R26 - RES 499 OHM 1/10W 1% 0603 SMD
@@ -88,28 +85,28 @@ Quantity, Manufacturer Part Number , Price - Componenet Reference(s) - Descripti
  1, RMCF 1/16 150K 1% R 0603        , 0.04 - R27 - RES 150K OHM 1/10W 1% 0603 SMD
  1, RMCF 1/16 200K 1% R 0603        , 0.04 - R25 - RES 200K OHM 1/10W 1% 0603 SMD
  1, 690-004-260-013                 , 0.81 - U6 - CONN USB JACK TYPE A VERT STR
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=6.07
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total= 6.07
 
 
 ~~~ Optional LCD Components ~~~
  1, NHD-2.4-240320SF-CTXI#-T        ,33.00 - U1 - LCD DISP TFT 2.4" 240X320 B/L
- 1, TSC2003IPWR                     , 6.75 - IC3 - IC TOUCH SCREEN 12BIT 16TSSOP
+ 1, TSC2007IPW                      , 4.59 - IC3 - IC TOUCH SCREEN CTRLR 16-TSSOP
  1, 2N7002TA                        , 0.26 - Q1 - MOSFET N-CH 60V 115MA SOT23-3
  2, GRM188R71C104KA01D              , 0.01 - C28 C35 - CAP CER .1UF 16V 10% X7R 0603
  1, GRM188R61A105KA61D,             , 0.04 - C29 - CAP CER 1.0UF 10V 10% X5R 0603
  1, C2012X5R0J106K                  , 0.23 - C30 - CAP CER 10UF 6.3V X5R 10% 0805
- 1, TCA0J336M8R                     , 0.33 - C78 - CAP TANT 33UF 6.3V 20% SMD 3-Ohm-ESR 1206
+ 1, TCA0J476M8R                     , 0.33 - C78 - CAP TANT 47UF 6.3V 20% SMD 3-Ohm-ESR 1206
  4, RMCF 1/16 10 1% R               , 0.04 - R15 R12 R13 R14 - RES 10 OHM 1/10W 1% 0603 SMD
  2, RMCF 1/16 1.2K 1% R             , 0.04 - R17 R18 - RES 1.2K OHM 1/10W 1% 0603 SMD
  3, RMCF 1/16 47K 5% R              , 0.02 - R11 R16 R19 - RES 47K OHM 1/10W 5% 0603 SMD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=40.92
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=38.76
 
  1, 1553BTBUBKBAT                   ,10.44 - Enclosure - BOX SOFT SIDE 4.62X3.11X.95" BLU
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=106.12
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=113.01
 
 
-PROpendous_Assembly.svg/.jpg shows component placement and values.
+PROpendous_Assembly_?.svg/.jpg shows component placement.
 
 
 Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
@@ -117,11 +114,11 @@ Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
 	  1553BBKBAT, 1553BYLBKBAT, 1553BRDBKBAT, 1553BBKBKBAT, 1553BGYBAT
 	- U1, the 2.4" LCD can be substituted with NHD-1.8-128160ZF-CTXL#, a 1.8" LCD or
 	  the NHD-2.4-240320SF-CTXI# which has no touch screen
-	- P2 can be replaced with PPPC202LFBN-RC, an unpolarized version
+	- P2 can be replaced with SFH11-PBPC-D20-ST-BK during prototyping, a cheaper polarized version
 	- All 0402 resistors and capacitors are optional
-	- Capacitors C50 C59 C69 should have <300mOhm ESR such as the T520A336M006ATE070 but
-	  currently using the TCA0J336M8R to lower costs
+	- Capacitors C26 C37 C50 C59 should have <300mOhm ESR such as the C1206C476M9PACTU
+	  but currently using the TCA0J476M8R to lower costs
 	- USB-A vertical connector can also be EDAC 690-004-660-013
+	- MBR120VLSF diodes can be replaced by MBRX120 in SOD123
 	- if you require an ARM JTAG cable see the H3AAH-2006G
 	- if you require an ARM JTAG adaptor see www.opendous.org/JTAG
-
