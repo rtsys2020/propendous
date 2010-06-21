@@ -95,11 +95,11 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="0.76015658"
-     inkscape:cx="481.39396"
-     inkscape:cy="186.01406"
-     inkscape:window-x="1"
-     inkscape:window-y="1"
+     inkscape:zoom="8.6001899"
+     inkscape:cx="711.24104"
+     inkscape:cy="463.30256"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
      inkscape:current-layer="svg2" />
   <title
      id="title4">SVG Picture created as PROpendous-SilkS_Back.svg </title>
@@ -17379,7 +17379,7 @@
        sodipodi:role="line"
        id="tspan7406"
        x="-17949.168"
-       y="29588.82">22uF</tspan></text>
+       y="29588.82">47uF</tspan></text>
   <rect
      style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66666667;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect7414"
@@ -17442,29 +17442,16 @@
        sodipodi:role="line"
        id="tspan7432"
        x="53480.934"
-       y="52571.84">22uF</tspan></text>
-  <g
-     id="g7434"
-     transform="translate(36181.373,15471.234)">
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       ry="0"
-       y="27349.568"
-       x="-19257.455"
-       height="3064.4429"
-       width="7034.9976"
-       id="rect7436"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66667175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       ry="0"
-       y="27346.537"
-       x="-13228.033"
-       height="3048.4531"
-       width="1036.6625"
-       id="rect7438"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:46.49281311;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-  </g>
+       y="52571.84">47uF</tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66667175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect7436"
+     width="7034.9976"
+     height="3064.4429"
+     x="-34728.688"
+     y="63530.941"
+     ry="0"
+     transform="matrix(0,-1,1,0,0,0)" />
   <text
      xml:space="preserve"
      style="font-size:1111.11108398px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -17478,25 +17465,14 @@
   <text
      xml:space="preserve"
      style="font-size:2000px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     x="-33394.566"
-     y="65266.332"
+     x="-33032.816"
+     y="65767.266"
      id="text7444"
      transform="matrix(0,-1,1,0,0,0)"><tspan
        sodipodi:role="line"
        id="tspan7446"
-       x="-33394.566"
-       y="65266.332">33uF</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:888.88891602px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     x="-32998.57"
-     y="66311.836"
-     id="text7448"
-     transform="matrix(0,-1,1,0,0,0)"><tspan
-       sodipodi:role="line"
-       id="tspan7450"
-       x="-32998.57"
-       y="66311.836">Low ESR</tspan></text>
+       x="-33032.816"
+       y="65767.266">47uF</tspan></text>
   <g
      id="g7453"
      transform="matrix(-1,0,0,-1,97291.13,47312.896)">
@@ -17532,25 +17508,14 @@
   <text
      xml:space="preserve"
      style="font-size:2000px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     x="-32893.742"
-     y="68561.156"
+     x="-32906.66"
+     y="69113.445"
      id="text7463"
      transform="matrix(0,-1,1,0,0,0)"><tspan
        sodipodi:role="line"
        id="tspan7465"
-       x="-32893.742"
-       y="68561.156">68uF</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:888.88891602px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     x="-32502.141"
-     y="69606.656"
-     id="text7467"
-     transform="matrix(0,-1,1,0,0,0)"><tspan
-       sodipodi:role="line"
-       id="tspan7469"
-       x="-32502.141"
-       y="69606.656">Low ESR</tspan></text>
+       x="-32906.66"
+       y="69113.445">47uF</tspan></text>
   <rect
      style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66667175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect6579"
@@ -17595,49 +17560,36 @@
          id="tspan6589"
          sodipodi:role="line">0.1uF</tspan></text>
   </g>
-  <g
-     id="g6596"
-     transform="matrix(-1,0,0,-1,84322.281,50342.958)">
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       ry="0"
-       y="27349.568"
-       x="-19257.455"
-       height="3064.4429"
-       width="7034.9976"
-       id="rect6598"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66667175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       ry="0"
-       y="27346.537"
-       x="-13228.033"
-       height="3048.4531"
-       width="1036.6625"
-       id="rect6600"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:46.49281311;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-  </g>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66667175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect6598"
+     width="7034.9976"
+     height="3064.4429"
+     x="31085.502"
+     y="-56972.711"
+     ry="0"
+     transform="matrix(0,1,-1,0,0,0)" />
   <text
      xml:space="preserve"
      style="font-size:1111.11108398px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
      x="54168.789"
-     y="36985.145"
+     y="37656.965"
      id="text6602"><tspan
        sodipodi:role="line"
        id="tspan6604"
        x="54168.789"
-       y="36985.145">1206</tspan></text>
+       y="37656.965">1206</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:2000px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     x="-35923.801"
-     y="56146.547"
+     x="-36208.031"
+     y="56144.59"
      id="text6606"
      transform="matrix(0,-1,1,0,0,0)"><tspan
        sodipodi:role="line"
        id="tspan6608"
-       x="-35923.801"
-       y="56146.547">33uF</tspan></text>
+       x="-36208.031"
+       y="56144.59">47uF</tspan></text>
   <g
      id="g6614"
      transform="translate(30097.287,22275.503)">
@@ -17680,7 +17632,7 @@
        sodipodi:role="line"
        id="tspan6626"
        x="-40144.02"
-       y="59685.133">33uF</tspan></text>
+       y="59685.133">47uF</tspan></text>
   <rect
      style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:166.66667175;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect6632"
@@ -18853,4 +18805,14 @@
        x="19899.152"
        y="72889.516"
        id="tspan7796">Microphone</tspan></text>
+  <path
+     sodipodi:type="arc"
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#dcdcdc;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path6789"
+     sodipodi:cx="71742.602"
+     sodipodi:cy="23007.236"
+     sodipodi:rx="865.61395"
+     sodipodi:ry="775.1767"
+     d="M 72608.216,23007.236 A 865.61395,775.1767 0 1 1 70876.988,23007.236 A 865.61395,775.1767 0 1 1 72608.216,23007.236 z"
+     transform="matrix(0.9016286,0,0,1.0067566,12630.427,8262.9067)" />
 </svg>

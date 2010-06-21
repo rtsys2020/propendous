@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/06/2010 07:15:05
+EESchema Schematic File Version 2  date 17/06/2010 09:45:34
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
-LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 8
 Title "PROpendous"
-Date "7 jun 2010"
+Date "17 jun 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -314,7 +313,7 @@ TSC_VBAT2
 Text Label 9900 2000 2    40   ~ 0
 TSC_IN2
 Text Label 9900 1900 2    40   ~ 0
-TSC_IN1
+TSC_AUX
 Text Notes 6800 6300 0    50   ~ 0
 Use GNDPWR for chassis\nground ring to suppress EMI
 $Comp
@@ -1261,7 +1260,7 @@ HPR
 Text GLabel 9050 1550 2    40   BiDi ~ 0
 PSWITCH
 Text GLabel 9900 1900 2    40   BiDi ~ 0
-TSC_IN1
+TSC_AUX
 Text GLabel 9900 2000 2    40   BiDi ~ 0
 TSC_IN2
 Text GLabel 9900 2200 2    40   BiDi ~ 0
