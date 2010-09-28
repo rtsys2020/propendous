@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 29/05/2010 01:30:35
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 28/09/2010 01:50:02
 
 BeginCmp
 TimeStamp = /4BC28B8C/4BD1989E;
@@ -183,14 +183,14 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49538/4BC981A1;
+TimeStamp = /49F49538/4C1A1AD3;
 Reference = C26;
-ValeurCmp = 68uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49538/4BC981AE;
+TimeStamp = /49F49538/4C1A1730;
 Reference = C27;
 ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
@@ -344,9 +344,9 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BC28B8C/4BCCE8AB;
+TimeStamp = /4BC28B8C/4C1A1D46;
 Reference = C50;
-ValeurCmp = 33uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
@@ -372,16 +372,16 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BC28B8C/4BCCEB0C;
+TimeStamp = /4BC28B8C/4C1A1923;
 Reference = C54;
-ValeurCmp = 33uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BC28B8C/4BCCEAE8;
+TimeStamp = /4BC28B8C/4C1A1921;
 Reference = C55;
-ValeurCmp = 33uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
@@ -407,9 +407,9 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BC28B8C/4BCCEB1D;
+TimeStamp = /4BC28B8C/4C1A193E;
 Reference = C59;
-ValeurCmp = 33uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
@@ -477,9 +477,9 @@ IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BC28B8C/4BCCE949;
+TimeStamp = /4BC28B8C/4C1A1CB1;
 Reference = C69;
-ValeurCmp = 33uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
@@ -535,7 +535,7 @@ EndCmp
 BeginCmp
 TimeStamp = /49F49522/4BD53CAB;
 Reference = C78;
-ValeurCmp = 33uF;
+ValeurCmp = 47uF;
 IdModule  = SM1206_Opendous;
 EndCmp
 
@@ -564,6 +564,13 @@ BeginCmp
 TimeStamp = /49F49582/4C00A63F;
 Reference = C82;
 ValeurCmp = 1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49582/4CA16B77;
+Reference = C83;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603_Opendous;
 EndCmp
 
@@ -631,9 +638,9 @@ IdModule  = TSOP66_JEDEC_DDR_SDRAM;
 EndCmp
 
 BeginCmp
-TimeStamp = /49F49522/4BCC28BE;
+TimeStamp = /49F49522/4C1A2599;
 Reference = IC3;
-ValeurCmp = TSC2003;
+ValeurCmp = TSC2007;
 IdModule  = TSSOP16_DBQ;
 EndCmp
 
@@ -1109,7 +1116,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4BC28B8C/4BCCE969;
 Reference = R45;
-ValeurCmp = 0.1;
+ValeurCmp = 0.39;
 IdModule  = SM0603_Opendous;
 EndCmp
 
@@ -1160,6 +1167,13 @@ TimeStamp = /49F49153/4BD75B1B;
 Reference = R52;
 ValeurCmp = 10k;
 IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F49582/4CA14980;
+Reference = R53;
+ValeurCmp = 0;
+IdModule  = SM0603_Opendous;
 EndCmp
 
 BeginCmp
@@ -1258,13 +1272,6 @@ TimeStamp = /49F49582/4BCA1F77;
 Reference = U3;
 ValeurCmp = SD;
 IdModule  = Memory_Card_SD_3M;
-EndCmp
-
-BeginCmp
-TimeStamp = /49F49522/4BCC2D8F;
-Reference = U4;
-ValeurCmp = NHD-1.8-128160ZF-CTXL;
-IdModule  = NHD-1.8-128160ZF-CTXL;
 EndCmp
 
 BeginCmp
@@ -3239,6 +3246,69 @@ TimeStamp = /4A0869EC/4BF297F3;
 Reference = V336;
 ValeurCmp = VIA;
 IdModule  = 1Pin_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA16393;
+Reference = V337;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA16392;
+Reference = V338;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA16E86;
+Reference = V339;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA17DD0;
+Reference = V340;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA17E97;
+Reference = V341;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA17E9C;
+Reference = V342;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA17E99;
+Reference = V343;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA18113;
+Reference = V344;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0869EC/4CA181F1;
+Reference = V345;
+ValeurCmp = VIA;
+IdModule  = 1Pin_15mil_VIA;
 EndCmp
 
 BeginCmp

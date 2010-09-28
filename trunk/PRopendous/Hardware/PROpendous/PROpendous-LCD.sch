@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 17/06/2010 09:45:34
+EESchema Schematic File Version 2  date 28/09/2010 02:01:23
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:power
+LIBS:PROpendous-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 5 8
 Title "PROpendous"
-Date "17 jun 2010"
+Date "28 sep 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -54,8 +55,6 @@ F 1 "TSC2007" H 3450 5150 35  0000 C CNN
 	1    3650 4650
 	1    0    0    -1  
 $EndComp
-Text Notes 1900 3450 0    50   ~ 0
-SSP1_DETECT-GPMI_CE3N-USB_ID is also used for\nExternal SD Card Detect so be careful of conflicts
 Text GLabel 6300 7550 0    40   BiDi ~ 0
 LCD_RD
 Text Label 6300 7550 0    30   ~ 0
@@ -96,8 +95,6 @@ Wire Wire Line
 Connection ~ 3900 3250
 Wire Wire Line
 	3850 3250 5250 3250
-Wire Wire Line
-	9100 2650 9100 2750
 Wire Wire Line
 	3000 5100 3000 4900
 Wire Wire Line
@@ -178,11 +175,6 @@ Wire Wire Line
 	3200 5000 3000 5000
 Connection ~ 3000 5000
 Wire Wire Line
-	9100 4750 9100 4650
-Wire Wire Line
-	9200 4650 9000 4650
-Connection ~ 9100 4650
-Wire Wire Line
 	5050 3800 5250 3800
 Wire Wire Line
 	5250 4000 5050 4000
@@ -227,10 +219,10 @@ F 1 "47uF" V 3800 5970 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR065
+L GND #PWR068
 U 1 1 4BCC28E6
 P 3650 6100
-F 0 "#PWR065" H 3650 6100 30  0001 C CNN
+F 0 "#PWR068" H 3650 6100 30  0001 C CNN
 F 1 "GND" H 3650 6030 30  0001 C CNN
 	1    3650 6100
 	1    0    0    -1  
@@ -308,10 +300,10 @@ F 1 "CONN_1" H 2400 6005 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR066
+L GND #PWR069
 U 1 1 4BD52B8C
 P 2150 6450
-F 0 "#PWR066" H 2150 6450 30  0001 C CNN
+F 0 "#PWR069" H 2150 6450 30  0001 C CNN
 F 1 "GND" H 2150 6380 30  0001 C CNN
 	1    2150 6450
 	1    0    0    -1  
@@ -325,12 +317,12 @@ TSC_IN2
 Text GLabel 2250 6150 0    40   BiDi ~ 0
 TSC_VBAT2
 Text GLabel 3900 3600 0    40   BiDi ~ 0
-SSP1_DETECT-GPMI_CE3N-USB_ID
+GPMI_CE1n
 $Comp
-L VDDIO_3V3 #PWR067
+L VDDIO_3V3 #PWR070
 U 1 1 4BCCB9C6
 P 3900 2950
-F 0 "#PWR067" H 3900 3050 30  0001 C CNN
+F 0 "#PWR070" H 3900 3050 30  0001 C CNN
 F 1 "VDDIO_3V3" H 3900 3050 30  0000 C CNN
 	1    3900 2950
 	1    0    0    -1  
@@ -339,8 +331,6 @@ Text Label 5250 3800 2    20   ~ 0
 LCD_LED_K1
 Text Label 5250 3900 2    20   ~ 0
 LCD_LED_K2
-Text Notes 8650 2500 0    60   ~ 0
-1.8" TFT Color LCD
 Text Notes 5450 2450 0    60   ~ 0
 2.4" TFT Color LCD
 Text GLabel 3200 4700 0    40   BiDi ~ 0
@@ -353,33 +343,6 @@ Text GLabel 4100 4800 2    40   BiDi ~ 0
 TSC_IN2
 Text GLabel 4100 4700 2    40   BiDi ~ 0
 TSC_AUX
-Text Label 8600 3800 2    30   ~ 0
-LCD_LED_K2
-Text Label 8600 3900 2    30   ~ 0
-LCD_LED_A
-Text Label 8600 3700 2    30   ~ 0
-LCD_LED_K1
-NoConn ~ 8650 4250
-NoConn ~ 8650 4300
-NoConn ~ 8650 4350
-NoConn ~ 8650 4400
-NoConn ~ 8650 4450
-Text GLabel 9600 3750 2    40   BiDi ~ 0
-LCD_D07
-Text GLabel 9600 3850 2    40   BiDi ~ 0
-LCD_D06
-Text GLabel 9600 3950 2    40   BiDi ~ 0
-LCD_D05
-Text GLabel 9600 4050 2    40   BiDi ~ 0
-LCD_D04
-Text GLabel 9600 4150 2    40   BiDi ~ 0
-LCD_D03
-Text GLabel 9600 4250 2    40   BiDi ~ 0
-LCD_D02
-Text GLabel 9600 4350 2    40   BiDi ~ 0
-LCD_D01
-Text GLabel 9600 4450 2    40   BiDi ~ 0
-LCD_D00
 $Comp
 L R_MINI R19
 U 1 1 4BCC2DF4
@@ -389,50 +352,13 @@ F 1 "47k" V 3925 3150 20  0000 C CNN
 	1    3900 3100
 	0    1    1    0   
 $EndComp
-Text GLabel 8600 3450 0    40   BiDi ~ 0
-LCD_RS
-Text GLabel 8600 3350 0    40   BiDi ~ 0
-LCD_WR
-Text GLabel 8600 2950 0    40   BiDi ~ 0
-LCD_RESET-GPMI_CE3n
-Text GLabel 8600 3550 0    40   BiDi ~ 0
-LCD_CS
-Text Label 8600 3250 2    30   ~ 0
-LCD_RD
-$Comp
-L GND #PWR068
-U 1 1 4BCC2DAE
-P 9100 4750
-F 0 "#PWR068" H 9100 4750 30  0001 C CNN
-F 1 "GND" H 9100 4680 30  0001 C CNN
-	1    9100 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDDIO_3V3 #PWR069
-U 1 1 4BCC2DA8
-P 9100 2650
-F 0 "#PWR069" H 9100 2750 30  0001 C CNN
-F 1 "VDDIO_3V3" H 9100 2750 30  0000 C CNN
-	1    9100 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L NHD-1.8-128160ZF-CTXL U4
-U 1 1 4BCC2D8F
-P 9100 3700
-F 0 "U4" H 8800 2850 50  0000 C CNN
-F 1 "NHD-1.8-128160ZF-CTXL" V 9150 3700 50  0000 C CNN
-	1    9100 3700
-	1    0    0    -1  
-$EndComp
 Text Notes 1900 4950 0    50   ~ 0
 TSC2007 Device Address is\n0b1001000R = 0x48 = 72
 $Comp
-L GND #PWR070
+L GND #PWR071
 U 1 1 4BCC2A26
 P 3000 5100
-F 0 "#PWR070" H 3000 5100 30  0001 C CNN
+F 0 "#PWR071" H 3000 5100 30  0001 C CNN
 F 1 "GND" H 3000 5030 30  0001 C CNN
 	1    3000 5100
 	1    0    0    -1  
@@ -465,19 +391,19 @@ F 1 "1.2k" V 2725 4100 20  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VDDIO_3V3 #PWR071
+L VDDIO_3V3 #PWR072
 U 1 1 4BCC291F
 P 2500 3850
-F 0 "#PWR071" H 2500 3950 30  0001 C CNN
+F 0 "#PWR072" H 2500 3950 30  0001 C CNN
 F 1 "VDDIO_3V3" H 2500 3950 30  0000 C CNN
 	1    2500 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR072
+L GND #PWR073
 U 1 1 4BCC28F1
 P 3650 5350
-F 0 "#PWR072" H 3650 5350 30  0001 C CNN
+F 0 "#PWR073" H 3650 5350 30  0001 C CNN
 F 1 "GND" H 3650 5280 30  0001 C CNN
 	1    3650 5350
 	1    0    0    -1  
@@ -492,10 +418,10 @@ F 1 "0.1uF" V 3600 5975 25  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VDDIO_3V3 #PWR073
+L VDDIO_3V3 #PWR074
 U 1 1 4BCC28E5
 P 3650 5700
-F 0 "#PWR073" H 3650 5800 30  0001 C CNN
+F 0 "#PWR074" H 3650 5800 30  0001 C CNN
 F 1 "VDDIO_3V3" H 3650 5800 30  0000 C CNN
 	1    3650 5700
 	1    0    0    -1  
@@ -509,10 +435,10 @@ X-
 Text Label 4100 4450 0    30   ~ 0
 X+
 $Comp
-L VDDIO_3V3 #PWR074
+L VDDIO_3V3 #PWR075
 U 1 1 4BCC27F3
 P 3650 3950
-F 0 "#PWR074" H 3650 4050 30  0001 C CNN
+F 0 "#PWR075" H 3650 4050 30  0001 C CNN
 F 1 "VDDIO_3V3" H 3650 4050 30  0000 C CNN
 	1    3650 3950
 	1    0    0    -1  
@@ -522,10 +448,10 @@ LCD_RD
 Text Label 5250 3700 2    30   ~ 0
 LCD_LED_A
 $Comp
-L VDDIO_3V3 #PWR075
+L VDDIO_3V3 #PWR076
 U 1 1 4BCA0B8E
 P 5900 5200
-F 0 "#PWR075" H 5900 5300 30  0001 C CNN
+F 0 "#PWR076" H 5900 5300 30  0001 C CNN
 F 1 "VDDIO_3V3" H 5900 5300 30  0000 C CNN
 	1    5900 5200
 	1    0    0    -1  
@@ -567,10 +493,10 @@ F 1 "5" H 5020 3850 20  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR076
+L GND #PWR077
 U 1 1 4BCA0AF8
 P 4700 4000
-F 0 "#PWR076" H 4700 4000 30  0001 C CNN
+F 0 "#PWR077" H 4700 4000 30  0001 C CNN
 F 1 "GND" H 4700 3930 30  0001 C CNN
 	1    4700 4000
 	1    0    0    -1  
@@ -585,10 +511,10 @@ F 1 "2N7002" V 4550 3550 30  0000 R CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L VDDIO_3V3 #PWR077
+L VDDIO_3V3 #PWR078
 U 1 1 4BCA09C8
 P 4200 2650
-F 0 "#PWR077" H 4200 2750 30  0001 C CNN
+F 0 "#PWR078" H 4200 2750 30  0001 C CNN
 F 1 "VDDIO_3V3" H 4200 2750 30  0000 C CNN
 	1    4200 2650
 	1    0    0    -1  
@@ -605,37 +531,37 @@ $EndComp
 Text Notes 3950 3250 0    25   ~ 0
 Read Mode Unsupported Per IMX23RM 1.2.19.1 (Write=1)
 $Comp
-L VDDIO_3V3 #PWR078
+L VDDIO_3V3 #PWR079
 U 1 1 4BCA093B
 P 4200 3650
-F 0 "#PWR078" H 4200 3750 30  0001 C CNN
+F 0 "#PWR079" H 4200 3750 30  0001 C CNN
 F 1 "VDDIO_3V3" H 4200 3750 30  0000 C CNN
 	1    4200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDDIO_3V3 #PWR079
+L VDDIO_3V3 #PWR080
 U 1 1 4BCA0936
 P 5900 2650
-F 0 "#PWR079" H 5900 2750 30  0001 C CNN
+F 0 "#PWR080" H 5900 2750 30  0001 C CNN
 F 1 "VDDIO_3V3" H 5900 2750 30  0000 C CNN
 	1    5900 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR080
+L GND #PWR081
 U 1 1 4BCA060D
 P 5900 4850
-F 0 "#PWR080" H 5900 4850 30  0001 C CNN
+F 0 "#PWR081" H 5900 4850 30  0001 C CNN
 F 1 "GND" H 5900 4780 30  0001 C CNN
 	1    5900 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR081
+L GND #PWR082
 U 1 1 4BCA05FF
 P 5900 5600
-F 0 "#PWR081" H 5900 5600 30  0001 C CNN
+F 0 "#PWR082" H 5900 5600 30  0001 C CNN
 F 1 "GND" H 5900 5530 30  0001 C CNN
 	1    5900 5600
 	1    0    0    -1  
@@ -699,7 +625,7 @@ F 1 "NHD-2.4-240320SF-CTXI-T" V 5900 3750 45  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 600  700  0    60   ~ 0
-Notes:\n - Capacitors can be any available 6.3V+\n - Populate only one of the 2.4" or 1.8" LCDs or neither\n - The 1.8" LCD footprint reuses signals from the 2.4" LCD footprint\n - 2.4" LCD can be either of:\n    NHD-2.4-240320SF-CTXI-T which has a touchscreen\n    NHD-2.4-240320SF-CTXI   which does not have a touchscreen\n - TSC2003 Touchscreen controller is only required\n    if populating the NHD-2.4-240320SF-CTXI-T\n - The NHD-2.4-240320SF LCDs are rated at 2.8V but can withstand up to 3.3V\n - The NHD-1.8-128160ZF-CTXL LCD is rated for 2.8V but is not rated for other voltages\n - Visit www.newhavendisplay.com for more information on these LCDs which are available from DigiKey.com
+Notes:\n - Capacitors can be any available 6.3V+\n - 2.4" LCD can be either of:\n    NHD-2.4-240320SF-CTXI-T which has a touchscreen\n    NHD-2.4-240320SF-CTXI   which does not have a touchscreen\n - TSC2007 Touchscreen controller is only required\n    if populating the NHD-2.4-240320SF-CTXI-T\n - The NHD-2.4-240320SF LCDs are rated at 2.8V but can withstand up to 3.3V\n - Visit www.newhavendisplay.com for more information on these LCDs which are available from DigiKey.com
 Text GLabel 6550 3700 2    40   BiDi ~ 0
 LCD_D00
 Text GLabel 6550 3600 2    40   BiDi ~ 0
