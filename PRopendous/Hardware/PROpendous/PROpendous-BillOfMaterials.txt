@@ -12,7 +12,7 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
  2, C1608C0G1H100D                  , 0.02 - C1 C2 - CAP CER 10PF 50V C0G 0603
  8, GRM188R71H103KA01D              , 0.02 - C22 C23 C24 C25 C53 C68 C70 C76 - CAP CER 0.01uF=10nF=10000PF 50V 10% X7R 0603
  1, GRM155R71H103KA88D              , 0.02 - C73 - CAP CER 0.01uF=10000PF 50V X7R 0402
-27, GRM188R71C104KA01D              , 0.01 - C3 C4 C6 C7 C8 C9 C10 C11 C12 C13 C18 C19 C31 C33 C48 C52 C60 C61 C63 C64 C65 C66 C67 C71 C75 C80 - CAP CER .1UF 16V 10% X7R 0603
+28, GRM188R71C104KA01D              , 0.01 - C3 C4 C6 C7 C8 C9 C10 C11 C12 C13 C18 C19 C31 C33 C48 C52 C60 C61 C63 C64 C65 C66 C67 C71 C75 C80 C83 - CAP CER .1UF 16V 10% X7R 0603
 12, GRM188R61A105KA61D,             , 0.04 - C5 C32 C34 C44 C45 C49 C51 C57 C58 C62 C72 - CAP CER 1.0UF 10V 10% X5R 0603
  8, C2012X5R0J106K                  , 0.23 - C14 C15 C16 C17 C20 C21 C56 C77 - CAP CER 10UF 6.3V X5R 10% 0805
  4, TCA0J476M8R                     , 0.33 - C26 C37 C50 C59 - CAP TANT 47UF 6.3V 20% SMD 3-Ohm-ESR 1206
@@ -31,7 +31,7 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
  1, SD-RSMT-2-MQ-WF                 , 1.39 - U3 - CONN CARD SD PUSH-PUSH R/A SMD
  3, BKP2125HS101-T                  , 0.05 - L2 L4 L18 R5 - FERRITE BEAD 2.5A 40-mOhm-DCR 100 OHM 0805
  9, BKP1608HS101-T                  , 0.04 - L7 L8 L9 L10 L11 L12 L13 L15 L17 - FERRITE BEAD 1.7A 50-mOhm-DCR 100 OHM 0603
- 4, RMCF 1/16 0 R 0603              , 0.02 - R5 R45 R50 R51 - RES 0.0 OHM 1/10W 0603 SMD
+ 5, RMCF 1/16 0 R 0603              , 0.02 - R5 R45 R50 R51 R53 - RES 0.0 OHM 1/10W 0603 SMD
  1, RMCF 1/16S 100 1% R 0603        , 0.04 - R10 - RES 100 OHM 1/16W 1% 0402 SMD
  2, RMCF 1/16 200 1% R 0603         , 0.04 - R46 R47 - RES 200 OHM 1/10W 1% 0603 SMD
  4, RMCF 1/16 1K 1% R 0603          , 0.04 - R1 R2 R8 R9 - RES 1K OHM 1/10W 1% 0603 SMD
@@ -43,7 +43,7 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
  1, 151210-8422-RB                  , 1.00 - JP1 - CONN 10POS 5x2 2MM HEADER DUAL GOLD
  3, SPN02SYBN-RC                    , 0.26 - * - CONN SHUNT 2MM OPEN TOP 2PS GOLD for JP1
  1, 53047-0310                      , 0.66 - BT1 - CONN HEADER 3POS 1.25MM VERT TIN
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=49.97
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=50.00
 
 
 ~~~ Optional Audio Components ~~~
@@ -103,7 +103,7 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
 
  1, 1553BTBUBKBAT                   ,10.44 - Enclosure - BOX SOFT SIDE 4.62X3.11X.95" BLU
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=113.01
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=113.04
 
 
 PROpendous_Assembly_?.svg/.jpg shows component placement.
@@ -112,13 +112,13 @@ PROpendous_Assembly_?.svg/.jpg shows component placement.
 Notes:	- Component costs listed are for minimum quantity orders from DigiKey.com
 	- Enclosure for the design is the 1553BTBUBKBAT or one of its colorful equivalents:
 	  1553BBKBAT, 1553BYLBKBAT, 1553BRDBKBAT, 1553BBKBKBAT, 1553BGYBAT
-	- U1, the 2.4" LCD can be substituted with NHD-1.8-128160ZF-CTXL#, a 1.8" LCD or
-	  the NHD-2.4-240320SF-CTXI# which has no touch screen
+	- L1, the 15uH inductor SRR4028-150Y can be substituted with SRR4018-150Y
+	- U1, the 2.4" LCD can be substituted with NHD-2.4-240320SF-CTXI# which has no touch screen
 	- P2 can be replaced with SFH11-PBPC-D20-ST-BK during prototyping, a cheaper polarized version
 	- All 0402 resistors and capacitors are optional
 	- Capacitors C26 C37 C50 C59 should have <300mOhm ESR such as the C1206C476M9PACTU
 	  but currently using the TCA0J476M8R to lower costs
-	- USB-A vertical connector can also be EDAC 690-004-660-013
-	- MBR120VLSF diodes can be replaced by MBRX120 in SOD123
+	- USB-A horizontal connector can be substituted by EDAC 690-004-660-013
+	- MBR120VLSF diodes can be substituted by MBRX120 in SOD123
 	- if you require an ARM JTAG cable see the H3AAH-2006G
 	- if you require an ARM JTAG adaptor see www.opendous.org/JTAG
