@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 28/09/2010 02:01:23
+EESchema Schematic File Version 2  date 13/10/2010 11:22:35
 LIBS:opendous
 LIBS:device
 LIBS:transistors
