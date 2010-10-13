@@ -27,7 +27,7 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
  1, 961104-6404-AR                  , 0.17 - P1 - CONN HEADER VERT SGL 4POS 4x1 GOLD
  1, PPPC202LFBN-RC                  , 3.01 - P2 - CONN HEADER FMAL 40PS 20x2 .1" DL GOLD
  1, 67996-420HLF                    , 0.84 - U10 - CONN HEADER 20POS 10x2 .100 STR TIN
- 1, 2908-05WB-MG                    , 1.23 - U2 - CONN EJECT MICROSD PUSH-PUSH SMD
+ 1, 101-00303-68                    , 0.86 - U2 - CONN MINI MICRO-SD 8PIN PCB GOLD
  1, SD-RSMT-2-MQ-WF                 , 1.39 - U3 - CONN CARD SD PUSH-PUSH R/A SMD
  3, BKP2125HS101-T                  , 0.05 - L2 L4 L18 R5 - FERRITE BEAD 2.5A 40-mOhm-DCR 100 OHM 0805
  9, BKP1608HS101-T                  , 0.04 - L7 L8 L9 L10 L11 L12 L13 L15 L17 - FERRITE BEAD 1.7A 50-mOhm-DCR 100 OHM 0603
@@ -43,7 +43,7 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
  1, 151210-8422-RB                  , 1.00 - JP1 - CONN 10POS 5x2 2MM HEADER DUAL GOLD
  3, SPN02SYBN-RC                    , 0.26 - * - CONN SHUNT 2MM OPEN TOP 2PS GOLD for JP1
  1, 53047-0310                      , 0.66 - BT1 - CONN HEADER 3POS 1.25MM VERT TIN
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=50.00
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=49.63
 
 
 ~~~ Optional Audio Components ~~~
