@@ -1,0 +1,278 @@
+# EESchema Netlist Version 1.1 created  20/10/2010 04:50:00
+(
+ ( /4CBEAA2D $noname  V24 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA7BB $noname  V23 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA7BA $noname  V22 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA671 $noname  V21 VIA {Lib=VIA}
+  (    1 3V3 )
+ )
+ ( /4CBEA604 $noname  V20 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA541 $noname  V17 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA53F $noname  V19 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA53E $noname  V18 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA314 $noname  V9 VIA {Lib=VIA}
+  (    1 /NEXT )
+ )
+ ( /4CBEA313 $noname  V10 VIA {Lib=VIA}
+  (    1 /NEXT )
+ )
+ ( /4CBEA312 $noname  V12 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA311 $noname  V11 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA310 $noname  V15 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA30F $noname  V16 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA30E $noname  V14 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBEA30D $noname  V13 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBE992D $noname  R6 0 {Lib=R_MINI}
+  (    1 /nRESET )
+  (    2 /D_RX )
+ )
+ ( /4CBE9475 $noname  D1 LED {Lib=D_LED}
+  (    1 GND )
+  (    2 N-000011 )
+ )
+ ( /4CBE925B $noname  V5 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBE925A $noname  V6 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBE9259 $noname  V8 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBE9258 $noname  V7 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBE9255 $noname  V3 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBE9254 $noname  V4 VIA {Lib=VIA}
+  (    1 GND )
+ )
+ ( /4CBE9252 $noname  V2 VIA {Lib=VIA}
+  (    1 3V3 )
+ )
+ ( /4CBE924C $noname  V1 VIA {Lib=VIA}
+  (    1 /D_RX )
+ )
+ ( /4CBE8E9B $noname  C2 4u7 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4CBE8E94 $noname  C1 0u1 {Lib=C_MINI}
+  (    1 3V3 )
+  (    2 GND )
+ )
+ ( /4CBC4681 $noname  R5 15k {Lib=R_MINI}
+  (    1 /INT )
+  (    2 3V3 )
+ )
+ ( /4CBC463B $noname  TP1 nRESET {Lib=CONN_1}
+  (    1 /nRESET )
+ )
+ ( /4CBC42B0 $noname  D2 LED {Lib=D_LED}
+  (    1 GND )
+  (    2 N-000011 )
+ )
+ ( /4CBC3726 $noname  U1 PROPENDOUS_BUTTONS_MODULE {Lib=PROPENDOUS_BUTTONS_MODULE}
+  (    1 GND )
+  (    2 3V3 )
+  (    3 /D_RX )
+  (    4 /INT )
+  (    5 /SCL )
+  (    6 /SDA )
+ )
+ ( /4CBC3E93 $noname  R4 2k2 {Lib=R_MINI}
+  (    1 /SDA )
+  (    2 3V3 )
+ )
+ ( /4CBC3E88 $noname  R3 2k2 {Lib=R_MINI}
+  (    1 /SCL )
+  (    2 3V3 )
+ )
+ ( /4CBC3CF8 $noname  SW7 NEXT {Lib=SWITCH_PUSHBUTTON}
+  (    1 /NEXT )
+  (    2 GND )
+ )
+ ( /4CBC3CEF $noname  SW1 HOME {Lib=SWITCH_PUSHBUTTON}
+  (    1 /HOME )
+  (    2 GND )
+ )
+ ( /4CBC3CDB $noname  SW2 LEFT {Lib=SWITCH_PUSHBUTTON}
+  (    1 /LEFT )
+  (    2 GND )
+ )
+ ( /4CBC3CD4 $noname  SW6 RIGHT {Lib=SWITCH_PUSHBUTTON}
+  (    1 /RIGHT )
+  (    2 GND )
+ )
+ ( /4CBC3CCC $noname  SW5 DOWN {Lib=SWITCH_PUSHBUTTON}
+  (    1 /DOWN )
+  (    2 GND )
+ )
+ ( /4CBC3CC3 $noname  SW4 CENTER {Lib=SWITCH_PUSHBUTTON}
+  (    1 /CENTER )
+  (    2 GND )
+ )
+ ( /4CBC3C61 $noname  SW3 UP {Lib=SWITCH_PUSHBUTTON}
+  (    1 /UP )
+  (    2 GND )
+ )
+ ( /4CBC3B59 $noname  IC1 MCP23008 {Lib=MCP23008_SSOP}
+  (    1 /SCL )
+  (    2 /SDA )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 /nRESET )
+  (    7 ? )
+  (    8 /INT )
+  (    9 GND )
+  (   10 ? )
+  (   11 ? )
+  (   12 /NEXT )
+  (   13 /CENTER )
+  (   14 /HOME )
+  (   15 /LEFT )
+  (   16 /DOWN )
+  (   17 /UP )
+  (   18 /RIGHT )
+  (   19 /GPIO7 )
+  (   20 3V3 )
+ )
+ ( /4CBC39E3 $noname  R1 15k {Lib=R_MINI}
+  (    1 /nRESET )
+  (    2 3V3 )
+ )
+ ( /4CBC39DF $noname  R2 1k {Lib=R_MINI}
+  (    1 N-000011 )
+  (    2 /GPIO7 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "3V3" "3V3"
+ R5 2
+ V21 1
+ IC1 20
+ R1 2
+ R3 2
+ R4 2
+ C1 1
+ U1 2
+ C2 1
+ V2 1
+Net 2 "/D_RX" "D_RX"
+ U1 3
+ R6 2
+ V1 1
+Net 3 "/INT" "INT"
+ U1 4
+ IC1 8
+ R5 1
+Net 4 "/DOWN" "DOWN"
+ IC1 16
+ SW5 1
+Net 5 "/nRESET" "nRESET"
+ R1 1
+ IC1 6
+ R6 1
+ TP1 1
+Net 6 "/NEXT" "NEXT"
+ IC1 12
+ V9 1
+ V10 1
+ SW7 1
+Net 7 "/LEFT" "LEFT"
+ IC1 15
+ SW2 1
+Net 11 "" ""
+ D1 2
+ R2 1
+ D2 2
+Net 12 "/GPIO7" "GPIO7"
+ IC1 19
+ R2 2
+Net 13 "/UP" "UP"
+ SW3 1
+ IC1 17
+Net 14 "/CENTER" "CENTER"
+ IC1 13
+ SW4 1
+Net 15 "/RIGHT" "RIGHT"
+ SW6 1
+ IC1 18
+Net 16 "/HOME" "HOME"
+ IC1 14
+ SW1 1
+Net 17 "/SCL" "SCL"
+ IC1 1
+ U1 5
+ R3 1
+Net 18 "GND" "GND"
+ D1 1
+ V13 1
+ V14 1
+ V16 1
+ V15 1
+ V11 1
+ V12 1
+ IC1 9
+ IC1 5
+ IC1 4
+ IC1 3
+ C1 2
+ C2 2
+ V4 1
+ V3 1
+ V7 1
+ V8 1
+ V6 1
+ V5 1
+ U1 1
+ D2 1
+ V18 1
+ V19 1
+ V17 1
+ V20 1
+ V22 1
+ V23 1
+ V24 1
+ SW3 2
+ SW7 2
+ SW1 2
+ SW2 2
+ SW6 2
+ SW5 2
+ SW4 2
+Net 19 "/SDA" "SDA"
+ IC1 2
+ U1 6
+ R4 1
+}
+#End

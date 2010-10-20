@@ -12,8 +12,8 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
  2, C1608C0G1H100D                  , 0.02 - C1 C2 - CAP CER 10PF 50V C0G 0603
  8, GRM188R71H103KA01D              , 0.02 - C22 C23 C24 C25 C53 C68 C70 C76 - CAP CER 0.01uF=10nF=10000PF 50V 10% X7R 0603
  1, GRM155R71H103KA88D              , 0.02 - C73 - CAP CER 0.01uF=10000PF 50V X7R 0402
-28, GRM188R71C104KA01D              , 0.01 - C3 C4 C6 C7 C8 C9 C10 C11 C12 C13 C18 C19 C31 C33 C48 C52 C60 C61 C63 C64 C65 C66 C67 C71 C75 C80 C83 - CAP CER .1UF 16V 10% X7R 0603
-12, GRM188R61A105KA61D,             , 0.04 - C5 C32 C34 C44 C45 C49 C51 C57 C58 C62 C72 - CAP CER 1.0UF 10V 10% X5R 0603
+30, GRM188R71C104KA01D              , 0.01 - C3 C4 C6 C7 C8 C9 C10 C11 C12 C13 C18 C19 C31 C33 C48 C52 C60 C61 C63 C64 C65 C66 C67 C71 C75 C80 C83 C84 C85 - CAP CER .1UF 16V 10% X7R 0603
+13, GRM188R61A105KA61D,             , 0.04 - C5 C32 C34 C44 C45 C49 C51 C57 C58 C62 C72 C86 - CAP CER 1.0UF 10V 10% X5R 0603
  8, C2012X5R0J106K                  , 0.23 - C14 C15 C16 C17 C20 C21 C56 C77 - CAP CER 10UF 6.3V X5R 10% 0805
  4, TCA0J476M8R                     , 0.33 - C26 C37 C50 C59 - CAP TANT 47UF 6.3V 20% SMD 3-Ohm-ESR 1206
  4, C1206C476M9PACTU                , 0.94 - C27 C54 C55 C69 - CAP CERAMIC 47UF 6.3V X5R 1206
@@ -43,7 +43,7 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
  1, 151210-8422-RB                  , 1.00 - JP1 - CONN 10POS 5x2 2MM HEADER DUAL GOLD
  3, SPN02SYBN-RC                    , 0.26 - * - CONN SHUNT 2MM OPEN TOP 2PS GOLD for JP1
  1, 53047-0310                      , 0.66 - BT1 - CONN HEADER 3POS 1.25MM VERT TIN
-~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=49.63
+~~~~~~~~~~~~~~~~~~~~~~~~~~~Sub-Total=49.66
 
 
 ~~~ Optional Audio Components ~~~
@@ -103,7 +103,7 @@ Quantity, Manufacturer Part Number , Price($USD) - Componenet Reference(s) - Des
 
  1, 1553BTBUBKBAT                   ,10.44 - Enclosure - BOX SOFT SIDE 4.62X3.11X.95" BLU
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=113.04
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Total=113.07
 
 
 PROpendous_Assembly_?.svg/.jpg shows component placement.
