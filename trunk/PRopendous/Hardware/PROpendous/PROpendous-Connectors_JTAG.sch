@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 13/10/2010 11:22:35
+EESchema Schematic File Version 2  date 20/10/2010 05:47:04
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 8
 Title "PROpendous"
-Date "28 sep 2010"
+Date "20 oct 2010"
 Rev "1.0"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
@@ -44,33 +44,11 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
-$Comp
-L VDD_XTAL #PWR033
-U 1 1 4CA16B7B
-P 8600 5450
-F 0 "#PWR033" H 8600 5550 30  0001 C CNN
-F 1 "VDD_XTAL" H 8600 5550 30  0000 C CNN
-	1    8600 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_MINI C83
-U 1 1 4CA16B77
-P 8600 5600
-F 0 "C83" V 8550 5650 30  0000 C CNN
-F 1 "0.1uF" V 8650 5670 25  0000 C CNN
-	1    8600 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR034
-U 1 1 4CA16B76
-P 8600 5750
-F 0 "#PWR034" H 8600 5750 30  0001 C CNN
-F 1 "GND" H 8600 5680 30  0001 C CNN
-	1    8600 5750
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	4750 3450 4750 3550
+Connection ~ 4750 3250
+Wire Wire Line
+	4550 3250 4950 3250
 Wire Wire Line
 	8600 5500 8600 5450
 Wire Wire Line
@@ -97,7 +75,7 @@ Connection ~ 8300 5500
 Connection ~ 8300 5600
 Connection ~ 8300 5700
 Wire Wire Line
-	8300 4900 8300 5900
+	8300 5900 8300 4900
 Wire Wire Line
 	1950 5600 1950 5550
 Wire Wire Line
@@ -148,16 +126,8 @@ Wire Wire Line
 	10200 5400 9800 5400
 Wire Wire Line
 	9800 5400 9800 5500
-Connection ~ 4750 3250
 Wire Wire Line
-	4750 3150 4750 3250
-Wire Wire Line
-	4850 3450 4650 3450
-Wire Wire Line
-	4650 3250 4850 3250
-Connection ~ 4750 3450
-Wire Wire Line
-	4750 3550 4750 3450
+	4750 3250 4750 3150
 Wire Wire Line
 	2850 2200 2950 2200
 Wire Wire Line
@@ -237,17 +207,69 @@ Wire Wire Line
 	5100 1850 5200 1850
 Wire Wire Line
 	5200 1850 5200 2000
-Wire Wire Line
-	2800 2950 2400 2950
-Connection ~ 2600 2950
-Wire Wire Line
-	2800 3150 2400 3150
-Connection ~ 2600 3150
+Connection ~ 2700 2950
+Connection ~ 2700 3150
 Wire Wire Line
 	2600 2950 2600 2850
 Wire Wire Line
-	4100 5650 4300 5650
+	4300 5650 4100 5650
 Connection ~ 4200 5650
+Wire Wire Line
+	2900 2950 2300 2950
+Connection ~ 2500 2950
+Wire Wire Line
+	2900 3150 2300 3150
+Connection ~ 2500 3150
+Connection ~ 2600 3150
+Connection ~ 2600 2950
+Wire Wire Line
+	4950 3450 4550 3450
+Connection ~ 4750 3450
+$Comp
+L C_MINI C85
+U 1 1 4CBEBA49
+P 4550 3350
+F 0 "C85" V 4500 3400 30  0000 C CNN
+F 1 "0.1uF" V 4600 3420 25  0000 C CNN
+	1    4550 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L C_MINI C84
+U 1 1 4CBEB7E3
+P 2300 3050
+F 0 "C84" V 2250 3100 30  0000 C CNN
+F 1 "0.1uF" V 2350 3120 25  0000 C CNN
+	1    2300 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L VDD_XTAL #PWR033
+U 1 1 4CA16B7B
+P 8600 5450
+F 0 "#PWR033" H 8600 5550 30  0001 C CNN
+F 1 "VDD_XTAL" H 8600 5550 30  0000 C CNN
+	1    8600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_MINI C83
+U 1 1 4CA16B77
+P 8600 5600
+F 0 "C83" V 8550 5650 30  0000 C CNN
+F 1 "0.1uF" V 8650 5670 25  0000 C CNN
+	1    8600 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 4CA16B76
+P 8600 5750
+F 0 "#PWR034" H 8600 5750 30  0001 C CNN
+F 1 "GND" H 8600 5680 30  0001 C CNN
+	1    8600 5750
+	1    0    0    -1  
+$EndComp
 $Comp
 L VDD_XTAL #PWR035
 U 1 1 4CA165B9
@@ -290,10 +312,10 @@ $EndComp
 $Comp
 L C_MINI C82
 U 1 1 4C00A63F
-P 2800 3050
-F 0 "C82" V 2750 3100 30  0000 C CNN
-F 1 "1uF" V 2850 3100 25  0000 C CNN
-	1    2800 3050
+P 2900 3050
+F 0 "C82" V 2850 3100 30  0000 C CNN
+F 1 "1uF" V 2950 3100 25  0000 C CNN
+	1    2900 3050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -681,10 +703,10 @@ $EndComp
 $Comp
 L C_MINI C33
 U 1 1 4BCA210D
-P 4650 3350
-F 0 "C33" V 4600 3400 30  0000 C CNN
-F 1 "0.1uF" V 4700 3420 25  0000 C CNN
-	1    4650 3350
+P 4750 3350
+F 0 "C33" V 4700 3400 30  0000 C CNN
+F 1 "0.1uF" V 4800 3420 25  0000 C CNN
+	1    4750 3350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -699,10 +721,10 @@ $EndComp
 $Comp
 L C_MINI C34
 U 1 1 4BCA210B
-P 4850 3350
-F 0 "C34" V 4800 3400 30  0000 C CNN
-F 1 "1uF" V 4900 3400 25  0000 C CNN
-	1    4850 3350
+P 4950 3350
+F 0 "C34" V 4900 3400 30  0000 C CNN
+F 1 "1uF" V 5000 3400 25  0000 C CNN
+	1    4950 3350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -717,19 +739,19 @@ $EndComp
 $Comp
 L C_MINI C32
 U 1 1 4BCA20E6
-P 2600 3050
-F 0 "C32" V 2550 3100 30  0000 C CNN
-F 1 "1uF" V 2650 3100 25  0000 C CNN
-	1    2600 3050
+P 2700 3050
+F 0 "C32" V 2650 3100 30  0000 C CNN
+F 1 "1uF" V 2750 3100 25  0000 C CNN
+	1    2700 3050
 	0    1    1    0   
 $EndComp
 $Comp
 L C_MINI C31
 U 1 1 4BCA20D5
-P 2400 3050
-F 0 "C31" V 2350 3100 30  0000 C CNN
-F 1 "0.1uF" V 2450 3120 25  0000 C CNN
-	1    2400 3050
+P 2500 3050
+F 0 "C31" V 2450 3100 30  0000 C CNN
+F 1 "0.1uF" V 2550 3120 25  0000 C CNN
+	1    2500 3050
 	0    1    1    0   
 $EndComp
 Text Notes 2350 2550 0    40   ~ 0
