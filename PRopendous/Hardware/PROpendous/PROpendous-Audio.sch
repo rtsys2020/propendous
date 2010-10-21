@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 20/10/2010 05:47:04
+EESchema Schematic File Version 2  date 21/10/2010 09:30:50
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,14 +36,16 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 8
 Title "PROpendous"
-Date "20 oct 2010"
-Rev "1.0"
+Date "21 oct 2010"
+Rev "1.1"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
 Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 3850 6100 0    30   ~ 0
+nCS=1 enables I2C interface
 Text GLabel 6600 7650 2    40   BiDi ~ 0
 MIC_OUT
 Text GLabel 6600 7550 2    40   BiDi ~ 0

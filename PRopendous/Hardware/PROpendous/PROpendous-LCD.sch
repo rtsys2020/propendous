@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 20/10/2010 05:47:04
+EESchema Schematic File Version 2  date 21/10/2010 09:30:50
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,8 +36,8 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 8
 Title "PROpendous"
-Date "20 oct 2010"
-Rev "1.0"
+Date "21 oct 2010"
+Rev "1.1"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
 Comment2 "http://creativecommons.org/licenses/by/3.0/"
@@ -317,7 +317,7 @@ TSC_IN2
 Text GLabel 2250 6150 0    40   BiDi ~ 0
 TSC_VBAT2
 Text GLabel 3900 3600 0    40   BiDi ~ 0
-GPMI_CE1n
+PWM2-GPMI_RDY3
 $Comp
 L VDDIO_3V3 #PWR070
 U 1 1 4BCCB9C6

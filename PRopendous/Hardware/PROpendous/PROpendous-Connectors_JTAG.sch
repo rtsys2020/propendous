@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 20/10/2010 05:47:04
+EESchema Schematic File Version 2  date 21/10/2010 09:30:50
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,195 +36,197 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 8
 Title "PROpendous"
-Date "20 oct 2010"
-Rev "1.0"
+Date "21 oct 2010"
+Rev "1.1"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
 Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 4300 6150 0    40   ~ 0
+Depopulating R53 will allow you\nto use the Host/Debug LED in the\nPower_Boot sheet without also\nenabling USB Hosting
 Wire Wire Line
-	4750 3450 4750 3550
-Connection ~ 4750 3250
+	4200 5650 4300 5650
+Connection ~ 3900 5650
 Wire Wire Line
-	4550 3250 4950 3250
+	4000 5650 3250 5650
+Connection ~ 4750 3450
 Wire Wire Line
-	8600 5500 8600 5450
+	4550 3450 4950 3450
+Connection ~ 2600 2950
+Connection ~ 2600 3150
+Connection ~ 2500 3150
 Wire Wire Line
-	8600 5700 8600 5750
+	2300 3150 2900 3150
+Connection ~ 2500 2950
 Wire Wire Line
-	7200 5600 7300 5600
+	2300 2950 2900 2950
 Wire Wire Line
-	2600 3250 2600 3150
-Connection ~ 5200 1950
+	2600 2950 2600 2850
+Connection ~ 2700 3150
+Connection ~ 2700 2950
 Wire Wire Line
-	5100 1950 5200 1950
+	5200 2000 5200 1850
 Wire Wire Line
-	8600 5100 8600 5150
+	5200 1850 5100 1850
+Connection ~ 7800 4600
 Wire Wire Line
-	8600 4900 8600 4850
+	7800 4550 7800 4600
 Wire Wire Line
-	7300 4800 7300 4600
-Connection ~ 8300 5000
-Connection ~ 8300 5100
-Connection ~ 8300 5200
-Connection ~ 8300 5300
-Connection ~ 8300 5400
-Connection ~ 8300 5500
-Connection ~ 8300 5600
-Connection ~ 8300 5700
+	8300 4800 8300 4600
 Wire Wire Line
-	8300 5900 8300 4900
+	8300 4600 7300 4600
 Wire Wire Line
-	1950 5600 1950 5550
+	9200 1350 9200 1400
 Wire Wire Line
-	1950 5550 1900 5550
+	9200 1400 9050 1400
 Wire Wire Line
-	5300 1800 5300 1750
+	8250 1400 8250 1300
 Wire Wire Line
-	5300 1750 5100 1750
+	8250 1300 8100 1300
 Wire Wire Line
-	2800 6850 2800 6800
+	8100 1300 8100 1350
+Wire Notes Line
+	11200 1200 11200 500 
+Wire Notes Line
+	11200 1200 10600 1200
+Wire Notes Line
+	10600 1200 10600 500 
+Wire Notes Line
+	10600 500  11200 500 
 Wire Wire Line
-	1725 6475 1725 6450
-Wire Wire Line
-	1725 6450 1600 6450
-Wire Wire Line
-	3250 5750 3700 5750
-Wire Wire Line
-	2350 6050 2150 6050
-Wire Wire Line
-	2150 6050 2150 6150
-Wire Wire Line
-	2150 6150 1600 6150
-Wire Wire Line
-	2350 5750 2050 5750
-Wire Wire Line
-	2050 5750 2050 5350
-Wire Wire Line
-	2050 5350 1600 5350
-Wire Wire Line
-	1950 6250 1600 6250
-Wire Wire Line
-	1700 5675 1700 5650
-Wire Wire Line
-	1700 5650 1600 5650
-Wire Wire Line
-	2250 2100 1200 2100
-Wire Wire Line
-	9800 5000 9800 5100
-Wire Wire Line
-	9800 5100 9900 5100
-Wire Wire Line
-	10200 5300 9750 5300
-Wire Wire Line
-	10200 5200 9750 5200
-Wire Wire Line
-	10200 5100 10100 5100
-Wire Wire Line
-	10200 5400 9800 5400
-Wire Wire Line
-	9800 5400 9800 5500
-Wire Wire Line
-	4750 3250 4750 3150
-Wire Wire Line
-	2850 2200 2950 2200
-Wire Wire Line
-	2950 2200 2950 2300
-Wire Wire Line
-	1200 2100 1200 2150
-Wire Wire Line
-	2250 2000 1200 2000
-Wire Wire Line
-	1200 2000 1200 1950
-Wire Wire Line
-	3350 2350 3350 2400
-Wire Wire Line
-	3350 2400 4400 2400
-Wire Wire Line
-	3350 2550 3350 2500
-Wire Wire Line
-	3350 2500 4400 2500
-Wire Wire Line
-	2800 6300 2800 6200
-Wire Wire Line
-	2800 5500 2800 5300
-Wire Wire Line
-	3700 6050 3700 5950
-Wire Wire Line
-	1650 5450 1600 5450
-Wire Wire Line
-	4200 6050 4200 5850
-Wire Wire Line
-	1600 5250 2150 5250
-Wire Wire Line
-	2150 5250 2150 5650
-Wire Wire Line
-	2150 5650 2350 5650
-Wire Wire Line
-	1600 6050 2050 6050
-Wire Wire Line
-	2050 6050 2050 5950
-Wire Wire Line
-	2050 5950 2350 5950
-Wire Wire Line
-	3250 5650 3900 5650
-Wire Wire Line
-	1600 6350 1950 6350
-Wire Wire Line
-	1950 6350 1950 6375
+	1700 5550 1600 5550
 Wire Wire Line
 	2800 7050 2800 7100
 Wire Wire Line
-	1700 5550 1600 5550
-Wire Notes Line
-	10600 500  11200 500 
-Wire Notes Line
-	10600 500  10600 1200
-Wire Notes Line
-	10600 1200 11200 1200
-Wire Notes Line
-	11200 1200 11200 500 
+	1950 6375 1950 6350
 Wire Wire Line
-	8100 1350 8100 1300
+	1950 6350 1600 6350
 Wire Wire Line
-	8100 1300 8250 1300
+	2350 5950 2050 5950
 Wire Wire Line
-	8250 1300 8250 1400
+	2050 5950 2050 6050
 Wire Wire Line
-	9050 1400 9200 1400
+	2050 6050 1600 6050
 Wire Wire Line
-	9200 1400 9200 1350
+	2350 5650 2150 5650
 Wire Wire Line
-	7300 4600 8300 4600
+	2150 5650 2150 5250
 Wire Wire Line
-	8300 4600 8300 4800
+	2150 5250 1600 5250
 Wire Wire Line
-	7800 4550 7800 4600
-Connection ~ 7800 4600
+	3900 6050 3900 5850
 Wire Wire Line
-	5100 1850 5200 1850
+	1650 5450 1600 5450
 Wire Wire Line
-	5200 1850 5200 2000
-Connection ~ 2700 2950
-Connection ~ 2700 3150
+	3700 6050 3700 5950
 Wire Wire Line
-	2600 2950 2600 2850
+	2800 5500 2800 5300
 Wire Wire Line
-	4300 5650 4100 5650
-Connection ~ 4200 5650
+	2800 6300 2800 6200
 Wire Wire Line
-	2900 2950 2300 2950
-Connection ~ 2500 2950
+	4400 2500 3350 2500
 Wire Wire Line
-	2900 3150 2300 3150
-Connection ~ 2500 3150
-Connection ~ 2600 3150
-Connection ~ 2600 2950
+	3350 2500 3350 2550
 Wire Wire Line
-	4950 3450 4550 3450
-Connection ~ 4750 3450
+	4400 2400 3350 2400
+Wire Wire Line
+	3350 2400 3350 2350
+Wire Wire Line
+	1200 1950 1200 2000
+Wire Wire Line
+	1200 2000 2250 2000
+Wire Wire Line
+	1200 2150 1200 2100
+Wire Wire Line
+	2950 2300 2950 2200
+Wire Wire Line
+	2950 2200 2850 2200
+Wire Wire Line
+	4750 3150 4750 3250
+Wire Wire Line
+	9800 5500 9800 5400
+Wire Wire Line
+	9800 5400 10200 5400
+Wire Wire Line
+	10200 5100 10100 5100
+Wire Wire Line
+	10200 5200 9750 5200
+Wire Wire Line
+	10200 5300 9750 5300
+Wire Wire Line
+	9900 5100 9800 5100
+Wire Wire Line
+	9800 5100 9800 5000
+Wire Wire Line
+	1200 2100 2250 2100
+Wire Wire Line
+	1600 5650 1700 5650
+Wire Wire Line
+	1700 5650 1700 5675
+Wire Wire Line
+	1950 6250 1600 6250
+Wire Wire Line
+	1600 5350 2050 5350
+Wire Wire Line
+	2050 5350 2050 5750
+Wire Wire Line
+	2050 5750 2350 5750
+Wire Wire Line
+	1600 6150 2150 6150
+Wire Wire Line
+	2150 6150 2150 6050
+Wire Wire Line
+	2150 6050 2350 6050
+Wire Wire Line
+	3250 5750 3700 5750
+Wire Wire Line
+	1600 6450 1725 6450
+Wire Wire Line
+	1725 6450 1725 6475
+Wire Wire Line
+	2800 6850 2800 6800
+Wire Wire Line
+	5100 1750 5300 1750
+Wire Wire Line
+	5300 1750 5300 1800
+Wire Wire Line
+	1900 5550 1950 5550
+Wire Wire Line
+	1950 5550 1950 5600
+Wire Wire Line
+	8300 4900 8300 5900
+Connection ~ 8300 5700
+Connection ~ 8300 5600
+Connection ~ 8300 5500
+Connection ~ 8300 5400
+Connection ~ 8300 5300
+Connection ~ 8300 5200
+Connection ~ 8300 5100
+Connection ~ 8300 5000
+Wire Wire Line
+	7300 4600 7300 4800
+Wire Wire Line
+	8600 4900 8600 4850
+Wire Wire Line
+	8600 5100 8600 5150
+Wire Wire Line
+	5100 1950 5200 1950
+Connection ~ 5200 1950
+Wire Wire Line
+	2600 3250 2600 3150
+Wire Wire Line
+	7200 5600 7300 5600
+Wire Wire Line
+	8600 5700 8600 5750
+Wire Wire Line
+	8600 5500 8600 5450
+Wire Wire Line
+	4950 3250 4550 3250
+Connection ~ 4750 3250
+Wire Wire Line
+	4750 3450 4750 3550
 $Comp
 L C_MINI C85
 U 1 1 4CBEBA49
@@ -288,14 +290,14 @@ FSUSB20_S
 $Comp
 L R_MINI R53
 U 1 1 4CA14980
-P 4000 5650
-F 0 "R53" H 3950 5700 25  0000 C CNN
-F 1 "0" H 4050 5700 20  0000 C CNN
-	1    4000 5650
+P 4100 5650
+F 0 "R53" H 4050 5700 25  0000 C CNN
+F 1 "0" H 4150 5700 20  0000 C CNN
+	1    4100 5650
 	1    0    0    -1  
 $EndComp
 Text Notes 9475 3325 0    30   ~ 0
-LCD Backlight Enable
+USB Connector Switch Control
 Text Notes 7200 6100 0    40   ~ 0
 JTAG nSRST, DBGRQ, and DBGACK pins are\nconnected to non-JTAG pins so that the JTAG\nheader can be used as an expansion header.\nThey must be disconnected when using JTAG.\nBend the pins down when JTAG debugging.\n
 Text GLabel 7300 5700 0    40   BiDi ~ 0
@@ -508,15 +510,15 @@ F 1 "FSUSB20" H 3000 6150 40  0000 C CNN
 $EndComp
 Text Notes 8100 1100 0    80   Italic 16
 Expansion Header
-Text Notes 4350 5850 0    40   ~ 0
-When FSUSB20_S (PWM2-GPMI_RDY3) enables\nthe USB-A connector it will also enable the\nUSB Host VBUS Generator in the Power_Boot sheet
+Text Notes 4300 5850 0    40   ~ 0
+When FSUSB20_S (GPMI_CE1n) enables\nthe USB-A connector it will also enable the\nUSB Host VBUS Generator and turn on the\nUSB_HOST LED in the Power_Boot sheet
 $Comp
 L GND #PWR048
 U 1 1 4BCC707A
-P 4200 6050
-F 0 "#PWR048" H 4200 6050 30  0001 C CNN
-F 1 "GND" H 4200 5980 30  0001 C CNN
-	1    4200 6050
+P 3900 6050
+F 0 "#PWR048" H 3900 6050 30  0001 C CNN
+F 1 "GND" H 3900 5980 30  0001 C CNN
+	1    3900 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -586,10 +588,10 @@ $EndComp
 $Comp
 L R_MINI R22
 U 1 1 4BCC59F1
-P 4200 5750
-F 0 "R22" V 4175 5800 25  0000 C CNN
-F 1 "15k" V 4225 5800 20  0000 C CNN
-	1    4200 5750
+P 3900 5750
+F 0 "R22" V 3875 5800 25  0000 C CNN
+F 1 "15k" V 3925 5800 20  0000 C CNN
+	1    3900 5750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -821,7 +823,7 @@ SSP1_SCK-JTAG_TRST
 Text GLabel 2250 2200 0    40   BiDi ~ 0
 GPMI_RDY1-SSP2_CMD
 Text GLabel 4300 5650 2    40   BiDi ~ 0
-PWM2-GPMI_RDY3
+GPMI_CE1n
 Text GLabel 2250 1750 0    40   BiDi ~ 0
 GPMI_D00-LCD_D8-SSP2_DATA0
 Text GLabel 2250 1650 0    40   BiDi ~ 0
