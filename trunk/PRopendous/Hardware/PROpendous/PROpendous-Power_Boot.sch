@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 20/10/2010 05:47:04
+EESchema Schematic File Version 2  date 21/10/2010 09:30:50
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -36,14 +36,16 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 7 8
 Title "PROpendous"
-Date "20 oct 2010"
-Rev "1.0"
+Date "21 oct 2010"
+Rev "1.1"
 Comp "Opendous Inc. (www.opendous.org)"
 Comment1 ""
 Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 1450 4200 0    40   ~ 0
+GPMI_CE1n also controls USB Hosting\nas it controls the USB Connector Switch and\nVBUS Generator but only if/when R53 in the\nConnectors_JTAG sheet is populated.\nTo use this LED for debug purposes without\nalso switching to USB Host mode simply\ndepopulate R53.\n
 Text Notes 950  7050 0    50   ~ 0
 Only need to mount jumpers to invert signals\nand select boot modes other than SD/MMC2
 $Comp
@@ -736,11 +738,9 @@ The LQH6PP meets the 2.5A inductor current limit of the LM2621.\nIt also meets t
 Text Notes 2100 2175 0    25   ~ 0
 2.85A Max
 Text Notes 5900 4350 0    40   ~ 0
-USB-miniB VBUS supplies power for\nLi-Ion Battery charging as well\nas board power.
-Text Notes 1450 4150 0    40   ~ 0
-PWM2-GPMI_RDY3 also controls USB\nUSB Host enable to reduce the number\nof signals stuck on the board.
+USB-miniB VBUS supplies power for\nLi-Ion Battery charging as well\nas board power.  However,\ncurrent consumption does\nnot meet USB Suspend Mode\nrequirements.
 Text GLabel 1950 3950 0    40   BiDi ~ 0
-PWM2-GPMI_RDY3
+GPMI_CE1n
 $Comp
 L D_LED D3
 U 1 1 4BD0D944
@@ -769,7 +769,7 @@ F 1 "GND" H 2650 3930 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1450 3750 0    50   Italic 10
-Debug/Host Mode Enabled LED
+Host/Debug Mode Enabled LED
 Text Notes 3450 3750 0    50   Italic 10
 Power ON LED
 $Comp
@@ -1083,7 +1083,7 @@ F 1 "VDD_BATT" H 8700 2400 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 700  2700 0    40   ~ 0
-FSUSB20_S, which is connected to\nPWM2-GPMI_RDY3, controls the\nUSB connector signal switch in\nthe Connectors_JTAG sheet.\n
+FSUSB20_S, which is connected to\nGPMI_CE1n, controls the\nUSB connector signal switch in\nthe Connectors_JTAG sheet.\n
 $Comp
 L GND #PWR0117
 U 1 1 4BCC8F2D
@@ -1611,7 +1611,7 @@ F 1 "VDD_BATT" H 5350 7450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 600  650  0    60   ~ 0
-Notes:\n - Capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - Tantalum capacitors should have ESR < 300mOhm but to reduce costs only use them on the noisiest rails\n - VDDIO, VDDD, VDDA should have 33uF of decoupling and LPF >1MHz per IMX23RM 32.2.1.1\n - Power Supply Designed to Freescale AppNote AN3883 recommendations
+Notes:\n - Capacitors are X7R, 6.3V, 20% or better unless otherwise noted\n - Tantalum capacitors should have ESR < 300mOhm but to reduce costs only use them on the noisiest rails\n - VDDIO, VDDD, VDDA should have 33uF of decoupling and LPF >1MHz per IMX23RM 32.2.1.1\n - Power Supply Designed to Freescale AppNote AN3883 recommendations\n - A PROpendous board must be self/battery-powered to meet the USB Specification's current consumption requirements for USB Suspend mode
 Text GLabel 2900 5700 0    40   BiDi ~ 0
 LCD_D00
 Text GLabel 2900 5800 0    40   BiDi ~ 0
