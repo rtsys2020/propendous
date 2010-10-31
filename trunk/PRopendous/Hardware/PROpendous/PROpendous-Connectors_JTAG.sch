@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 21/10/2010 09:30:50
+EESchema Schematic File Version 2  date 21/10/2010 18:49:25
 LIBS:opendous
 LIBS:device
 LIBS:transistors
@@ -44,6 +44,8 @@ Comment2 "http://creativecommons.org/licenses/by/3.0/"
 Comment3 "Copyright Under the Creative Commons Attribution License"
 Comment4 "www.PROpendous.org"
 $EndDescr
+Text Notes 2350 2600 0    40   ~ 0
+101-00303-68
 Text Notes 4300 6150 0    40   ~ 0
 Depopulating R53 will allow you\nto use the Host/Debug LED in the\nPower_Boot sheet without also\nenabling USB Hosting
 Wire Wire Line
@@ -756,8 +758,8 @@ F 1 "0.1uF" V 2550 3120 25  0000 C CNN
 	1    2500 3050
 	0    1    1    0   
 $EndComp
-Text Notes 2350 2550 0    40   ~ 0
-3M 29-08-05
+Text Notes 2450 2550 0    40   ~ 0
+Amphenol
 Text Notes 4450 2850 0    40   ~ 0
 3M SD-RSMT-2
 $Comp
