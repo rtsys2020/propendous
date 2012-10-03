@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:opendous
 LIBS:PROpendous_Buttons_Module-cache
 EELAYER 24  0
 EELAYER END
@@ -38,11 +37,11 @@ Sheet 1 1
 Title "PROpendous Buttons Module"
 Date "20 oct 2010"
 Rev "1.0"
-Comp "Opendous Inc. (www.opendous.org)"
-Comment1 ""
-Comment2 "http://creativecommons.org/licenses/by/3.0/"
-Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.PROpendous.org"
+Comp "Opendous Inc."
+Comment1 "Opendous Inc. deeded this hardware design into the Public Domain"
+Comment2 "http://creativecommons.org/publicdomain/zero/1.0/"
+Comment3 "No Copyright - Deeded under the Creative Commons CC0 Public Domain Dedication"
+Comment4 "For more information visit www.PROpendous.org"
 $EndDescr
 Wire Wire Line
 	5450 7650 5500 7650

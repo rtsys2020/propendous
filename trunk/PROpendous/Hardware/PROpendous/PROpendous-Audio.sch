@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date 21/10/2010 09:30:50
-LIBS:opendous
+EESchema Schematic File Version 2  date 10/2/2012 6:21:31 PM
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -31,176 +30,187 @@ LIBS:contrib
 LIBS:valves
 LIBS:power
 LIBS:PROpendous-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 6 8
 Title "PROpendous"
-Date "21 oct 2010"
-Rev "1.1"
+Date "2 oct 2012"
+Rev "1.2"
 Comp "Opendous Inc. (www.opendous.org)"
-Comment1 ""
-Comment2 "http://creativecommons.org/licenses/by/3.0/"
-Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.PROpendous.org"
+Comment1 "Opendous Inc. deeded this hardware design into the Public Domain"
+Comment2 "http://creativecommons.org/publicdomain/zero/1.0/"
+Comment3 "No Copyright - Deeded under the Creative Commons CC0 Public Domain Dedication"
+Comment4 "For more information visit www.PROpendous.org"
 $EndDescr
-Text Notes 3850 6100 0    30   ~ 0
-nCS=1 enables I2C interface
-Text GLabel 6600 7650 2    40   BiDi ~ 0
-MIC_OUT
-Text GLabel 6600 7550 2    40   BiDi ~ 0
-MIC_GND
-Text Label 6600 7550 2    30   ~ 0
-MIC_GND
-Text Label 6600 7650 2    30   ~ 0
-MIC_OUT
 Wire Wire Line
-	6150 6250 6050 6250
-Connection ~ 5350 5800
+	10900 900  10900 950 
 Wire Wire Line
-	6050 6100 6050 5800
+	6150 3450 5250 3450
 Wire Wire Line
-	5300 7250 5300 7300
+	5300 3400 5250 3400
 Wire Wire Line
-	5250 6700 5350 6700
+	5250 3400 5250 3450
+Connection ~ 5250 5800
 Wire Wire Line
-	5300 6700 5300 6750
-Connection ~ 5300 6700
+	4550 5800 6050 5800
 Wire Wire Line
-	5300 5800 5300 5750
-Connection ~ 5300 5800
+	4550 5800 4550 6100
 Wire Wire Line
-	5500 7050 5100 7050
-Connection ~ 5300 7050
+	3450 3300 3450 3000
 Wire Wire Line
-	5500 7250 5100 7250
-Connection ~ 5300 7250
+	3450 3000 2800 3000
+Connection ~ 2800 2850
 Wire Wire Line
-	5300 7000 5300 7050
-Connection ~ 2800 3200
+	2800 3000 2800 2850
+Wire Notes Line
+	11200 1150 11200 500 
+Wire Notes Line
+	11200 1150 10600 1150
+Wire Notes Line
+	10600 1150 10600 500 
+Wire Notes Line
+	10600 500  11200 500 
+Connection ~ 9500 3400
 Wire Wire Line
-	3250 3300 2800 3300
+	9750 3650 9750 3600
+Connection ~ 7000 3250
+Connection ~ 6900 3450
 Wire Wire Line
-	2800 3300 2800 3200
-Connection ~ 9750 3400
+	6900 3600 6900 3450
 Wire Wire Line
-	9300 3400 9900 3400
-Connection ~ 9500 3600
+	5950 3600 5950 3550
 Wire Wire Line
-	9500 3650 9500 3600
-Connection ~ 6800 3250
-Wire Wire Line
-	7150 3250 5950 3250
-Wire Wire Line
-	7000 3450 6800 3450
-Wire Wire Line
-	5550 3550 5450 3550
-Connection ~ 5950 3450
-Wire Wire Line
-	5450 3450 6150 3450
-Wire Wire Line
-	9500 3600 9300 3600
-Wire Wire Line
-	3700 4550 3800 4550
-Connection ~ 3300 4850
-Wire Wire Line
-	3300 4900 3300 4850
-Wire Wire Line
-	3000 4000 3000 3950
-Wire Wire Line
-	3000 3950 2850 3950
-Wire Wire Line
-	2850 3950 2850 4050
-Wire Wire Line
-	2850 4050 2750 4050
-Connection ~ 3200 4550
-Wire Wire Line
-	3200 4650 3200 4550
-Wire Wire Line
-	3500 4200 3100 4200
-Wire Wire Line
-	2750 4200 2900 4200
-Wire Wire Line
-	2250 4050 2550 4050
-Wire Wire Line
-	2250 4550 2550 4550
-Wire Wire Line
-	2850 2850 2750 2850
-Connection ~ 3350 3500
-Wire Wire Line
-	3350 3550 3350 3500
-Wire Wire Line
-	2250 3200 2550 3200
-Wire Wire Line
-	2250 2700 2550 2700
-Wire Wire Line
-	2250 2850 2550 2850
-Wire Wire Line
-	3250 3500 3450 3500
-Wire Wire Line
-	2750 2700 2800 2700
-Wire Wire Line
-	2800 2700 2800 2600
-Wire Wire Line
-	2800 2600 2950 2600
-Wire Wire Line
-	2950 2600 2950 2650
-Wire Wire Line
-	2750 3200 2850 3200
-Wire Wire Line
-	2550 4200 2250 4200
-Wire Wire Line
-	2750 4550 2900 4550
-Wire Wire Line
-	3500 4550 3100 4550
-Wire Wire Line
-	3400 4200 3400 4525
-Connection ~ 3400 4200
-Wire Wire Line
-	3400 4525 3425 4525
-Wire Wire Line
-	3425 4525 3425 4575
-Wire Wire Line
-	3425 4575 3400 4575
-Wire Wire Line
-	3400 4575 3400 4650
-Wire Wire Line
-	3200 4850 3400 4850
-Wire Wire Line
-	3700 4200 3800 4200
+	5950 3550 5750 3550
 Wire Wire Line
 	6450 3450 6350 3450
 Wire Wire Line
-	5750 3550 5950 3550
+	3700 4200 3800 4200
 Wire Wire Line
-	5950 3550 5950 3600
+	3200 4850 3400 4850
 Wire Wire Line
-	6900 3600 6900 3450
-Connection ~ 6900 3450
-Connection ~ 7000 3250
+	3400 4650 3400 4575
 Wire Wire Line
-	9750 3650 9750 3600
-Connection ~ 9500 3400
-Wire Notes Line
-	10600 500  11200 500 
-Wire Notes Line
-	10600 500  10600 1150
-Wire Notes Line
-	10600 1150 11200 1150
-Wire Notes Line
-	11200 1150 11200 500 
+	3400 4575 3425 4575
 Wire Wire Line
-	2800 2850 2800 3000
-Connection ~ 2800 2850
+	3425 4575 3425 4525
 Wire Wire Line
-	2800 3000 3450 3000
+	3425 4525 3400 4525
+Connection ~ 3400 4200
 Wire Wire Line
-	3450 3000 3450 3300
+	3400 4525 3400 4200
 Wire Wire Line
-	4550 6100 4550 5800
+	3500 4550 3100 4550
 Wire Wire Line
-	4550 5800 6050 5800
-Connection ~ 5250 5800
+	2750 4550 2900 4550
+Wire Wire Line
+	2550 4200 2250 4200
+Wire Wire Line
+	2750 3200 2850 3200
+Wire Wire Line
+	2950 2650 2950 2600
+Wire Wire Line
+	2950 2600 2800 2600
+Wire Wire Line
+	2800 2600 2800 2700
+Wire Wire Line
+	2800 2700 2750 2700
+Wire Wire Line
+	3250 3500 3450 3500
+Wire Wire Line
+	2250 2850 2550 2850
+Wire Wire Line
+	2250 2700 2550 2700
+Wire Wire Line
+	2250 3200 2550 3200
+Wire Wire Line
+	3350 3550 3350 3500
+Connection ~ 3350 3500
+Wire Wire Line
+	2850 2850 2750 2850
+Wire Wire Line
+	2250 4550 2550 4550
+Wire Wire Line
+	2250 4050 2550 4050
+Wire Wire Line
+	2750 4200 2900 4200
+Wire Wire Line
+	3500 4200 3100 4200
+Wire Wire Line
+	3200 4650 3200 4550
+Connection ~ 3200 4550
+Wire Wire Line
+	2750 4050 2850 4050
+Wire Wire Line
+	2850 4050 2850 3950
+Wire Wire Line
+	2850 3950 3000 3950
+Wire Wire Line
+	3000 3950 3000 4000
+Wire Wire Line
+	3300 4900 3300 4850
+Connection ~ 3300 4850
+Wire Wire Line
+	3700 4550 3800 4550
+Wire Wire Line
+	9300 3600 9500 3600
+Connection ~ 5950 3450
+Wire Wire Line
+	7000 3450 6800 3450
+Wire Wire Line
+	7150 3250 5950 3250
+Connection ~ 6800 3250
+Wire Wire Line
+	9500 3600 9500 3650
+Connection ~ 9500 3600
+Wire Wire Line
+	9300 3400 9900 3400
+Connection ~ 9750 3400
+Wire Wire Line
+	2800 3200 2800 3300
+Wire Wire Line
+	2800 3300 3250 3300
+Connection ~ 2800 3200
+Wire Wire Line
+	5300 7000 5300 7050
+Connection ~ 5300 7250
+Wire Wire Line
+	5500 7250 5100 7250
+Connection ~ 5300 7050
+Wire Wire Line
+	5500 7050 5100 7050
+Connection ~ 5300 5800
+Wire Wire Line
+	5300 5800 5300 5750
+Connection ~ 5300 6700
+Wire Wire Line
+	5300 6700 5300 6750
+Wire Wire Line
+	5250 6700 5350 6700
+Wire Wire Line
+	5300 7250 5300 7300
+Wire Wire Line
+	6050 5800 6050 6100
+Connection ~ 5350 5800
+Wire Wire Line
+	6150 6250 6050 6250
+Wire Wire Line
+	5250 3500 5250 3550
+Wire Wire Line
+	5250 3500 5300 3500
+Wire Wire Line
+	5250 3550 5550 3550
+Connection ~ 5250 3550
+Connection ~ 5250 3450
+Text GLabel 10900 950  3    20   UnSpc ~ 0
+MIC_GND
+Text Notes 3850 6100 0    30   ~ 0
+nCS=1 enables I2C interface
+Text GLabel 5300 3400 2    20   UnSpc ~ 0
+MIC_OUT
+Text GLabel 5300 3500 2    20   UnSpc ~ 0
+MIC_GND
 $Comp
 L CONN_1 TP10
 U 1 1 4BD554E0
@@ -223,10 +233,6 @@ F 1 "PWR_FLAG" H 10900 1130 30  0000 C CNN
 	1    10900 900 
 	1    0    0    -1  
 $EndComp
-Text Label 5450 3550 0    10   ~ 0
-MIC_GND
-Text Label 10900 900  3    30   ~ 0
-MIC_GND
 $Comp
 L GNDPWR #PWR084
 U 1 1 4BCE7D97
@@ -238,8 +244,6 @@ F 1 "GNDPWR" H 9750 3590 25  0000 C CNN
 $EndComp
 Text Notes 8500 2900 0    40   ~ 0
 Video signal requires a 75ohm impedance load which has been\ncalculated to require 10mil traces at 7mil spacing using a\ncoplanar waveguide on 1/16" FR4 (Dk=4.4, Df=0.02).
-Text Label 5450 3450 0    30   ~ 0
-MIC_OUT
 $Comp
 L GND1 #PWR085
 U 1 1 4BCCE387
@@ -297,10 +301,10 @@ $EndComp
 $Comp
 L ELECTRET_MIC M1
 U 1 1 4BCCE251
-P 5150 3500
-F 0 "M1" H 5150 3300 40  0000 C CNN
-F 1 "ELECTRET_MIC" H 5150 3725 40  0000 C CNN
-	1    5150 3500
+P 4950 3500
+F 0 "M1" H 4950 3300 40  0000 C CNN
+F 1 "ELECTRET_MIC" H 4950 3725 40  0000 C CNN
+	1    4950 3500
 	1    0    0    -1  
 $EndComp
 $Comp

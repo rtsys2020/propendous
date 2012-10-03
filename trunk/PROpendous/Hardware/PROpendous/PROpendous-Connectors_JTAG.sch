@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date 21/10/2010 18:49:25
-LIBS:opendous
+EESchema Schematic File Version 2  date 10/2/2012 6:21:31 PM
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -31,23 +30,38 @@ LIBS:contrib
 LIBS:valves
 LIBS:power
 LIBS:PROpendous-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 4 8
 Title "PROpendous"
-Date "21 oct 2010"
-Rev "1.1"
+Date "2 oct 2012"
+Rev "1.2"
 Comp "Opendous Inc. (www.opendous.org)"
-Comment1 ""
-Comment2 "http://creativecommons.org/licenses/by/3.0/"
-Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.PROpendous.org"
+Comment1 "Opendous Inc. deeded this hardware design into the Public Domain"
+Comment2 "http://creativecommons.org/publicdomain/zero/1.0/"
+Comment3 "No Copyright - Deeded under the Creative Commons CC0 Public Domain Dedication"
+Comment4 "For more information visit www.PROpendous.org"
 $EndDescr
-Text Notes 2350 2600 0    40   ~ 0
-101-00303-68
-Text Notes 4300 6150 0    40   ~ 0
-Depopulating R53 will allow you\nto use the Host/Debug LED in the\nPower_Boot sheet without also\nenabling USB Hosting
+Connection ~ 3250 5650
+Connection ~ 3250 5750
+Connection ~ 2350 6050
+Connection ~ 2350 5950
+Connection ~ 2350 5750
+Connection ~ 2350 5650
+Wire Wire Line
+	2350 5600 2350 5650
+Wire Wire Line
+	2350 5600 2300 5600
+Wire Wire Line
+	2350 5900 2350 5950
+Wire Wire Line
+	2350 5900 2300 5900
+Wire Wire Line
+	3250 5700 3250 5750
+Wire Wire Line
+	3250 5700 3300 5700
 Wire Wire Line
 	4200 5650 4300 5650
 Connection ~ 3900 5650
@@ -229,6 +243,22 @@ Wire Wire Line
 Connection ~ 4750 3250
 Wire Wire Line
 	4750 3450 4750 3550
+Wire Wire Line
+	3300 5600 3250 5600
+Wire Wire Line
+	3250 5600 3250 5650
+Wire Wire Line
+	2300 6000 2350 6000
+Wire Wire Line
+	2350 6000 2350 6050
+Wire Wire Line
+	2300 5700 2350 5700
+Wire Wire Line
+	2350 5700 2350 5750
+Text Notes 2350 2600 0    40   ~ 0
+101-00303-68
+Text Notes 4300 6150 0    40   ~ 0
+Depopulating R53 will allow you\nto use the Host/Debug LED in the\nPower_Boot sheet without also\nenabling USB Hosting
 $Comp
 L C_MINI C85
 U 1 1 4CBEBA49
@@ -283,11 +313,7 @@ F 1 "VDD_XTAL" V 7200 5800 30  0000 C CNN
 	1    7200 5600
 	0    -1   -1   0   
 $EndComp
-Text Label 6450 7650 2    40   ~ 0
-FSUSB20_S
-Text GLabel 6450 7650 2    40   Input ~ 0
-FSUSB20_S
-Text Label 3250 5650 0    30   ~ 0
+Text GLabel 3300 5600 2    20   Input ~ 0
 FSUSB20_S
 $Comp
 L R_MINI R53
@@ -435,22 +461,14 @@ F 1 "GND" H 5300 1730 30  0001 C CNN
 	1    5300 1800
 	1    0    0    -1  
 $EndComp
-Text GLabel 6450 7350 2    40   Input ~ 0
+Text GLabel 2300 5900 0    20   UnSpc ~ 0
 DPb
-Text GLabel 6450 7450 2    40   Input ~ 0
+Text GLabel 2300 6000 0    20   UnSpc ~ 0
 DMb
-Text GLabel 6450 7250 2    40   Input ~ 0
+Text GLabel 2300 5700 0    20   UnSpc ~ 0
 DMa
-Text GLabel 6450 7150 2    40   Input ~ 0
+Text GLabel 2300 5600 0    20   UnSpc ~ 0
 DPa
-Text Label 6450 7150 2    40   ~ 0
-DPa
-Text Label 6450 7250 2    40   ~ 0
-DMa
-Text Label 6450 7450 2    40   ~ 0
-DMb
-Text Label 6450 7350 2    40   ~ 0
-DPb
 $Comp
 L C_MINI C75
 U 1 1 4BCED9E4
@@ -478,11 +496,7 @@ F 1 "VDDIO_3V3" H 2800 6900 30  0000 C CNN
 	1    2800 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 6450 7550 2    40   Input ~ 0
-FSUSB20_nOE
-Text Label 3250 5750 0    30   ~ 0
-FSUSB20_nOE
-Text Label 6450 7550 2    40   ~ 0
+Text GLabel 3300 5700 2    20   Input ~ 0
 FSUSB20_nOE
 Text Notes 8200 4100 0    80   Italic 16
 Debug/Expansion Headers
@@ -561,14 +575,6 @@ F 1 "15k" V 3725 5900 20  0000 C CNN
 	1    3700 5850
 	0    1    1    0   
 $EndComp
-Text Label 2350 5950 2    40   ~ 0
-DPb
-Text Label 2350 6050 2    40   ~ 0
-DMb
-Text Label 2350 5750 2    40   ~ 0
-DMa
-Text Label 2350 5650 2    40   ~ 0
-DPa
 $Comp
 L GND #PWR052
 U 1 1 4BCC59FD
@@ -827,19 +833,19 @@ GPMI_RDY1-SSP2_CMD
 Text GLabel 4300 5650 2    40   BiDi ~ 0
 GPMI_CE1n
 Text GLabel 2250 1750 0    40   BiDi ~ 0
-GPMI_D00-LCD_D8-SSP2_DATA0
+GPMI_D00-SSP2_DATA0
 Text GLabel 2250 1650 0    40   BiDi ~ 0
-GPMI_D01-LCD_D9-SSP2_DATA1
+GPMI_D01-SSP2_DATA1
 Text GLabel 2250 1900 0    40   BiDi ~ 0
 GPMI_WRn-SSP2_SCK
 Text GLabel 4400 2600 0    40   BiDi ~ 0
 SSP1_CMD-JTAG_TDO
 Text GLabel 2250 1550 0    40   BiDi ~ 0
-GPMI_D02-LCD_D10-SSP2_DATA2
+GPMI_D02-SSP2_DATA2
 Text GLabel 4400 2150 0    40   BiDi ~ 0
 SSP1_DATA0-JTAG_TDI
 Text GLabel 2250 1450 0    40   BiDi ~ 0
-GPMI_D03-LCD_D11-SSP2_DATA3
+GPMI_D03-SSP2_DATA3
 Text GLabel 4400 2050 0    40   BiDi ~ 0
 SSP1_DATA1-I2C_SCL-JTAG_TCLK
 Text GLabel 4400 1950 0    40   BiDi ~ 0
@@ -873,7 +879,7 @@ LCD_D07
 Text GLabel 8250 2100 0    40   BiDi ~ 0
 LCD_CS
 Text GLabel 8250 2500 0    40   BiDi ~ 0
-GPMI_ALE-LCD_D17
+GPMI_ALE
 Text GLabel 7300 4900 0    40   BiDi ~ 0
 SSP1_SCK-JTAG_TRST
 Text GLabel 9050 2100 2    40   BiDi ~ 0
@@ -887,7 +893,7 @@ GPMI_CE1n
 Text GLabel 8250 2200 0    40   BiDi ~ 0
 LCD_RESET-GPMI_CE3n
 Text GLabel 8250 2600 0    40   BiDi ~ 0
-GPMI_D00-LCD_D8-SSP2_DATA0
+GPMI_D00-SSP2_DATA0
 Text GLabel 8250 3100 0    40   BiDi ~ 0
 GPMI_RDY0-SSP2_DETECT
 Text GLabel 8250 3300 0    40   BiDi ~ 0
@@ -895,7 +901,7 @@ GPMI_CE0n
 Text GLabel 9050 2200 2    40   BiDi ~ 0
 LCD_WR
 Text GLabel 9050 2700 2    40   BiDi ~ 0
-GPMI_D01-LCD_D9-SSP2_DATA1
+GPMI_D01-SSP2_DATA1
 Text GLabel 9050 3200 2    40   BiDi ~ 0
 GPMI_WRn-SSP2_SCK
 Text GLabel 7300 5400 0    40   BiDi ~ 0
@@ -903,7 +909,7 @@ SSP1_CMD-JTAG_TDO
 Text GLabel 9050 2300 2    40   BiDi ~ 0
 LCD_RS
 Text GLabel 8250 2700 0    40   BiDi ~ 0
-GPMI_D02-LCD_D10-SSP2_DATA2
+GPMI_D02-SSP2_DATA2
 Text GLabel 8250 3200 0    40   BiDi ~ 0
 GPMI_WPn
 Text GLabel 7300 5000 0    40   BiDi ~ 0
@@ -911,25 +917,25 @@ SSP1_DATA0-JTAG_TDI
 Text GLabel 8250 2300 0    40   BiDi ~ 0
 LCD_HSYNC-I2C_SDA
 Text GLabel 9050 2800 2    40   BiDi ~ 0
-GPMI_D03-LCD_D11-SSP2_DATA3
+GPMI_D03-SSP2_DATA3
 Text GLabel 9050 2400 2    40   BiDi ~ 0
 LCD_VSYNC-LCD_BUSY
 Text GLabel 9050 2900 2    40   BiDi ~ 0
-GPMI_D05-LCD_D13-SSP2_DATA5
+GPMI_D05-SSP2_DATA5
 Text GLabel 7300 5300 0    40   BiDi ~ 0
 SSP1_DATA2-I2C_SDA-JTAG_RTCK
 Text GLabel 8250 2400 0    40   BiDi ~ 0
 LCD_DOTCK-GPMI_RDY3
 Text GLabel 8250 2800 0    40   BiDi ~ 0
-GPMI_D04-LCD_D12-SSP2_DATA4
+GPMI_D04-SSP2_DATA4
 Text GLabel 7300 5100 0    40   BiDi ~ 0
 SSP1_DATA3-JTAG_TMS
 Text GLabel 9050 3000 2    40   BiDi ~ 0
-GPMI_D07-LCD_D15-SSP2_DATA7
+GPMI_D07-SSP2_DATA7
 Text GLabel 9050 2500 2    40   BiDi ~ 0
-GPMI_CLE-LCD_D16
+GPMI_CLE
 Text GLabel 8250 2900 0    40   BiDi ~ 0
-GPMI_D06-LCD_D14-SSP2_DATA6
+GPMI_D06-SSP2_DATA6
 Text GLabel 8250 1500 0    40   BiDi ~ 0
 PWM0-ROTARYA-DUART_RX
 Text GLabel 9050 1500 2    40   BiDi ~ 0

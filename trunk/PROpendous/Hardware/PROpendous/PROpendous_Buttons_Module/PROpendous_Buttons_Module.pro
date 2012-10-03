@@ -79,7 +79,6 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=opendous
 [pcbnew]
 version=1
 PadDrlX=250
@@ -110,4 +109,3 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=opendous

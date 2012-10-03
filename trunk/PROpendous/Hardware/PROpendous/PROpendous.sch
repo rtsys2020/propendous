@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date 21/10/2010 09:30:50
-LIBS:opendous
+EESchema Schematic File Version 2  date 10/2/2012 6:21:31 PM
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -31,18 +30,19 @@ LIBS:contrib
 LIBS:valves
 LIBS:power
 LIBS:PROpendous-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 1 8
 Title "PROpendous"
-Date "21 oct 2010"
-Rev "1.1"
+Date "2 oct 2012"
+Rev "1.2"
 Comp "Opendous Inc. (www.opendous.org)"
-Comment1 ""
-Comment2 "http://creativecommons.org/licenses/by/3.0/"
-Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.PROpendous.org"
+Comment1 "Opendous Inc. deeded this hardware design into the Public Domain"
+Comment2 "http://creativecommons.org/publicdomain/zero/1.0/"
+Comment3 "No Copyright - Deeded under the Creative Commons CC0 Public Domain Dedication"
+Comment4 "For more information visit www.PROpendous.org"
 $EndDescr
 Text Notes 7750 3100 0    100  ~ 0
 Use mouse wheel to zoom in and out
