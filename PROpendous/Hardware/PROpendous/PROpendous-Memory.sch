@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date 21/10/2010 09:30:50
-LIBS:opendous
+EESchema Schematic File Version 2  date 10/2/2012 6:21:31 PM
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -31,19 +30,124 @@ LIBS:contrib
 LIBS:valves
 LIBS:power
 LIBS:PROpendous-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 3 8
 Title "PROpendous"
-Date "21 oct 2010"
-Rev "1.1"
+Date "2 oct 2012"
+Rev "1.2"
 Comp "Opendous Inc. (www.opendous.org)"
-Comment1 ""
-Comment2 "http://creativecommons.org/licenses/by/3.0/"
-Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.PROpendous.org"
+Comment1 "Opendous Inc. deeded this hardware design into the Public Domain"
+Comment2 "http://creativecommons.org/publicdomain/zero/1.0/"
+Comment3 "No Copyright - Deeded under the Creative Commons CC0 Public Domain Dedication"
+Comment4 "For more information visit www.PROpendous.org"
 $EndDescr
+Connection ~ 6750 4200
+Wire Wire Line
+	6750 4150 6750 4200
+Wire Wire Line
+	6750 4150 6800 4150
+Connection ~ 5700 4700
+Wire Wire Line
+	5600 4700 6300 4700
+Connection ~ 5900 4700
+Connection ~ 6100 4700
+Connection ~ 5950 5300
+Wire Wire Line
+	5950 5300 5950 5200
+Connection ~ 7450 5300
+Wire Wire Line
+	7650 5300 4250 5300
+Connection ~ 7250 5300
+Connection ~ 5050 5300
+Connection ~ 4850 5300
+Wire Wire Line
+	3900 3800 4000 3800
+Wire Wire Line
+	7300 3900 7300 3950
+Wire Wire Line
+	6750 4200 7500 4200
+Connection ~ 6850 5500
+Wire Wire Line
+	4600 3350 4600 3300
+Connection ~ 5450 5500
+Connection ~ 5850 5500
+Connection ~ 6250 5500
+Connection ~ 6650 5500
+Connection ~ 6650 5300
+Connection ~ 6250 5300
+Connection ~ 5850 5300
+Connection ~ 5450 5300
+Connection ~ 7100 4200
+Connection ~ 5950 1400
+Wire Wire Line
+	5950 1400 5950 1300
+Connection ~ 6100 1400
+Connection ~ 5900 1400
+Connection ~ 5700 1400
+Connection ~ 5800 1400
+Connection ~ 6000 1400
+Wire Wire Line
+	6300 1400 5600 1400
+Connection ~ 6200 1400
+Wire Wire Line
+	7300 4150 7300 4250
+Connection ~ 7300 4200
+Wire Wire Line
+	7100 4250 7100 4150
+Connection ~ 5250 5300
+Connection ~ 5650 5300
+Connection ~ 6050 5300
+Connection ~ 6450 5300
+Connection ~ 6450 5500
+Connection ~ 6050 5500
+Connection ~ 5650 5500
+Connection ~ 5250 5500
+Wire Wire Line
+	5150 3750 4500 3750
+Connection ~ 4600 3750
+Wire Wire Line
+	4500 3550 5150 3550
+Connection ~ 4600 3550
+Wire Wire Line
+	4600 3950 4600 4000
+Connection ~ 6850 5300
+Connection ~ 7050 5300
+Connection ~ 7050 5500
+Wire Wire Line
+	7500 3950 7100 3950
+Connection ~ 7300 3950
+Wire Wire Line
+	7500 4450 7100 4450
+Connection ~ 7300 4450
+Wire Wire Line
+	7500 4150 7500 4250
+Connection ~ 7500 4200
+Wire Wire Line
+	7300 4450 7300 4500
+Wire Wire Line
+	4000 4000 3900 4000
+Connection ~ 4450 5500
+Connection ~ 4450 5300
+Connection ~ 4650 5300
+Connection ~ 4650 5500
+Connection ~ 5050 5500
+Connection ~ 4850 5500
+Connection ~ 7250 5500
+Wire Wire Line
+	7650 5500 4250 5500
+Connection ~ 7450 5500
+Wire Wire Line
+	5950 5600 5950 5500
+Connection ~ 5950 5500
+Connection ~ 6200 4700
+Connection ~ 6000 4700
+Connection ~ 5800 4700
+Wire Wire Line
+	5950 4700 5950 4800
+Connection ~ 5950 4700
 $Comp
 L CP_TANTALUM_MINI C26
 U 1 1 4C1A1AD3
@@ -64,105 +168,6 @@ F 1 "47uF" V 7500 5450 25  0000 C CNN
 $EndComp
 Text Notes 850  6850 0    60   ~ 0
  - However, all the traces are < 0.8" long and therefore have an electrical length of <8deg at 200MHz.\n    Also, most signals have only one via. Only UDQS (EMI_DQS1) has three vias. Since there is very little\n    room anyway, do not use termination resistors.\n - Only using one DDR device so should not require Rt and cannot fit it near i.MX233 IC anyway\n - For additional design and layout notes see TN-46-11\n - TN AppNotes are available at www.micron.com
-Connection ~ 5950 4700
-Wire Wire Line
-	5950 4700 5950 4800
-Connection ~ 5800 4700
-Connection ~ 6000 4700
-Connection ~ 6200 4700
-Connection ~ 5950 5500
-Wire Wire Line
-	5950 5600 5950 5500
-Connection ~ 7450 5500
-Wire Wire Line
-	7650 5500 4250 5500
-Connection ~ 7250 5500
-Connection ~ 4850 5500
-Connection ~ 5050 5500
-Connection ~ 4650 5500
-Connection ~ 4650 5300
-Connection ~ 4450 5300
-Connection ~ 4450 5500
-Wire Wire Line
-	4000 4000 3900 4000
-Wire Wire Line
-	7300 4450 7300 4500
-Connection ~ 7500 4200
-Wire Wire Line
-	7500 4150 7500 4250
-Connection ~ 7300 4450
-Wire Wire Line
-	7500 4450 7100 4450
-Connection ~ 7300 3950
-Wire Wire Line
-	7500 3950 7100 3950
-Connection ~ 7050 5500
-Connection ~ 7050 5300
-Connection ~ 6850 5300
-Wire Wire Line
-	4600 3950 4600 4000
-Connection ~ 4600 3550
-Wire Wire Line
-	4500 3550 5150 3550
-Connection ~ 4600 3750
-Wire Wire Line
-	5150 3750 4500 3750
-Connection ~ 5250 5500
-Connection ~ 5650 5500
-Connection ~ 6050 5500
-Connection ~ 6450 5500
-Connection ~ 6450 5300
-Connection ~ 6050 5300
-Connection ~ 5650 5300
-Connection ~ 5250 5300
-Wire Wire Line
-	7100 4250 7100 4150
-Connection ~ 7300 4200
-Wire Wire Line
-	7300 4150 7300 4250
-Connection ~ 6200 1400
-Wire Wire Line
-	6300 1400 5600 1400
-Connection ~ 6000 1400
-Connection ~ 5800 1400
-Connection ~ 5700 1400
-Connection ~ 5900 1400
-Connection ~ 6100 1400
-Wire Wire Line
-	5950 1400 5950 1300
-Connection ~ 5950 1400
-Connection ~ 7100 4200
-Connection ~ 5450 5300
-Connection ~ 5850 5300
-Connection ~ 6250 5300
-Connection ~ 6650 5300
-Connection ~ 6650 5500
-Connection ~ 6250 5500
-Connection ~ 5850 5500
-Connection ~ 5450 5500
-Wire Wire Line
-	4600 3350 4600 3300
-Connection ~ 6850 5500
-Wire Wire Line
-	6750 4200 7500 4200
-Wire Wire Line
-	7300 3900 7300 3950
-Wire Wire Line
-	3900 3800 4000 3800
-Connection ~ 4850 5300
-Connection ~ 5050 5300
-Connection ~ 7250 5300
-Wire Wire Line
-	7650 5300 4250 5300
-Connection ~ 7450 5300
-Wire Wire Line
-	5950 5300 5950 5200
-Connection ~ 5950 5300
-Connection ~ 6100 4700
-Connection ~ 5900 4700
-Wire Wire Line
-	5600 4700 6300 4700
-Connection ~ 5700 4700
 $Comp
 L DDR_SDRAM_MT46_X16 IC2
 U 1 1 4BCEA1AD
@@ -181,11 +186,7 @@ F 1 "VDDM_2V5" H 5950 5300 30  0000 C CNN
 	1    5950 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 7700 2    40   BiDi ~ 0
-DDR_VREF
-Text Label 6600 7700 2    35   ~ 0
-DDR_VREF
-Text Label 6750 4200 0    35   ~ 0
+Text GLabel 6800 4150 2    20   UnSpc ~ 0
 DDR_VREF
 $Comp
 L C_MINI C22

@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date 21/10/2010 09:30:50
-LIBS:opendous
+EESchema Schematic File Version 2  date 10/2/2012 6:21:31 PM
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -31,40 +30,37 @@ LIBS:contrib
 LIBS:valves
 LIBS:power
 LIBS:PROpendous-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 5 8
 Title "PROpendous"
-Date "21 oct 2010"
-Rev "1.1"
+Date "2 oct 2012"
+Rev "1.2"
 Comp "Opendous Inc. (www.opendous.org)"
-Comment1 ""
-Comment2 "http://creativecommons.org/licenses/by/3.0/"
-Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.PROpendous.org"
+Comment1 "Opendous Inc. deeded this hardware design into the Public Domain"
+Comment2 "http://creativecommons.org/publicdomain/zero/1.0/"
+Comment3 "No Copyright - Deeded under the Creative Commons CC0 Public Domain Dedication"
+Comment4 "For more information visit www.PROpendous.org"
 $EndDescr
-Text Notes 1750 5750 0    50   ~ 0
-These signals are exposed\nfor TSC2003 compatibility
-$Comp
-L TSC2007 IC3
-U 1 1 4C1A2599
-P 3650 4650
-F 0 "IC3" H 3400 4150 60  0000 C CNN
-F 1 "TSC2007" H 3450 5150 35  0000 C CNN
-	1    3650 4650
-	1    0    0    -1  
-$EndComp
-Text GLabel 6300 7550 0    40   BiDi ~ 0
-LCD_RD
-Text Label 6300 7550 0    30   ~ 0
-LCD_RD
-Text Label 3200 4500 2    30   ~ 0
-TSC_PENIRQ
-Text Label 6300 7650 0    30   ~ 0
-TSC_PENIRQ
-Text GLabel 6300 7650 0    40   BiDi ~ 0
-TSC_PENIRQ
+Connection ~ 5250 3250
+Wire Wire Line
+	5250 3200 5250 3250
+Wire Wire Line
+	5250 3200 5200 3200
+Connection ~ 4100 4250
+Connection ~ 4100 4350
+Connection ~ 4100 4450
+Connection ~ 4100 4550
+Wire Wire Line
+	4100 4500 4100 4550
+Wire Wire Line
+	4100 4500 4150 4500
+Wire Wire Line
+	4100 4300 4100 4350
+Wire Wire Line
+	4100 4300 4150 4300
 Connection ~ 3650 5800
 Wire Wire Line
 	3650 5700 3650 5800
@@ -94,7 +90,7 @@ Wire Wire Line
 	5050 3900 5250 3900
 Connection ~ 3900 3250
 Wire Wire Line
-	3850 3250 5250 3250
+	5250 3250 3850 3250
 Wire Wire Line
 	3000 5100 3000 4900
 Wire Wire Line
@@ -158,15 +154,13 @@ Wire Wire Line
 	4700 3950 4700 4000
 Connection ~ 4800 3950
 Wire Wire Line
-	4100 4250 5250 4250
+	5250 4250 4100 4250
 Wire Wire Line
-	4100 4450 5250 4450
+	5250 4450 4100 4450
 Wire Wire Line
 	3650 4050 3650 3950
 Wire Wire Line
 	2700 4150 2700 4250
-Wire Wire Line
-	3200 4500 2300 4500
 Wire Wire Line
 	2300 4500 2300 4150
 Wire Wire Line
@@ -209,6 +203,32 @@ Wire Wire Line
 	3550 6000 3750 6000
 Wire Wire Line
 	3550 5800 3750 5800
+Wire Wire Line
+	4150 4200 4100 4200
+Wire Wire Line
+	4100 4200 4100 4250
+Wire Wire Line
+	4150 4400 4100 4400
+Wire Wire Line
+	4100 4400 4100 4450
+Wire Wire Line
+	2100 4500 3200 4500
+Connection ~ 2300 4500
+Text Notes 1750 5750 0    50   ~ 0
+These signals are exposed\nfor TSC2003 compatibility
+$Comp
+L TSC2007 IC3
+U 1 1 4C1A2599
+P 3650 4650
+F 0 "IC3" H 3400 4150 60  0000 C CNN
+F 1 "TSC2007" H 3450 5150 35  0000 C CNN
+	1    3650 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 3200 0    20   UnSpc ~ 0
+LCD_RD
+Text GLabel 2100 4500 0    40   Output ~ 0
+TSC_PENIRQ
 $Comp
 L CP_TANTALUM_MINI C78
 U 1 1 4BD53CAB
@@ -227,22 +247,14 @@ F 1 "GND" H 3650 6030 30  0001 C CNN
 	1    3650 6100
 	1    0    0    -1  
 $EndComp
-Text GLabel 6300 7450 0    40   BiDi ~ 0
+Text GLabel 4150 4500 2    20   UnSpc ~ 0
 Y-
-Text GLabel 6300 7250 0    40   BiDi ~ 0
+Text GLabel 4150 4300 2    20   UnSpc ~ 0
 Y+
-Text GLabel 6300 7350 0    40   BiDi ~ 0
+Text GLabel 4150 4400 2    20   UnSpc ~ 0
 X+
-Text GLabel 6300 7150 0    40   BiDi ~ 0
+Text GLabel 4150 4200 2    20   UnSpc ~ 0
 X-
-Text Label 6300 7350 0    30   ~ 0
-X+
-Text Label 6300 7150 0    30   ~ 0
-X-
-Text Label 6300 7450 0    30   ~ 0
-Y-
-Text Label 6300 7250 0    30   ~ 0
-Y+
 Text GLabel 2250 6050 0    40   BiDi ~ 0
 TSC_VBAT1
 $Comp
@@ -426,14 +438,6 @@ F 1 "VDDIO_3V3" H 3650 5800 30  0000 C CNN
 	1    3650 5700
 	1    0    0    -1  
 $EndComp
-Text Label 4100 4350 0    30   ~ 0
-Y+
-Text Label 4100 4550 0    30   ~ 0
-Y-
-Text Label 4100 4250 0    30   ~ 0
-X-
-Text Label 4100 4450 0    30   ~ 0
-X+
 $Comp
 L VDDIO_3V3 #PWR075
 U 1 1 4BCC27F3
@@ -443,8 +447,6 @@ F 1 "VDDIO_3V3" H 3650 4050 30  0000 C CNN
 	1    3650 3950
 	1    0    0    -1  
 $EndComp
-Text Label 5250 3250 2    30   ~ 0
-LCD_RD
 Text Label 5250 3700 2    30   ~ 0
 LCD_LED_A
 $Comp

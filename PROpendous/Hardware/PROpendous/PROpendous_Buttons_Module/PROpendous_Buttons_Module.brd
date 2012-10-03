@@ -22,11 +22,11 @@ Sheet A4 11700 8267
 Title "PROpendous Buttons Module"
 Date "20 oct 2010"
 Rev "1.0"
-Comp "Opendous Inc. (www.opendous.org)"
-Comment1 ""
-Comment2 "http://creativecommons.org/licenses/by/3.0/"
-Comment3 "Copyright Under the Creative Commons Attribution License"
-Comment4 "www.PROpendous.org"
+Comp "Opendous Inc."
+Comment1 "Opendous Inc. deeded this hardware design into the Public Domain"
+Comment2 "http://creativecommons.org/publicdomain/zero/1.0/"
+Comment3 "No Copyright - Deeded under the Creative Commons CC0 Public Domain Dedication"
+Comment4 "For more information visit www.PROpendous.org"
 $EndSHEETDESCR
 
 $SETUP
