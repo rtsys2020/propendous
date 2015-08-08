@@ -1,0 +1,7 @@
+**Project Status**: _Abandoned_
+
+The goal of the project was an inexpensive portable Linux-powered microcontroller replacement that was compatible with Open Source, Open Hardware, and low volume production.
+
+The [BeagleBone Black](http://beagleboard.org/Products/BeagleBone+Black) and [Raspberry.Pi](http://www.raspberrypi.org) with its [Compute Module](http://www.element14.com/community/community/raspberry-pi/blog/2014/04/07/draft-raspberry-pi-compute-module) are more capable options.
+
+The [OLinuXino-NANO](https://www.olimex.com/Products/OLinuXino/iMX233/iMX233-OLinuXino-NANO/open-source-hardware) leverages the i.MX233 to its maximum as the most capable  inexpensive breadboardable Linux-powered microcontroller replacement.  The [Locux](http://www.ngcoders.com/category/projects/locux-projects/) project managed an i.MX233 design on 2-layers with only one component layer.  The [Chumby Hackerboard](http://wiki.chumby.com/index.php/Chumby_hacker_board_beta), [TuxRail](http://busware.de/tiki-index.php?page=TuxRail), and [OLinuXino-MAXI](https://www.olimex.com/Products/OLinuXino/iMX233/iMX233-OLinuXino-MAXI/open-source-hardware) also exist for anyone interested in utilizing the i.MX233 which is still the fastest [distributor-stocked](http://www.eciaonline.org/default.aspx) Linux-capable processor compatible with low volume production and guaranteed to be around until [2019](http://www.freescale.com/webapp/sps/site/overview.jsp?code=PRDCT_LONGEVITY_HM).
